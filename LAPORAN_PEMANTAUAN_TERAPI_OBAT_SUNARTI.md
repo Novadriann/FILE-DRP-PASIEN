@@ -29,7 +29,7 @@ Berdasarkan telaah rekam medis terpadu (Asesmen Awal IGD, CPPT Harian Dokter, Pe
 | :---: | :--- | :--- | :--- | :---: | :--- |
 | **1** | **Dosis Berlebih pada Gangguan Ginjal** (*PCNE C3.1 / P1.2*) | **Injeksi Metoklopramid** 3 x 10 mg IV (30 mg/hari) | Pasien mengalami penurunan fungsi ginjal akut (*CrCl* **30,69 mL/menit**, *eGFR* **31,46 mL/min/1.73m²**). Metoklopramid diekskresi >80% via ginjal. Waktu paruh meningkat 3x lipat, memicu risiko tinggi efek samping ekstrapiramidal (EPS) dan *Tardive Dyskinesia* (FDA Boxed Warning) pada wanita lansia. | **Tinggi (Major)** | Turunkan dosis metoklopramid sebesar 50% (5 mg IV q8h atau 10 mg q12h; maks 15 mg/hari) sesuai Lexicomp/FDA. Karena muntah telah berhenti sejak 16/10, rekomendasikan **HENTIKAN terapi metoklopramid**. |
 | **2** | **Duplikasi Terapi Inap Berbahaya** (*PCNE C1.3 / P2.1*) | **Injeksi Metoklopramid** 3 x 10 mg IV + **Domperidone tab** 2 x 10 mg PO (tgl 17–18/10) | Keduanya adalah **Antagonis Reseptor Dopamin D2**. Terjadi duplikasi mekanisme kerja tanpa keuntungan klinis, yang melipatgandakan risiko **pemanjangan interval QT (aritmia ventrikel fatal / Torsades de Pointes)** dan neurotoksisitas EPS. | **Tinggi (Major)** | **Hentikan Domperidone oral** dan tapering/stop injeksi metoklopramid karena keluhan mual/muntah pasien sudah sangat berkurang. |
-| **3** | **Regimen Antidiabetes Inap Kurang Optimal** (*PCNE C1.4 / P1.2*) | **Novorapid (Insulin Aspart)** SC 3x8 UI $\rightarrow$ 3x10 UI $\rightarrow$ 3x12 UI (tanpa insulin basal) | Kadar GDP puasa terus meningkat selama rawat inap (16/10: 235 mg/dL; 17/10: 236 mg/dL; 18/10: **298 mg/dL**). Novorapid hanya bekerja 3–5 jam untuk makan. Tanpa insulin basal, produksi glukosa hepatik malam–pagi hari tidak tertahan. Target ADA rawat inap (140–180 mg/dL) gagal tercapai. | **Signifikan** | Terapkan regimen **Basal-Bolus** sesuai ADA Guidelines: berikan insulin basal kerja panjang (Insulin Glargine 8–10 unit 1x malam) dikombinasikan dengan insulin prandial dosis terkontrol (Novorapid 3x4–6 unit ac). |
+| **3** | **Regimen Antidiabetes Inap Kurang Optimal** (*PCNE C1.4 / P1.2*) | **Novorapid (Insulin Aspart)** SC 3x8 UI $\rightarrow$ 3x10 UI $\rightarrow$ 3x12 UI (tanpa insulin basal) | Kadar GDP puasa terus meningkat selama rawat inap (16/10: 235 mg/dL; 17/10: 236 mg/dL; 18/10: **298 mg/dL**). Novorapid hanya bekerja 3–5 jam untuk makan. Tanpa insulin basal, produksi glukosa hepatik malam–pagi hari tidak tertahan. Target PERKENI 2021 / ADA rawat inap (140–180 mg/dL) gagal tercapai. | **Signifikan** | Terapkan regimen **Basal-Bolus** sesuai Pedoman PERKENI 2021 (Hal. 100): berikan insulin basal kerja panjang (Insulin Glargine 8–10 unit 1x malam) dikombinasikan dengan insulin prandial dosis terkontrol (Novorapid 3x4–6 unit ac). |
 | **4** | **Indikasi Belum Diterapi** (*PCNE C1.1 / P1.2*) | Batuk berdahak putih (ISPA) | Pasien mengeluhkan batuk berdahak putih persisten sejak masuk hingga hari ke-3 (diagnosis sekunder: ISPA), namun tidak mendapatkan terapi mukolitik maupun ekspektoran sama sekali. Retensi sputum pada lansia berisiko superinfeksi saluran napas. | **Sedang** | Berikan mukolitik oral: **Ambroxol 3 x 30 mg tablet** atau **N-Asetilsistein 3 x 200 mg kapsul** selama 3–5 hari hingga dahak tuntas. |
 | **5** | **Pemilihan Obat Nefrotoksik Sebelumnya** (*PCNE C1.2 / P2.1*) | **Ibuprofen** 2 x 400 mg tab (diberikan UGD tgl 11/10/2026) | Pasien lansia dengan dehidrasi berat dari muntah profus diberikan NSAID dosis penuh. Ibuprofen menghambat prostaglandin vasodilator di arteriol aferen ginjal, memicu penurunan perfusi glomerulus dan mempercepat terjadinya AKI prerenal (Ureum 57, Cr 1,80 mg/dL). | **Signifikan** | Hindari NSAID pada kondisi dehidrasi dan gangguan ginjal. Gunakan **Parasetamol 500 mg PO prn (maks 2 g/hari pada lansia)** jika memerlukan analgesik/antipiretik. |
 | **6** | **DUPLIKASI FATAL RESEP PULANG** (*PCNE C1.3 / P2.1*) | **GAVISTAL 10 mg tab** 3x1 + **DOMPERIDONE 10 mg tab** 2x1 (Resep Pulang IRJ-261018-87885) | **GAVISTAL adalah nama dagang METOCLOPRAMIDE 10 mg!** Resep pulang meresepkan Metoklopramid 3x10 mg bersamaan dengan Domperidone 2x10 mg untuk dibawa pulang. Ini adalah duplikasi berbahaya kelas antagonis dopamin D2 pada pasien gagal ginjal moderat (CrCl 30,69 mL/mnt) dengan risiko aritmia jantung dan distonia/diskinesia tardif di rumah. | **KRITIS (Major Alert)** | **BATALKAN GAVISTAL DAN DOMPERIDONE PADA RESEP PULANG.** Pasien saat pulang menyatakan sudah TAK (Tidak Ada Keluhan) dan minta pulang, sehingga prokinetik/antiemetik rutin sudah tidak diperlukan. |
@@ -80,9 +80,9 @@ Berdasarkan telaah rekam medis terpadu (Asesmen Awal IGD, CPPT Harian Dokter, Pe
  250 ┼─────────────────────────────────●────────────●─────────
      │                208 (GDS H1)
  200 ┼─────────────────●──────────────────────────────────────
-     │  ═══════════════════════════════════════════════════════ TARGET ADA: 180 mg/dL
+     │  ═══════════════════════════════════════════════════════ TARGET PERKENI: 180 mg/dL
  150 ┼────────────────────────────────────────────────────────
-     │  ────────────────────────────────────────────────────── TARGET ADA: 140 mg/dL
+     │  ────────────────────────────────────────────────────── TARGET PERKENI: 140 mg/dL
  100 ┼────────────────────────────────────────────────────────
      └──────┬──────────────┬──────────────┬───────────┬───────
           14/10          15/10          16/10       17/10   18/10
@@ -97,7 +97,7 @@ Berdasarkan telaah rekam medis terpadu (Asesmen Awal IGD, CPPT Harian Dokter, Pe
   * GDP Hari ke-2 (16/10/2026): **235 mg/dL** (Tinggi, rujukan 70–115 mg/dL)
   * GDP Hari ke-3 (17/10/2026): **236 mg/dL**
   * GDP Hari ke-4 / Pulang (18/10/2026): **298 mg/dL**!
-* **Target Panduan ADA (*Inpatient Glycemic Targets*):** **140 – 180 mg/dL** (7,8 – 10,0 mmol/L) untuk pasien rawat inap non-kritis.
+* **Target Panduan PERKENI 2021 (*Pengelolaan DM Rawat Inap Hal. 100*):** **140 – 180 mg/dL** (7,8 – 10,0 mmol/L) untuk pasien rawat inap non-kritis.
 * **Apa yang Salah:** Terjadi kegagalan terapi kontrol glikemik puasa (*fasting glycemic failure*) yang nyata. Kadar GDP puasa pagi hari terus naik dari 208 $\rightarrow$ 235 $\rightarrow$ 236 $\rightarrow$ **298 mg/dL**, padahal dokter DPJP telah menaikkan dosis injeksi Novorapid dari 3x8 UI $\rightarrow$ 3x10 UI $\rightarrow$ 3x12 UI (total 36 UI/hari).
 * **Mekanisme Farmakologis & Patofisiologis:**
   * Novorapid adalah insulin analog kerja cepat (*rapid-acting insulin aspart*). Profil farmakokinetiknya: Onset 10–20 menit, puncak kerja 1–3 jam, dan durasi kerja hanya **3–5 jam**. Novorapid semata-mata mengontrol lonjakan glukosa darah pasca makan (*postprandial glucose excursion*).
@@ -172,8 +172,8 @@ Berdasarkan telaah rekam medis terpadu (Asesmen Awal IGD, CPPT Harian Dokter, Pe
 
 ---
 
-### C. Penyesuaian Regimen Insulin Rawat Inap & Target ADA (140–180 mg/dL)
-* **Guideline Acuan:** **American Diabetes Association (ADA) Standards of Care in Diabetes — Chapter: Diabetes Care in the Hospital** & **Konsensus PERKENI**.
+### C. Penyesuaian Regimen Insulin Rawat Inap & Target PERKENI 2021 (140–180 mg/dL)
+* **Guideline Acuan:** **Pedoman Pengelolaan dan Pencegahan Diabetes Melitus Tipe 2 Dewasa di Indonesia (PB PERKENI 2021 &bull; Bab IV.13 Hal. 100)**.
 * **Rekomendasi Standar ADA:**
   * **Rekomendasi 16.4:** Terapi insulin dimulai bila glukosa darah persisten $\ge$ 180 mg/dL. Begitu dimulai, target rentang glukosa darah rawat inap untuk sebagian besar pasien kritis dan non-kritis adalah **140 – 180 mg/dL** (7,8 – 10,0 mmol/L).
   * **Rekomendasi 16.5:** Regimen standar emas untuk pasien rawat inap non-kritis dengan asupan makan adekuat adalah **Basal-Bolus** (kombinasi insulin basal kerja panjang ditambah insulin prandial kerja cepat sebelum makan dan dosis koreksi).
@@ -184,7 +184,7 @@ Berdasarkan telaah rekam medis terpadu (Asesmen Awal IGD, CPPT Harian Dokter, Pe
   * **Komponen Basal (50% dari TDD):** **9 unit Insulin Glargine** (Lantus) subkutan 1 x sehari pada malam hari pukul 22.00 (berfungsi menekan glukosa darah puasa malam–pagi).
   * **Komponen Prandial (50% dari TDD):** 9 unit dibagi untuk 3 kali makan = **Novorapid 3 x 3 unit** subkutan sebelum makan (sarapan 3 unit, makan siang 3 unit, makan malam 3 unit), ditambah dosis koreksi bila glukosa darah sebelum makan > 180 mg/dL.
 
-![Bukti Guideline ADA Inpatient Care](guideline_evidence/ada_inpatient_guideline.png)
+![Bukti Guideline PERKENI 2021 Rawat Inap](guideline_evidence/perkeni_inpatient_guideline.png)
 
 ---
 
@@ -262,6 +262,8 @@ Berikut adalah perbandingan berdampingan antara resep pulang yang dituliskan dok
 ---
 
 ## VIII. DAFTAR BERKAS PENDUKUNG & TAUTAN FILE KERJA
+
+- **[Pedoman_Pengelolaan_DM_Tipe_2_PERKENI_2021.pdf](./Pedoman_Pengelolaan_DM_Tipe_2_PERKENI_2021.pdf)** *(5,81 MB &bull; Buku Resmi Pedoman Nasional DM Tipe 2 PB PERKENI 2021)*
 
 Semua berkas laporan hasil analisis telah disimpan secara rapi di dalam sistem komputer kerja:
 

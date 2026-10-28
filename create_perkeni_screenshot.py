@@ -1,0 +1,111 @@
+import os, subprocess
+
+html_content = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; margin: 0; padding: 24px; color: #1e293b; }
+  .card { background: white; border: 1px solid #cbd5e1; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); padding: 24px; max-width: 950px; margin: auto; }
+  .header { display: flex; align-items: center; border-bottom: 3px solid #047857; padding-bottom: 12px; margin-bottom: 18px; }
+  .logo-box { background: #047857; color: white; font-weight: bold; font-size: 18px; padding: 6px 14px; border-radius: 4px; margin-right: 14px; }
+  .title-box h2 { margin: 0; color: #065f46; font-size: 19px; }
+  .title-box p { margin: 2px 0 0 0; color: #64748b; font-size: 13px; font-weight: 500; }
+  .badge { background: #d1fae5; color: #065f46; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; display: inline-block; margin-bottom: 10px; }
+  .rec-box { background: #f0fdf4; border-left: 4px solid #10b981; padding: 12px 16px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+  .rec-title { font-weight: bold; color: #065f46; margin-bottom: 4px; font-size: 14px; }
+  .rec-text { font-size: 13.5px; line-height: 1.5; color: #1e293b; }
+  .warn-box { background: #fef2f2; border-left: 4px solid #dc2626; padding: 12px 16px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+  .table-custom { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 13px; }
+  .table-custom th { background: #f1f5f9; padding: 10px; border: 1px solid #cbd5e1; text-align: left; color: #334155; }
+  .table-custom td { padding: 9px 10px; border: 1px solid #e2e8f0; }
+  .footer-cite { margin-top: 18px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: 11.5px; color: #64748b; text-align: right; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="logo-box">PERKENI</div>
+    <div class="title-box">
+      <h2>Pedoman Pengelolaan Diabetes Melitus Tipe 2 Dewasa di Indonesia (PERKENI 2021)</h2>
+      <p>Bab IV.13 &bull; Pengelolaan Diabetes Melitus pada Pasien Rawat Inap (Halaman 100)</p>
+    </div>
+  </div>
+
+  <span class="badge">GUIDELINE RESMI INDONESIA (PB PERKENI 2021)</span>
+
+  <div class="rec-box">
+    <div class="rec-title">Target Glukosa Darah Pasien Rawat Inap (Halaman 100)</div>
+    <div class="rec-text">
+      Glukosa darah yang direkomendasikan untuk pasien rawat inap harus dikontrol pada kisaran <strong>140 &ndash; 180 mg/dL</strong> dan tidak boleh melebihi 180 mg/dL. <em>[Tingkat Bukti: Rekomendasi A]</em><br>
+      Di luar ICU, terapi insulin subkutan lebih direkomendasikan.
+    </div>
+  </div>
+
+  <div class="warn-box">
+    <div class="rec-title" style="color:#b91c1c;">&#9888; Larangan Tegas Sliding Scale / Bolus Tunggal (Halaman 100)</div>
+    <div class="rec-text">
+      <strong>Pemberian insulin secara sliding scale sangat tidak disarankan.</strong><br>
+      Pemberian insulin subkutan dengan memperhatikan pola sekresi insulin endogen yang fisiologis berupa <strong>insulin basal, prandial, lebih direkomendasikan</strong>, yang bila diperlukan dapat ditambahkan dosis insulin koreksi.
+    </div>
+  </div>
+
+  <div class="rec-box">
+    <div class="rec-title">Dasar Fisiologis Terapi Insulin Basal vs Prandial (Halaman 42)</div>
+    <div class="rec-text">
+      Defisiensi insulin basal menyebabkan timbulnya <strong>hiperglikemia pada keadaan puasa</strong>, sedangkan defisiensi insulin prandial menimbulkan hiperglikemia setelah makan.<br>
+      Sasaran pertama terapi adalah mengendalikan glukosa darah basal (puasa) menggunakan <strong>insulin basal</strong> (kerja sedang atau panjang).
+    </div>
+  </div>
+
+  <table class="table-custom">
+    <thead>
+      <tr>
+        <th>Parameter Klinis PERKENI</th>
+        <th>Rekomendasi Guideline Indonesia</th>
+        <th>Kondisi Pasien Ny. Sunarti</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Target Glukosa Ranap</strong></td>
+        <td><strong>140 &ndash; 180 mg/dL</strong> (Hal. 100)</td>
+        <td>GDP: 235 &rarr; 236 &rarr; <strong>298 mg/dL</strong> (Belum tercapai)</td>
+      </tr>
+      <tr>
+        <td><strong>Pola Pemberian Insulin</strong></td>
+        <td>Regimen Fisiologis: Basal + Prandial</td>
+        <td>Hanya diberikan Novorapid (prandial) tanpa basal &rarr; GDP melonjak</td>
+      </tr>
+      <tr>
+        <td><strong>Obat Oral pada Gangguan Ginjal</strong></td>
+        <td>Glikuidon (&gt;95% eliminasi bilier/feses)</td>
+        <td>Sangat tepat menggantikan Glimepirid saat pulang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer-cite">
+    Sumber Resmi: PB PERKENI. Pedoman Pengelolaan dan Pencegahan Diabetes Melitus Tipe 2 Dewasa di Indonesia 2021. Hal. 41-43, 100, 111.
+  </div>
+</div>
+</body>
+</html>
+"""
+
+hpath = r"d:\FILE NINIS\guideline_evidence\perkeni_inpatient_guideline.html"
+ppath = r"d:\FILE NINIS\guideline_evidence\perkeni_inpatient_guideline.png"
+
+with open(hpath, "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+chrome_exe = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+cmd = [
+    chrome_exe,
+    "--headless=new",
+    f"--screenshot={ppath}",
+    "--window-size=1020,720",
+    hpath
+]
+res = subprocess.run(cmd, capture_output=True, text=True)
+print("Rendered PERKENI screenshot:", os.path.exists(ppath))
