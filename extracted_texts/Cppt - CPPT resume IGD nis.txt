@@ -1,0 +1,226 @@
+=== PAGE 1 ===
+ Advanced Search
+ASKEP - CPPT (APT. SULIH PROBO SINDI, S. FARM,)
+LIST REGISTRASI 19 OCT 2026
+00109480
+Nama Pasien
+Cari Pasien   Reset
+RAWAT INAP
+-- SEMUA RUANG --
+Tgl Reg No RM Nama Ruang No. RegNo 
+1 2026/10/14 00109480 SUNARTI Merak 020201202600010503001
+DATA PRIBADI PASIEN PER 19 OCT 2026
+No. Registrasi 020201202600010503001
+Tanggal Registrasi 14-10-2026
+No. RM / No. Ident 00109480 / 3402125811630001
+Nama SUNARTI
+Alamat JL JANTI KANOMAN RT.7,
+BANGUNTAPAN, BANGUNTAPAN
+No. Telp. 089634090927
+Tanggal Lahir 18-11-1963 (62 th 11 bln 1 hr)
+Agama ISLAM
+Jenis Kel./Gol.Darah Perempuan / TIDAK TAHU
+Sub Instalasi/Poli Merak
+Sub Divisi -
+Kamar/No. Bed MERAK 314 / 14A
+Cara Bayar JKN Non PBI
+Alergi AMOXISILIN DAN AMPISILIN
+Alergi Obat
+Nama DPJP dr. Raden Triyono Edhi Sulistiyanto
+Sp.PD.,FINASIM
+MENU
+ 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+BERKAS RM
+MATRIK HASIL LAB
+HISTORY HASIL LAB
+HISTORY HASIL RADIOLOGI
+HISTORY HASIL PATOLOGI
+HISTORY HASIL PEMERIKSAAN LAIN
+VIEW ASSESMENT AWAL 
+RPPT & CPPT 
+INTEGRATED NOTES 
+DOKUMEN EKSTERNAL 
+PLANNING - ( P )
+EDUKASI PASIEN 
+TRANSFER PASIEN 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+   RAWAT JALAN  RAWAT INAP  GAWAT DARURAT  PENUNJANG  HOMECARE  KONSULTASI ONLINE Semua Pelayanan
+14-10-2026 18:51:01 (IGD) DPJP: dr. RADEN TRIYONO EDHI SULISTIYANTO Sp.PD.,FINASIM
+TRIASE PASIEN GAWAT DARURAT
+Kesimpulan Skrining SARI: Tidak Presumtif SARI, Kesimpulan Skrining TBC: Bukan Presumtif TBC, Kesimpulan Skrining PIE / COVID 19: PASIEN TIDAK DALAM PENGAWASAN
+Kesimpulan Skrining Resiko Jatuh: Tidak Berisiko
+Berat badan: 0 kg; Tinggi badan 0 cm; IMT 0 kg/m2 ; Sistole/Diastole 101/80 mmHg; Suhu tubuh 36°C; Denyut nadi 105 kali/menit; Nafas 22 kali/menit; SPO2 96%; Skor nyeri 0*
+Transportasi Pasien Lain-lain; Komunikasi Pasien Tidak Ada; Alat Perpindahan Pasien Lain-lain;
+Kondisi Kegawat Daruratan Aman/Belum Terindentifikasi;
+Jenis Dekontaminasi Tidak Perlu;
+Stabilitasi Pra RS Lain-lain;
+Penempatan IGD Ruang Non Resusitasi IGD;
+Tingkat Kegawat Daruratan Level 3 -- Semi Emergency (Urgensi >= 2 tindakan); Dokter Triase dr. MUTHI'AH MARWATUL JANNAH
+Keluhan Utama Muntah berulang, lemas; Hasil Pemeriksaan Singkat terlampir;
+Disposisi Awal Kepada KSM Dokter Umum; DPJP dr. MUTHI'AH MARWATUL JANNAH ; Tanggal Disposisi 14-10-2026
+SUBYEKTIF - ( S )
+Anamnesis/Alloanamnesis
+SMF DOKTER UMUM
+ 
+APOTEKER
+SULIH PROBO SINDI
+19-10-2026 07:11:37
+Hardjolukito   
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit
+RSPAU dr. SUHARDI HARDJOLUKITO - Pusat Kesehatan TNI Angkatan Udara
+SIMETRIS 
+SIMETRIS 
+1. ●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+●
+
+
+
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 2 ===
+dr. MUTHI'AH MARWATUL JANNAH
+Keluhan Utama: Muntah berulang, lemas
+Riwayat Penyakit Sekarang: Pasien datang dengan keluhan muntah berulang dan lemas yang semakin memberat. Keluhan mual +, muntah + muncul sejak 3 hari SMRS, muntah setiap
+kali makan dan minum, hari ini muntah >10x. Anak pasien menyampaikan hari sabtu malam (4 hari SMRS) pasien minum susu jahe yang di beli di pinggir jalan, lalu keesokan harinya
+mulai pusing + nggliyer muter, mual +, muntah +, lemas +, batuk + berdahak putih +, dan berkeringat gobyos setiap hari hingga sore ini. Nafsu makan pasien sangat berkurang karena
+mual, 2 hari ini hanya minum dan tidak mau makan. Keluhan sesak -, nyeri dada -, nyeri perut -, kelemahan anggota gerak -. Pasien sudah periksa ke UGD RPSAU tgl 11/10/2026,
+diinjeksi obat dan pulang. Sore ini pasien periksa ke Klinik Pratama Ramadhan dengan keluhan lemas, GDS: 294, dan tensi 90/60, disarankan untuk langsung ke UGD RSPAU. RPD: - HT
+on tx rutin - DM on tx rutin - Riw. Vertigo + - Post OP Phaco + IOL OS a.i Katarak Komplikata dgn dr. Sri Harto, Sp.M tgl 04/08/2026 - Jantung - RPO: Obat dari UGD RSPAU tgl
+11/10/2026 - Becom C 1x1 - Betahistin 3x6 mg - Ibuprofen 2x400 mg Obat rutin Poli dr. Edhie, Sp.PD tgl 09/10/2026 - Amlodipin 1x10 mg - Clopidogrel 1x75 mg - Glimepirid 1x3mg -
+Metformin 1x500 mg *R.Alergi: Amoxicilin dan Ampisilin*
+Riwayat Alergi: Tidak ada
+OBYEKTIF - ( O )
+SMF DOKTER UMUM
+dr. MUTHI'AH MARWATUL JANNAH
+Pemeriksaan Fisik: KU: lemas, CM E4V5M6 TD: 101/80 HR: 105 RR: 22 S: 36.0 SpO2: 96% RA K/L: CA -/- SI -/- Tho: simetris p/ SDV +/+ wh -/- rh -/- c/ S1S2 reg, bising - Abd: BU+N,
+Supel, NTE + Ekst: Akral hangat, CRT<2s, edem -/-//-/-
+DIAGNOSA
+Diagnosa Utama: R11 - Nausea and vomiting
+Diagnosa: - VOMITUS PROFUS EC DALAM PELACAKAN
+Diagnosa Sekunder 1: R63.0 - Anorexia
+Diagnosa: - ANOREXIA GERIATRI dengan dehidrasi ringan sedang
+Diagnosa Sekunder 2: J06.9 - Acute upper respiratory infection, unspecified
+Diagnosa: - ISPA
+Diagnosa Sekunder 3: I10 - Essential (primary) hypertension
+Diagnosa: - HT ON TX RUTIN
+Diagnosa Sekunder 4: E11.9 - Non-insulin-dependent diabetes mellitus: Without complications
+Diagnosa: - DM ON TX RUTIN
+Catatan Khusus Dokter:
+RESEP
+IGD-261014-84400 tgl 14-10-2026 20:15 oleh dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM    84400
+INFUS SET DEWASA (1, 0x0)
+IV CATHETER NO 22 SURFLO (2, 0x0)
+NACL 500 ML INF (2, 0x0)
+NASAL OKSIGEN CANUL DEWASA (1, 0x0)
+OMEPRAZOLE 40 MG INJ (1, 0x0)
+ONDANSENTRON 4 MG INJ (1, 0x0)
+SPUIT 10CC NIPRO (1, 0x0)
+SPUIT 3CC NIPRO (1, 0x0)
+SPUIT 5CC NIPRO (1, 0x0)
+THREE WAY STOPCOCK pcs (1, 0x0)
+WO PENUNJANG
+
+
+
+
+
+
+
+
+
+
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 3 ===
+RADIODIAGNOSTIK (261014-210117)
+Tanggal Order: 14-10-2026 19:11:03
+Tanggal Rencana: 14-10-2026
+No Order: 261014-210117 (Sudah Verif)
+Keterangan Klinis: Vomitus Profuse, Anorexia Geriatri, DM on tx
+TINDAKAN
+RO Thorax PA: 1
+LABORATORIUM PATOLOGI KLINIK (610140-6358)
+Tanggal Order: 14-10-2026 19:10:29
+Tanggal Rencana: 14-10-2026
+No Order: 610140-6358 (Sudah Verif)
+Keterangan Klinis: Vomitus Profuse, Anorexia Geriatri, DM on tx
+TINDAKAN
+Darah Lengkap: 1
+SGOT: 1
+SGPT: 1
+Ureum: 1
+Creatinin: 1
+Glukosa Darah Sewaktu: 1
+Elektrolit (Na, K, Cl): 1
+KONDISI AKHIR
+Tanggal Keluar: 14-10-2026 jam 19:47:00
+Cara Keluar: Dirujuk Rawat Inap (Belum Sembuh)
+Prognosis: Dubia ad bonam
+PENGANTAR RAWAT INAP
+No Surat: SR.03.01/XI.1.3/6448/2026 tanggal 14-10-2026
+Dokter: dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM
+Rencana Rawat Inap: 14-10-2026
+Riwayat penyakit yang positif: SMF Dokter Umum (dr. MUTHI'AH MARWATUL JANNAH) - Keluhan utama : Muntah berulang, lemas - Riwayat penyakit sekarang : Pasien datang dengan keluhan
+muntah berulang dan lemas yang semakin memberat. Keluhan mual +, muntah + muncul sejak 3 hari SMRS, muntah setiap kali makan dan minum, hari ini muntah >10x. Anak pasien menyampaikan
+hari sabtu malam (4 hari SMRS) pasien minum susu jahe yang di beli di pinggir jalan, lalu keesokan harinya mulai pusing + nggliyer muter, mual +, muntah +, lemas +, batuk + berdahak putih +, dan
+berkeringat gobyos setiap hari hingga sore ini. Nafsu makan pasien sangat berkurang karena mual, 2 hari ini hanya minum dan tidak mau makan. Keluhan sesak -, nyeri dada -, nyeri perut -,
+kelemahan anggota gerak -. Pasien sudah periksa ke UGD RPSAU tgl 11/10/2026, diinjeksi obat dan pulang. Sore ini pasien periksa ke Klinik Pratama Ramadhan dengan keluhan lemas, GDS: 294,
+dan tensi 90/60, disarankan untuk langsung ke UGD RSPAU. RPD: - HT on tx rutin - DM on tx rutin - Riw. Vertigo + - Post OP Phaco + IOL OS a.i Katarak Komplikata dgn dr. Sri Harto, Sp.M tgl
+04/08/2026 - Jantung - RPO: Obat dari UGD RSPAU tgl 11/10/2026 - Becom C 1x1 - Betahistin 3x6 mg - Ibuprofen 2x400 mg Obat rutin Poli dr. Edhie, Sp.PD tgl 09/10/2026 - Amlodipin 1x10 mg -
+Clopidogrel 1x75 mg - Glimepirid 1x3mg - Metformin 1x500 mg *R.Alergi: Amoxicilin dan Ampisilin* Diagnosa - Diagnosa Utama : - VOMITUS PROFUS EC DALAM PELACAKAN - Diagnosa Sekunder
+1 : - ANOREXIA GERIATRI - Diagnosa Sekunder 2 : - ISPA - Diagnosa Sekunder 3 : - HT ON TX RUTIN - Diagnosa Sekunder 4 : - DM ON TX RUTIN
+Pemeriksaan jasmani: Pemeriksaan Awal : Tekanan darah : 101/80 mmHg , Suhu tubuh : 36°C , Denyut nadi : 105 kali/menit , Nafas : 22 kali/menit , SPO2 : 96% , Status nyeri : Tidak Nyeri (Skor : 0),
+Resiko Jatuh : Tidak Berisiko SMF Dokter Umum : KU: lemas, CM E4V5M6 TD: 101/80 HR: 105 RR: 22 S: 36.0 SpO2: 96% RA K/L: CA -/- SI -/- Tho: simetris p/ SDV +/+ wh -/- rh -/- c/ S1S2 reg, bising -
+Abd: BU+N, Supel, NTE + Ekst: Akral hangat, CRT<2s, edem -/-//-/-
+Usulan pengobatan di bangsal perawatan: Advis dr. Edhie, Sp.PD: Diagnosis: - Vomitus Profuse ec dalam pelacakan - DM dengan Hiperglikemia - Riw. Hipertensi - Hiponatremia & Hipochlorida
+ringan Tx: - Inf NaCl 0.9% 20 tpm - Inj Omeprazole 1A/12 jam - Inj Metoclorpamid 1A/8 jam - PO Antasida Syr 3x1 - PO Rebamipid 3x1 - Obat Rutin STOP dulu - Inj Novorapid 3x8U
+
+
+
+
+
+
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 4 ===
+Rencana diet: Sesuai DPJP dan gizi
+Pengobatan yang sudah diberikan saat ini: - Inf NaCl 0.9% loading 500cc -> lanjut 20 tpm - Inj Omeprazole 1 vial - Inj Ondansetron 4 mg - Cek Lab Darah - EKG - Ro Thorax
+Rencana Tindakan: (14-10-2026) Perbaikan Keadaan Umum -
+Kategori Pasien: Elektif
+Perkiraan lama rawat: 3 hari
+Prioritas kebutuhan pelayanan : Kuratif
+11-10-2026 16:44:44 (IGD) DPJP: dr. AVIANDIKA YANUARDI
+29-06-2026 06:51:13 (IGD) DPJP: dr. MUTHI'AH MARWATUL JANNAH
+2.
+3.
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+

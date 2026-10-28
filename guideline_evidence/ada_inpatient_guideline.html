@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; margin: 0; padding: 24px; color: #1e293b; }
+  .card { background: white; border: 1px solid #cbd5e1; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); padding: 24px; max-width: 950px; margin: auto; }
+  .header { display: flex; align-items: center; border-bottom: 3px solid #b91c1c; padding-bottom: 12px; margin-bottom: 18px; }
+  .logo-box { background: #b91c1c; color: white; font-weight: bold; font-size: 20px; padding: 6px 14px; border-radius: 4px; margin-right: 14px; }
+  .title-box h2 { margin: 0; color: #b91c1c; font-size: 20px; }
+  .title-box p { margin: 2px 0 0 0; color: #64748b; font-size: 13px; font-weight: 500; }
+  .highlight-badge { background: #fee2e2; color: #991b1b; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; display: inline-block; margin-bottom: 10px; }
+  .rec-box { background: #eff6ff; border-left: 4px solid #2563eb; padding: 12px 16px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+  .rec-title { font-weight: bold; color: #1e40af; margin-bottom: 4px; font-size: 14px; }
+  .rec-text { font-size: 13.5px; line-height: 1.5; color: #1e293b; }
+  .warn-box { background: #fef2f2; border-left: 4px solid #dc2626; padding: 12px 16px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+  .table-custom { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 13px; }
+  .table-custom th { background: #f1f5f9; padding: 10px; border: 1px solid #cbd5e1; text-align: left; color: #334155; }
+  .table-custom td { padding: 9px 10px; border: 1px solid #e2e8f0; }
+  .target-val { font-weight: bold; color: #047857; }
+  .footer-cite { margin-top: 18px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: 11.5px; color: #64748b; text-align: right; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="logo-box">ADA</div>
+    <div class="title-box">
+      <h2>American Diabetes Association (ADA) Standards of Care in Diabetes</h2>
+      <p>Section 16: Diabetes Care in the Hospital | Clinical Practice Recommendations</p>
+    </div>
+  </div>
+  
+  <span class="highlight-badge">EVIDENCE-BASED INPATIENT GLYCEMIC TARGETS & REGIMENS</span>
+
+  <div class="rec-box">
+    <div class="rec-title">Recommendation 16.4: Inpatient Glycemic Targets</div>
+    <div class="rec-text">
+      Insulin therapy should be initiated for treatment of persistent hyperglycemia starting at a threshold <strong>&ge; 180 mg/dL (10.0 mmol/L)</strong> (checked on two occasions).<br>
+      Once insulin therapy is started, a target glucose range of <strong>140&ndash;180 mg/dL (7.8&ndash;10.0 mmol/L)</strong> is recommended for the majority of critically ill and <strong>non-critically ill hospitalized patients</strong>. <em>[Level of Evidence: A]</em>
+    </div>
+  </div>
+
+  <div class="rec-box">
+    <div class="rec-title">Recommendation 16.5: Preferred Inpatient Insulin Regimen (Basal-Bolus vs Bolus Alone)</div>
+    <div class="rec-text">
+      A regimen consisting of <strong>basal insulin</strong> plus <strong>prandial (mealtime) rapid-acting insulin</strong> and correction doses (<strong>Basal-Bolus Regimen</strong>) is the preferred standard of care for non-critically ill hospitalized patients with adequate nutritional intake. <em>[Level of Evidence: A]</em>
+    </div>
+  </div>
+
+  <div class="warn-box">
+    <div class="rec-title" style="color:#b91c1c;">&#9888; Strongly Discouraged Practice: Bolus / Sliding-Scale Alone</div>
+    <div class="rec-text">
+      <strong>Sole reliance on sliding-scale insulin or rapid-acting bolus insulin alone (e.g., Novorapid without basal coverage) in the inpatient setting is strongly discouraged.</strong> This approach fails to control overnight and fasting hepatic glucose output, resulting in severe fasting hyperglycemia (GDP elevated) and wide glycemic fluctuations. <em>[Level of Evidence: A]</em>
+    </div>
+  </div>
+
+  <table class="table-custom">
+    <thead>
+      <tr>
+        <th>Clinical Setting / Parameter</th>
+        <th>Standard Recommendation</th>
+        <th>Patient Application (Ny. Sunarti)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Non-critically Ill Target</strong></td>
+        <td><span class="target-val">140 &ndash; 180 mg/dL</span></td>
+        <td>GDP: 235 &rarr; 236 &rarr; <strong>298 mg/dL</strong> (Sub-optimal, Uncontrolled)</td>
+      </tr>
+      <tr>
+        <td><strong>Insulin Protocol</strong></td>
+        <td>Basal + Prandial Bolus + Correction</td>
+        <td>Received <em>Novorapid alone</em> (3x8 &rarr; 3x10 &rarr; 3x12 UI) &rarr; Lack of Basal</td>
+      </tr>
+      <tr>
+        <td><strong>Clinical Solution</strong></td>
+        <td>Add Basal Insulin (e.g., Glargine / Detemir)</td>
+        <td>Titrasi basal untuk supresi glukosa darah puasa malam &ndash; pagi</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer-cite">
+    Reference: American Diabetes Association. Diabetes Care in the Hospital: Standards of Care in Diabetes. Diabetes Care 2024;47(Suppl. 1):S295&ndash;S306.
+  </div>
+</div>
+</body>
+</html>

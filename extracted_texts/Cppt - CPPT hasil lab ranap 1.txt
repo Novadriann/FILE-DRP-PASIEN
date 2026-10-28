@@ -1,0 +1,172 @@
+=== PAGE 1 ===
+ Advanced Search
+ASKEP - CPPT (APT. GIKA IDFI NUGRAHANI, M. FARM,)
+LIST REGISTRASI 15 OCT 2026
+No. RM Pasien
+Nama Pasien
+Cari Pasien   Reset
+RAWAT INAP
+Merak
+Tgl Reg
+No
+RM Nama Ruang No. RegNo 
+1 2026/10/14 00301748 SURTIANI Merak 020201202600010494001
+2 2026/10/14 00061527 SRI SUMIYATI Merak 020201202600010492001
+3 2026/10/14 00318077 AGUS SUKRISTIONO Merak 020201202600010486001
+4 2026/10/14 00332947 SALMAH Merak 020201202600010474002
+5 2026/10/14 00109480 SUNARTI Merak 020201202600010503001
+6 2026/10/14 00333201 SUNARIYAH Merak 020201202600010496001
+7 2026/10/14 00090008 ENDANG SOELASTRI NY M k 020201202600010499001
+DATA PRIBADI PASIEN PER 15 OCT 2026
+No. Registrasi 020201202600010503001
+Tanggal Registrasi 14-10-2026
+No. RM / No. Ident 00109480 / 3402125811630001
+Nama SUNARTI
+Alamat JL JANTI KANOMAN RT.7, BANGUNTAPAN, BANGUNTAPAN
+No. Telp. 089634090927
+Tanggal Lahir 18-11-1963 (62 th 10 bln 27 hr)
+Agama ISLAM
+Jenis Kel./Gol.Darah Perempuan / TIDAK TAHU
+Sub Instalasi/Poli Merak
+Sub Divisi -
+Kamar/No. Bed MERAK 314 / 14A
+Cara Bayar JKN Non PBI
+Alergi AMOXISILIN DAN AMPISILIN
+Alergi Obat
+Nama DPJP dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM
+MENU
+ 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+BERKAS RM
+MATRIK HASIL LAB
+HISTORY HASIL LAB
+HISTORY HASIL RADIOLOGI
+HISTORY HASIL PATOLOGI
+HISTORY HASIL PEMERIKSAAN LAIN
+RESUME BILLING SEMENTARA 
+ASESMEN AWAL 
+PENGKAJIAN DAN ASUHAN GIZI 
+ALLOANAMNESIS 
+VITAL SIGN 
+RPPT & CPPT 
+INTEGRATED NOTES 
+HASIL PEMERIKSAAN ALAT
+ECHOCARDIOGRAM REPORT 
+REKONSILIASI OBAT 
+GAMBAR 
+DOKUMEN EKSTERNAL 
+ASESMEN PASIEN COVID - 19 
+DIAGNOSA 
+PLANNING - ( P )
+PROSEDUR ICD9-CM 
+RENCANA TINDAKAN 
+RESEP 
+WO PENUNJANG 
+PENGELOLAAN TRANSFUSI DARAH 
+EDUKASI PASIEN 
+LEMBAR KONSULTASI 
+JAWABAN KONSULTASI 
+LAPORAN OPERASI 
+SURAT KETERANGAN SAKIT 
+SURAT KETERANGAN 
+HISTORY HASIL LAB
+History Hasil Lainnya 5
+15-10-2026 08:19:14  14-10-2026 19:42:49  11-10-2026 17:38:19  09-10-2026 07:10:29  02-09-2026 10:38:42
+ 
+Nama : SUNARTI
+No RM : 00109480
+Sample ID : 6101105494
+Tgl Order : 11/10/2026 17:38:19   Hasil 4 hari yang lalu
+Tgl Validasi Order : 11/10/2026 17:42:02
+Tgl Validasi : 11/10/2026 17:42:18
+Asal Bangsal/Poli : IGD
+Verifikator DPJP : dr. Andri Christianalusi, M.Med.Sc., Sp.PK
+Verifikator Analitik : Yunafiatun
+ 
+Nama Pemeriksaan Hasil Satuan Nilai Rujukan Metode
+  HEMATOLOGI
+  Darah Lengkap
+      Darah Rutin :
+          Hemoglobin 11.8 g/dL 11.7 - 15.5
+          Lekosit 7690 /mm³ 3600 - 11000
+          Hematokrit 36.2 % 35 - 47
+          Eritrosit 4.04 juta/mm³ 3.70 - 5.40
+          Trombosit 228000 /mm³ 150000 - 440000
+          Index Eritrosit :
+              MCV 89.7 fL 80 - 100
+              MCH 29.2 pg 26.0 - 34.0
+              MCHC 32.6 g/dL 32 - 36
+              RDW-CV 12.4 % 11.0 - 16.0
+      Hitung Jenis Leukosit :
+          Eosinofil 1 * % 2 - 4
+          Basofil 0 % 0 - 1
+          Neutrofil Batang 0 * % 3 - 5
+          Neutrofil Segmen 85 * % 50 - 70
+          Limfosit 6 * % 25 - 40
+          Monosit 8 % 2 - 8
+  TYPHOID
+  Widal :
+      Salmonella Typhi O Negatif Negatif
+      Salmonella Paratyphi AO Negatif Negatif
+      Salmonella Paratyphi BO Negatif Negatif
+      Salmonella Paratyphi CO Negatif Negatif
+      Salmonella Typhi H Negatif Negatif
+      Salmonella Paratyphi AH Negatif Negatif
+      Salmonella Paratyphi BH Negatif Negatif
+      Salmonella Paratyphi CH Negatif Negatif
+Keterangan warna : Verif Dokter  Verif Analis  Belum verif / belum ada hasil  Ada Koreksi / Batal Verif
+PELAYANAN FARMASI
+GIKA IDFI NUGRAHANI
+15-10-2026 10:09:44
+Hardjolukito   
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit
+RSPAU dr. SUHARDI HARDJOLUKITO - Pusat Kesehatan TNI Angkatan Udara
+SIMETRIS 
+SIMETRIS 
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+●
+●
+●
+●
+●
+
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (gikaidfi) | 
+
+=== PAGE 2 ===
+LAPORAN & SEBAB KEMATIAN ●
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (gikaidfi) | 
+

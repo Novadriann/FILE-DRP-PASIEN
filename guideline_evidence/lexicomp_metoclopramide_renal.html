@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; margin: 0; padding: 24px; color: #1e293b; }
+  .card { background: white; border: 1px solid #cbd5e1; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); padding: 24px; max-width: 950px; margin: auto; }
+  .header { display: flex; align-items: center; border-bottom: 3px solid #0284c7; padding-bottom: 12px; margin-bottom: 18px; }
+  .logo-box { background: #0284c7; color: white; font-weight: bold; font-size: 18px; padding: 6px 14px; border-radius: 4px; margin-right: 14px; }
+  .title-box h2 { margin: 0; color: #0369a1; font-size: 20px; }
+  .title-box p { margin: 2px 0 0 0; color: #64748b; font-size: 13px; font-weight: 500; }
+  .boxed-warning { border: 2px solid #000; padding: 14px 18px; margin: 14px 0; background: #fffbeb; }
+  .boxed-warning h3 { margin: 0 0 8px 0; color: #b45309; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .boxed-warning p { margin: 0; font-size: 13px; line-height: 1.5; color: #1e293b; }
+  .section-title { font-weight: bold; color: #0369a1; margin-top: 18px; margin-bottom: 8px; font-size: 15px; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px; }
+  .table-custom { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
+  .table-custom th { background: #f1f5f9; padding: 9px; border: 1px solid #cbd5e1; text-align: left; }
+  .table-custom td { padding: 9px; border: 1px solid #e2e8f0; }
+  .alert-row { background: #fef2f2; font-weight: bold; color: #b91c1c; }
+  .footer-cite { margin-top: 18px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: 11.5px; color: #64748b; text-align: right; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="logo-box">Lexicomp / FDA</div>
+    <div class="title-box">
+      <h2>Metoclopramide (Gavistal) &bull; Clinical Drug Information & FDA Label</h2>
+      <p>Dosage Adjustments: Renal Impairment & Geriatric Safety Profile</p>
+    </div>
+  </div>
+
+  <div class="boxed-warning">
+    <h3>FDA WARNING: TARDIVE DYSKINESIA & EXTRA PYRAMIDAL SYMPTOMS (EPS)</h3>
+    <p>
+      Treatment with metoclopramide can cause <strong>tardive dyskinesia</strong> and acute extrapyramidal reactions, which are often irreversible. The risk increases with duration of treatment, cumulative dose, <strong>advanced age (geriatric patients, especially elderly females)</strong>, and <strong>renal impairment (impaired clearance)</strong>. Avoid treatment for longer than 12 weeks. Discontinue immediately in patients who develop signs or symptoms of movement disorders.
+    </p>
+  </div>
+
+  <div class="section-title">Renal Impairment Dosage Adjustment Table</div>
+  <table class="table-custom">
+    <thead>
+      <tr>
+        <th>Creatinine Clearance (CrCl)</th>
+        <th>Recommended Dosage Adjustment</th>
+        <th>Clinical Rationale & Risk</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>CrCl &ge; 40 mL/min</strong></td>
+        <td>100% of standard dose (No adjustment needed)</td>
+        <td>Normal renal elimination (~80% excreted in urine).</td>
+      </tr>
+      <tr class="alert-row">
+        <td><strong>CrCl 10 to &lt; 40 mL/min<br>(Patient: 30.69 mL/min)</strong></td>
+        <td><strong>Administer 50% of the recommended dose</strong><br>(e.g., 5 mg IV q8h or 10 mg q12h; Max 15 mg/day)</td>
+        <td><strong>Overdose Alert:</strong> Patient received full dose 3x10 mg (30 mg/day). Clearance decreased by ~50%, leading to drug accumulation and severe EPS risk.</td>
+      </tr>
+      <tr>
+        <td><strong>CrCl &lt; 10 mL/min / ESRD</strong></td>
+        <td>Administer 25% to 50% of recommended dose</td>
+        <td>Severe accumulation risk. Avoid prolonged use.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">Clinical Pharmacist Recommendation for Ny. Sunarti</div>
+  <p style="font-size:13px; line-height:1.5; margin:6px 0;">
+    1. <strong>Inpatient Phase:</strong> Karena CrCl = 30.69 mL/menit, dosis Injeksi Metoklopramid seharusnya disesuaikan menjadi 5 mg IV q8h (50% reduksi). Karena muntah telah teratasi sejak 16/10, injeksi metoklopramid dihentikan.<br>
+    2. <strong>Discharge Phase:</strong> Resep pulang tertulis <em>Gavistal (Metoklopramid) 10 mg tab 3x1</em>. Ini adalah dosis penuh tanpa penyesuaian ginjal dan harus <strong>DIHENTIKAN</strong> total.
+  </p>
+
+  <div class="footer-cite">
+    Reference: FDA Prescribing Information for Reglan (Metoclopramide HCl) &amp; Lexicomp Online Dosing in Renal Impairment, UpToDate, Wolters Kluwer 2024.
+  </div>
+</div>
+</body>
+</html>

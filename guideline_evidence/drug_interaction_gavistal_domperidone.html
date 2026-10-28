@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; margin: 0; padding: 24px; color: #1e293b; }
+  .card { background: white; border: 1px solid #cbd5e1; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); padding: 24px; max-width: 950px; margin: auto; }
+  .header { display: flex; align-items: center; border-bottom: 3px solid #ea580c; padding-bottom: 12px; margin-bottom: 18px; }
+  .logo-box { background: #ea580c; color: white; font-weight: bold; font-size: 18px; padding: 6px 14px; border-radius: 4px; margin-right: 14px; }
+  .title-box h2 { margin: 0; color: #c2410c; font-size: 20px; }
+  .title-box p { margin: 2px 0 0 0; color: #64748b; font-size: 13px; font-weight: 500; }
+  .danger-banner { background: #fee2e2; border: 1px solid #f87171; border-radius: 6px; padding: 12px 16px; margin-bottom: 16px; }
+  .danger-banner h4 { margin: 0 0 4px 0; color: #b91c1c; font-size: 15px; }
+  .danger-banner p { margin: 0; font-size: 13px; color: #7f1d1d; }
+  .inter-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0; }
+  .drug-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px; }
+  .drug-card h4 { margin: 0 0 6px 0; color: #0f172a; font-size: 14px; }
+  .drug-card p { margin: 0; font-size: 12.5px; color: #475569; line-height: 1.4; }
+  .table-custom { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
+  .table-custom th { background: #f1f5f9; padding: 9px; border: 1px solid #cbd5e1; text-align: left; }
+  .table-custom td { padding: 9px; border: 1px solid #e2e8f0; }
+  .footer-cite { margin-top: 18px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: 11.5px; color: #64748b; text-align: right; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="logo-box">DRP ALERT</div>
+    <div class="title-box">
+      <h2>Therapeutic Duplication & Drug Interaction Analysis</h2>
+      <p>Gavistal&reg; (Metoclopramide 10 mg) + Domperidone 10 mg Co-Prescription</p>
+    </div>
+  </div>
+
+  <div class="danger-banner">
+    <h4>&#9888; MAJOR CLINICAL DRP: PHARMACODYNAMIC DUPLICATION & ADDITIVE CARDIOTOXICITY</h4>
+    <p>
+      Resep Pulang (18/10/2026) meresepkan <strong>GAVISTAL 10 MG TAB 3x1</strong> bersamaan dengan <strong>DOMPERIDONE 10 MG TAB 2x1</strong>. Gavistal mengandung Metoklopramid. Keduanya adalah antagonis reseptor dopamin D2. Penggunaan bersamaan meningkatkan risiko efek samping yang berpotensi fatal tanpa keuntungan terapeutik.
+    </p>
+  </div>
+
+  <div class="inter-grid">
+    <div class="drug-card">
+      <h4>Gavistal&reg; (Metoclopramide HCl 10 mg)</h4>
+      <p>
+        <strong>Mekanisme:</strong> Antagonis reseptor D2 dopamin sentral & perifer + agonis 5-HT4.<br>
+        <strong>Eliminasi:</strong> Ginjal (~80%). Pada CrCl 30.69 mL/menit waktu paruh meningkat.<br>
+        <strong>Efek Toksik:</strong> Sindrom ekstrapiramidal, distonia, akatisia, diskinesia tardif.
+      </p>
+    </div>
+    <div class="drug-card">
+      <h4>Domperidone 10 mg</h4>
+      <p>
+        <strong>Mekanisme:</strong> Antagonis reseptor D2 dopamin perifer.<br>
+        <strong>Eliminasi:</strong> Hepatik (CYP3A4).<br>
+        <strong>Efek Toksik:</strong> Pemanjangan interval QT ventrikel, aritmia jantung torsades de pointes, henti jantung mendadak (EMA Drug Safety Warning).
+      </p>
+    </div>
+  </div>
+
+  <table class="table-custom">
+    <thead>
+      <tr>
+        <th>Risk Rating / Severity</th>
+        <th>Clinical Consequences</th>
+        <th>Evidence-Based Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Category D / X</strong><br>(Avoid Combination / Severe Risk)</td>
+        <td>
+          1. <strong>Additive QT Prolongation:</strong> Risiko fatal sudden cardiac death pada lansia wanita.<br>
+          2. <strong>Additive Neurotoxicity:</strong> Peningkatan insiden kejang, distonia, atau agitasi.<br>
+          3. <strong>Hyperprolactinemia:</strong> Blokade dopamin aditif pada sumbu hipofisis.
+        </td>
+        <td>
+          <strong>HENTIKAN DUPLIKASI.</strong><br>
+          Karena keluhan muntah pasien sudah tidak ada dan mual sudah teratasi, hentikan kedua obat ini saat pulang atau sisakan satu jenis saja bila perlu (prn).
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer-cite">
+    Reference: EMA Pharmacovigilance Risk Assessment Committee (PRAC) Recommendations on Domperidone &amp; Metoclopramide Safety, Lexicomp Drug Interactions 2024.
+  </div>
+</div>
+</body>
+</html>

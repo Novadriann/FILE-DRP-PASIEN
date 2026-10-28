@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; margin: 0; padding: 24px; color: #1e293b; }
+  .card { background: white; border: 1px solid #cbd5e1; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); padding: 24px; max-width: 950px; margin: auto; }
+  .header { display: flex; align-items: center; border-bottom: 3px solid #059669; padding-bottom: 12px; margin-bottom: 18px; }
+  .logo-box { background: #059669; color: white; font-weight: bold; font-size: 18px; padding: 6px 14px; border-radius: 4px; margin-right: 14px; }
+  .title-box h2 { margin: 0; color: #047857; font-size: 20px; }
+  .title-box p { margin: 2px 0 0 0; color: #64748b; font-size: 13px; font-weight: 500; }
+  .badge { background: #d1fae5; color: #065f46; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; display: inline-block; margin-bottom: 10px; }
+  .table-custom { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+  .table-custom th { background: #f1f5f9; padding: 9px; border: 1px solid #cbd5e1; text-align: left; }
+  .table-custom td { padding: 9px; border: 1px solid #e2e8f0; }
+  .highlight-safe { background: #f0fdf4; font-weight: bold; color: #15803d; }
+  .highlight-danger { background: #fef2f2; font-weight: bold; color: #b91c1c; }
+  .footer-cite { margin-top: 18px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: 11.5px; color: #64748b; text-align: right; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="logo-box">KDIGO / PERKENI</div>
+    <div class="title-box">
+      <h2>KDIGO 2023 &amp; PERKENI Guidelines &bull; Diabetes Management in CKD</h2>
+      <p>Safety Profiles &amp; Renal Dosing of Oral Antidiabetic Drugs (OADs)</p>
+    </div>
+  </div>
+
+  <span class="badge">EVIDENCE-BASED RENAL SELECTION OF ANTIDIABETIC THERAPY</span>
+
+  <table class="table-custom">
+    <thead>
+      <tr>
+        <th>Drug Class / Agent</th>
+        <th>eGFR / CrCl Threshold</th>
+        <th>Guideline Recommendation</th>
+        <th>Application to Ny. Sunarti (eGFR 31.46 / CrCl 30.69)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Metformin</strong><br>(Biguanide)</td>
+        <td>eGFR 30&ndash;44 mL/min/1.73m&sup2;<br>eGFR &lt; 30 mL/min/1.73m&sup2;</td>
+        <td>Dose reduction max 1000 mg/d; <strong>Contraindicated</strong> if &lt;30. <strong>HOLD during acute illness, vomiting, dehydration</strong> due to risk of Lactic Acidosis (MALA).</td>
+        <td class="highlight-safe">&#10004; TEPAT DIHENTIKAN saat MRS. Jangan dimulai kembali sebelum re-evaluasi fungsi ginjal pasca hidrasi.</td>
+      </tr>
+      <tr>
+        <td><strong>Glimepiride</strong><br>(Sulfonylurea)</td>
+        <td>eGFR &lt; 60 mL/min/1.73m&sup2;</td>
+        <td>Metabolit aktif diekskresi melalui ginjal (~60%). Akumulasi metabolit memicu <strong>hipoglikemia berat dan berkepanjangan</strong>.</td>
+        <td class="highlight-safe">&#10004; TEPAT DIGANTI saat pulang karena risiko akumulasi ginjal pada CrCl 30.69 mL/min.</td>
+      </tr>
+      <tr class="highlight-safe">
+        <td><strong>Gliquidone (Glikuidon)</strong><br>(Sulfonylurea)</td>
+        <td>eGFR 15&ndash;60 mL/min/1.73m&sup2;</td>
+        <td><strong>Eliminasi utama melalui bilier / feses (&gt;95%)</strong>; hanya &lt;5% lewat ginjal. Tidak memerlukan penyesuaian dosis pada gangguan ginjal. OAD sulfonilurea pilihan pada nefropati.</td>
+        <td><strong>Pilihan Tepat untuk Ginjal.</strong> Namun harus hati-hati jika digabung dengan insulin Novorapid 3x12 UI karena risiko hipoglikemia aditif.</td>
+      </tr>
+      <tr class="highlight-danger">
+        <td><strong>Glikuidon + Novorapid 3x12 UI</strong></td>
+        <td>Polifarmasi Antidiabetes Pulang</td>
+        <td>Kombinasi sulfonilurea + insulin bolus dosis tinggi (36 unit/hari) pada geriatri berisiko memicu fatal hipoglikemia, tanpa menyelesaikan hiperglikemia puasa (GDP).</td>
+        <td><strong>PERLU TITRASI &amp; REKOMENDASI:</strong> Evaluasi pemberian insulin basal malam dosis kecil daripada Novorapid dosis tinggi + Glikuidon.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer-cite">
+    Reference: KDIGO 2023 Clinical Practice Guideline for Diabetes Management in CKD &amp; Pedoman Pengelolaan DM Tipe 2 Dewasa PERKENI 2021/2023.
+  </div>
+</div>
+</body>
+</html>

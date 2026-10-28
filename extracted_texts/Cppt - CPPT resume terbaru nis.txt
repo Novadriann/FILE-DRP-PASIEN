@@ -1,0 +1,301 @@
+=== PAGE 1 ===
+ Advanced Search
+ASKEP - CPPT (APT. GIKA IDFI NUGRAHANI, M. FARM,)
+LIST REGISTRASI 19 OCT 2026
+No. RM Pasien
+Nama Pasien
+Cari Pasien   Reset
+RAWAT INAP
+Merak
+Tgl Reg
+No
+RM Nama Ruang No. RegNo 
+23 2026/10/14 00055650 RAFID AGASTIA KUMARA Merak 020201202600010500002
+24 2026/10/14 00333201 SUNARIYAH Merak 020201202600010496001
+25 2026/10/14 00109480 SUNARTI Merak 020201202600010503001
+26 2026/10/14 00332947 SALMAH Merak 020201202600010474002
+27 2026/10/13 00314766 SUPARYADI Merak 020201202600010469005
+28 2026/10/13 00191245 SUDARYANTO Merak 020201202600010431001
+DATA PRIBADI PASIEN PER 19 OCT 2026
+No. Registrasi 020201202600010503001
+Tanggal Registrasi 14-10-2026
+No. RM / No. Ident 00109480 / 3402125811630001
+Nama SUNARTI
+Alamat JL JANTI KANOMAN RT.7, BANGUNTAPAN, BANGUNTAPAN
+No. Telp. 089634090927
+Tanggal Lahir 18-11-1963 (62 th 11 bln 1 hr)
+Agama ISLAM
+Jenis Kel./Gol.Darah Perempuan / TIDAK TAHU
+Sub Instalasi/Poli Merak
+Sub Divisi -
+Kamar/No. Bed MERAK 314 / 14A
+Cara Bayar JKN Non PBI
+Alergi AMOXISILIN DAN AMPISILIN
+Alergi Obat
+Nama DPJP dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM
+MENU
+ 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+BERKAS RM
+MATRIK HASIL LAB
+HISTORY HASIL LAB
+HISTORY HASIL RADIOLOGI
+HISTORY HASIL PATOLOGI
+HISTORY HASIL PEMERIKSAAN LAIN
+VIEW ASSESMENT AWAL 
+RPPT & CPPT 
+INTEGRATED NOTES 
+DOKUMEN EKSTERNAL 
+PLANNING - ( P )
+EDUKASI PASIEN 
+TRANSFER PASIEN 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+   RAWAT JALAN  RAWAT INAP  GAWAT DARURAT  PENUNJANG  HOMECARE  KONSULTASI ONLINE Semua Pelayanan
+14-10-2026 20:45:04 (Merak) DPJP: dr. RADEN TRIYONO EDHI SULISTIYANTO Sp.PD.,FINASIM
+ASESMEN AWAL
+Assesment Awal
+Tanggal Assesment: 15-10-2026 07:36
+Riwayat Vaksinasi Covid-19: Ya
+Keluhan Utama: Keluhan utama : Muntah berulang, lemas -
+Riwayat Penyakit Sekarang:  Riwayat penyakit sekarang : Pasien datang dengan keluhan muntah berulang dan lemas yang semakin memberat. Keluhan mual +, muntah + muncul sejak 3 hari SMRS, muntah setiap kali makan dan minum, hari ini muntah >10x. Anak pasien menyampaikan hari sabtu malam (4 hari
+SMRS) pasien minum susu jahe yang di beli di pinggir jalan, lalu keesokan harinya mulai pusing + nggliyer muter, mual +, muntah +, lemas +, batuk + berdahak putih +, dan berkeringat gobyos setiap hari hingga sore ini. Nafsu makan pasien sangat berkurang karena mual, 2 hari ini hanya minum dan tidak mau
+makan. Keluhan sesak -, nyeri dada -, nyeri perut -, kelemahan anggota gerak -. Pasien sudah periksa ke UGD RPSAU tgl 11/10/2026, diinjeksi obat dan pulang. Sore ini pasien periksa ke Klinik Pratama Ramadhan dengan keluhan lemas, GDS: 294, dan tensi 90/60, disarankan untuk langsung ke UGD RSPAU. RPD: - HT
+on tx rutin - DM on tx rutin - Riw. Vertigo + - Post OP Phaco + IOL OS a.i Katarak Komplikata dgn dr. Sri Harto, Sp.M tgl 04/08/2026 - Jantung - RPO: Obat dari UGD RSPAU tgl 11/10/2026 - Becom C 1x1 - Betahistin 3x6 mg - Ibuprofen 2x400 mg Obat rutin Poli dr. Edhie, Sp.PD tgl 09/10/2026 - Amlodipin 1x10 mg -
+Clopidogrel 1x75 mg - Glimepirid 1x3mg - Metformin 1x500 mg *R.Alergi: Amoxicilin dan Ampisilin* Diagnosa - Diagnosa Utama : - VOMITUS PROFUS EC DALAM PELACAKAN - Diagnosa Sekunder 1 : - ANOREXIA GERIATRI - Diagnosa Sekunder 2 : - ISPA - Diagnosa Sekunder 3 : - HT ON TX RUTIN - Diagnosa
+Sekunder 4 : - DM ON TX RUTIN
+Riwayat Penyakit Dahulu: ---
+Obat-obat yang sering digunakan: ---
+Lama Perkiraan Dirawat: 3 Hari
+Pemeriksaan Fisik
+Tanda Vital
+Tekanan Darah Sistole: 125 mmHg
+Tekanan Darah Diastole: 68 mmHg
+Frekuensi Nadi: 80 x/menit
+Isi & Tegangan: cukup
+Irama: reguler
+Frekuensi Nafas: 20 x/menit
+Suhu: 36.5 Co
+Tipe & Irama:: Keluhan utama : Muntah berulang, lemas -
+Spo2: 98 %
+Nyeri
+Status Nyeri: TIDAK
+Kepala: Tidak Ada Kelainan
+Leher: Tidak Ada Kelainan
+Perut
+Perut: Tidak Ada Kelainan
+Limpa: Tidak Ada Kelainan
+Extrimitas
+Atas: Tidak Ada Kelainan
+Bawah: Tidak Ada Kelainan
+ 
+PELAYANAN FARMASI
+GIKA IDFI NUGRAHANI
+19-10-2026 13:59:42
+Hardjolukito   
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit
+RSPAU dr. SUHARDI HARDJOLUKITO - Pusat Kesehatan TNI Angkatan Udara
+SIMETRIS 
+SIMETRIS 
+1. ●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+●
+
+
+
+
+
+
+
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (gikaidfi) | 
+
+=== PAGE 2 ===
+Anogenitalia
+Bawah: Tidak Ada Kelainan
+Temuan Fisik Lain: Tidak Ada Kelainan
+Diagnosis: -Vomitus Profuse ec dalam pelacakan - DM dengan Hiperglikemia - Riw. Hipertensi - Hiponatremia & Hipochlorida ringan
+Masalah: [--
+Pemeriksaan Penunjang yang menunjang diagnosis
+Hasil Lab: Laboratorium Patologi Klinik (14-10-2026 19:42:49) - Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5) - Trombosit, Hasil: 239000/mm³ (150000 - 440000) - Glukosa Darah Sewaktu, Hasil: 310mg/dL (< 200), Catatan: Secara pra analitik sampel baik, hasil sudah dilakukan pengulangan. - SGOT, Hasil: 39U/L (< 35) -
+SGPT, Hasil: 23U/L (< 34) - Ureum, Hasil: 57mg/dL (21 - 43) - Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1) - Natrium (Na), Hasil: 127.36mmol/L (135.0 - 147.0), Catatan: Secara pra analitik sampel baik, hasil sudah dilakukan pengulangan.
+Hasil Radiologi: Radiodiagnostik (14-10-2026 19:50:08) - Pulmo tak tampak kelainan - Besar Cor normal
+Hasil Patologi Anatomi: --
+Hasil Penunjang Lain:  --
+PENGKAJIAN DAN ASUHAN GIZI
+Riwayat Pemeriksaan Gizi
+Ruang / Poli : merak
+Tanggal: 2026-10-15
+Jam: 09:28
+Utama (kali/hari): 3x
+Selingan / Ngemil (kali/hari): 2x
+Ada alergi terhadap makanan: Tidak
+Ada makanan pantangan: Ya
+Jika ya, sebutkan pantangan makanannya: Makanan/minuman tinggi glukosa, natrium
+Kebiasaan makan berkaitan dengan penyakit: Nafsu makan menurun, recall asupan <80%
+Antropometri: BB : 60 kg TB : 156 cm IMT : 24,65 kg/m2 Status Gizi : Normal
+Biokimia: Laboratorium Patologi Klinik (15-10-2026 08:19:14) - Glukosa Darah Sewaktu (Stik), Hasil: 208mg/dL (< 200) Laboratorium Patologi Klinik (14-10-2026 19:42:49) - Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5) - Glukosa Darah Sewaktu, Hasil: 310mg/dL (< 200), Catatan: Secara pra analitik sampel baik, hasil sudah
+dilakukan pengulangan. - SGOT, Hasil: 39U/L (< 35) - Ureum, Hasil: 57mg/dL (21 - 43) - Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+Fisik dan klinis: Tekanan darah: 149/70mmHg, Suhu tubuh: 36.5C, Denyut nadi: Reguler/92 kali/menit, Nafas: 20 kali/menit, SpO2: 96%, Skor nyeri null : 0
+Riwayat Diet
+(berdasarkan kebiasaan makan): DM
+Riwayat Personal: Diagnosis: - Vomitus Profuse ec dalam pelacakan - DM dengan Hiperglikemia - Riw. Hipertensi - Hiponatremia & Hipochlorida ringan
+Diagnosis Gizi: Pembatasan asupan zat gizi Karbohidrat sederhana dan Natrium bd gangguan fungsi endokrin dan Hipertensi dd DM dengan Hiperglikemia (GDS, Hasil: 208mg/dL) , Hipertensi (Tekanan darah: 149/70mmHg)
+Intervensi Gizi: DIIT DIABETES MELLITUS RENDAH GARAM Tujuan Diet : Memberikan asupan gizi sesuai dengan kondisi dan penyakit pasien Terapi diet Bentuk : Makanan Lunak (ML)/BB Jenis diet : DMRG Rute : Oral Kebutuhan E dan zat gizi : E : 1776,64 kkal P : 63,21 g L : 53,13 g KH : 251,24 g (55%) Edukasi : Asupan
+makan sesuai kebutuhan dan diet pasien (3J) Kolaborasi : Asupan makan, ketepatan diet dan daya terima makan pasien
+Rencana Monitoring & Evaluasi: Monev : dilakukan 3H sekali 1. Asupan makan (80-110%) 2. Biokimia (sesuai rujukan normal) 3. Fisik/klinis (sesuai rujukan normal)
+Petugas Dietisien/Nutrisionis: Nisrina Andika Naharani, A.Md.Gz
+Status Nutrisi Pasien
+Status Nutrisi: Normal
+Keterangan: IMT : 24,65 kg/m2 Status Gizi : Normal
+User Insert: NISRINA ANDIKA NAHARANI A.Md.Gz
+Tanggal Insert: 15-10-2026 09:29
+Status Verif: Belum Verif
+Status Konsul: Tidak Konsul
+DIAGNOSA
+Diagnosa Utama: K30 - Dyspepsia
+Diagnosa: DYSPEPSIA dengan vomitus
+Diagnosa Sekunder 1: E11.0 - Non-insulin-dependent diabetes mellitus: With coma
+Diagnosa: DM dengan Hiperglikemia
+Diagnosa Sekunder 2: I10 - Essential (primary) hypertension
+Diagnosa: Riw. Hipertensi
+Diagnosa Sekunder 3: E87.1 - Hypo-osmolality and hyponatraemia
+Diagnosa: Hiponatremia Hipochlorida ringan
+Catatan Khusus Dokter:
+RESEP
+IRJ-261018-87885 tgl 18-10-2026 12:59 oleh Raden Triyono Edhi Sulistiyanto    87885
+ANTASIDA SYR (1, 3x1) 1/2 jam sebelum makan
+DOMPERIDONE 10 MG TAB (14, 2x1) 15-30 menit sebelum makan
+GAVISTAL 10 MG TAB (15, 3x1) 15-30 menit sebelum makan
+GLIKUIDON 30 MG TAB (10, 1x1) sebelum makan
+NOVOFINE 32G 4MM (1, 0x0)
+NOVORAPID FLEXPEN (0, 3x12) 3x12 ui sebelum makan
+
+
+
+
+
+
+
+
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (gikaidfi) | 
+
+=== PAGE 3 ===
+OMEPRAZOLE 20 MG KAP (10, 2x1) 1 jam sebelum makan
+REBAMIPIDE TAB (15, 3x1) 15-30 menit sebelum makan
+IRJ-261014-84441 tgl 14-10-2026 22:48 oleh Raden Triyono Edhi Sulistiyanto    84441
+ANTASIDA SYR (1, 3x10) sebelum makan
+METOCLOPRAMIDE INJ (4, 3x1) 06 14 22
+NACL 500 ML INF (2, 0x0)
+NOVOFINE 32G 4MM (1, 0x0)
+NOVORAPID FLEXPEN (1, 3x8) 3x8 ui
+OMEPRAZOLE 40 MG INJ (2, 2x1) 12
+REBAMIPIDE TAB (1, 3x1) sebelum makan
+SPUIT 3CC NIPRO (4, 0x0)
+SPUIT 5CC NIPRO (3, 0x0)
+IRJ-261017-87384 tgl 17-10-2026 11:32 oleh Raden Triyono Edhi Sulistiyanto    87384
+DOMPERIDONE 10 MG TAB (3, 2x1) sebelum makan
+IV CATHETER NO 24 SURFLO (2, 2x1)
+NACL 500 ML INF (2, 2x1)
+IRJ-261017-87640 tgl 17-10-2026 21:05 oleh dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM    87640
+DOMPERIDONE 10 MG TAB (2, 0x1) 15-30 menit sebelum makan
+METOCLOPRAMIDE INJ (3, 0x1)
+OMEPRAZOLE 40 MG INJ (2, 0x1)
+REBAMIPIDE TAB (3, 0x1) sebelum makan
+SPUIT 10CC NIPRO (2, 0x0)
+SPUIT 3CC NIPRO (3, 0x0)
+IRJ-261015-85720 tgl 15-10-2026 19:56 oleh Raden Triyono Edhi Sulistiyanto    85720
+IV CATHETER NO 24 SURFLO (2, 0x0)
+NACL 500 ML INF (2, 0x0)
+SPUIT 3CC NIPRO (2, 0x0)
+SPUIT 5CC NIPRO (2, 0x0)
+IRJ-261015-84521 tgl 15-10-2026 07:00 oleh dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM    84521
+METOCLOPRAMIDE INJ (3, 0x0)
+OMEPRAZOLE 40 MG INJ (2, 0x0)
+REBAMIPIDE TAB (3, 0x0)
+SPUIT 3CC NIPRO (3, 0x0)
+SPUIT 5CC NIPRO (3, 0x0)
+IRJ-261016-87079 tgl 16-10-2026 22:02 oleh dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM    87079
+METOCLOPRAMIDE INJ (1, 0x0)
+IRJ-261017-87153 tgl 17-10-2026 06:57 oleh dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM    87153
+METOCLOPRAMIDE INJ (3, 0x0)
+OMEPRAZOLE 40 MG INJ (2, 0x0)
+REBAMIPIDE TAB (3, 0x0) sebelum makan
+SPUIT 10CC NIPRO (2, 0x0)
+SPUIT 3CC NIPRO (3, 0x0)
+IRJ-261016-85831 tgl 16-10-2026 06:50 oleh dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM    85831
+OMEPRAZOLE 40 MG INJ (3, 0x0)
+REBAMIPIDE TAB (3, 0x0) sebelum makan
+SPUIT 10CC NIPRO (3, 0x0)
+EDUKASI PASIEN
+15-10-2026 09 NISRINA ANDIKA NAHARANI, A.Md.Gz
+Diet dan nutrisi
+Penerima: Keluarga
+Metode Edukasi: Lisan
+Frekuensi: Edukasi Pertama
+Respon: Menyatakan Paham
+Keterangan: MB DMRG
+Konsultasi gizi
+Penerima: Keluarga
+
+
+
+
+
+
+
+
+
+
+
+
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (gikaidfi) | 
+
+=== PAGE 4 ===
+Metode Edukasi: Lisan
+Frekuensi: Edukasi Pertama
+Respon: Menyatakan Paham
+Keterangan: - Edukasi gizi pasien sesuai dengan dietnya (3J) - Edukasi penyimpanan BM dari luar RS
+pengelolaan makanan dari luar rumah sakit
+Penerima: Keluarga
+Metode Edukasi: Lisan
+Frekuensi: Edukasi Pertama
+Respon: Menyatakan Paham
+Keterangan: Makanan disimpan di tempat tertutup agar tidak terjadi kontaminasi silang
+15-10-2026 15 Nurul Ernawati, S.Far., Apt.
+Aturan dan cara pemakaian obat
+Penerima: Pasien
+Metode Edukasi: Lisan
+Frekuensi: Edukasi Pertama
+Respon: Menyatakan Paham
+Keterangan: Edukasi obat yang diberikan terkait nama waktu cara dan indikasi pemberian obat
+
+
+
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (gikaidfi) | 
+

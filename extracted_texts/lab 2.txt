@@ -1,0 +1,134 @@
+=== PAGE 1 ===
+ Advanced Search
+ASKEP - CPPT (Chatarina Danik Wijayanti, , S.Farm., Apt)
+LIST REGISTRASI 16 OCT 2026
+No. RM Pasien
+Nama Pasien
+Cari Pasien   Reset
+RAWAT INAP
+Merak
+Tgl Reg
+No
+RM Nama Ruang No. RegNo 
+1 2026/10/16 00284571 NGATIK Merak 020201202600010546002
+2 2026/10/15 00008848 ALFREEDA NIRWIRA KHARISMA Merak 020201202600010541001
+3 2026/10/15 00331800 SRI WAKHIDAH Merak 020201202600010530001
+4 2026/10/14 00061527 SRI SUMIYATI Merak 020201202600010492001
+5 2026/10/14 00109480 SUNARTI Merak 020201202600010503001
+6 2026/10/14 00055650 RAFID AGASTIA KUMARA Merak 020201202600010500002
+7 2026/10/14 00090008 ENDANG SOELASTRI NY M k 020201202600010499001
+DATA PRIBADI PASIEN PER 16 OCT 2026
+No. Registrasi 020201202600010503001
+Tanggal Registrasi 14-10-2026
+No. RM / No. Ident 00109480 / 3402125811630001
+Nama SUNARTI
+Alamat JL JANTI KANOMAN RT.7, BANGUNTAPAN, BANGUNTAPAN
+No. Telp. 089634090927
+Tanggal Lahir 18-11-1963 (62 th 10 bln 28 hr)
+Agama ISLAM
+Jenis Kel./Gol.Darah Perempuan / TIDAK TAHU
+Sub Instalasi/Poli Merak
+Sub Divisi -
+Kamar/No. Bed MERAK 314 / 14A
+Cara Bayar JKN Non PBI
+Alergi AMOXISILIN DAN AMPISILIN
+Alergi Obat
+Nama DPJP dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM
+MENU
+ 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+BERKAS RM
+MATRIK HASIL LAB
+HISTORY HASIL LAB
+HISTORY HASIL RADIOLOGI
+HISTORY HASIL PATOLOGI
+HISTORY HASIL PEMERIKSAAN LAIN
+VIEW ASSESMENT AWAL 
+RPPT & CPPT 
+INTEGRATED NOTES 
+DOKUMEN EKSTERNAL 
+PLANNING - ( P )
+EDUKASI PASIEN 
+TRANSFER PASIEN 
+HISTORY HASIL LAB
+History Hasil Lainnya 5
+16-10-2026 07:23:40  15-10-2026 08:19:14  14-10-2026 19:42:49  11-10-2026 17:38:19  09-10-2026 07:10:29
+ 
+Nama : SUNARTI
+No RM : 00109480
+Sample ID : 6101406358
+Tgl Order : 14/10/2026 19:42:49   Hasil 2 hari yang lalu
+Tgl Validasi Order : 14/10/2026 19:44:41
+Tgl Validasi : 14/10/2026 20:30:30
+Asal Bangsal/Poli : IGD
+Verifikator DPJP : dr. Markus Kaban, Sp.PK.,M.M.
+Verifikator Analitik : FERNI HARDIANA
+ 
+Nama Pemeriksaan Hasil Satuan Nilai Rujukan Metode
+  HEMATOLOGI
+  Darah Lengkap
+      Darah Rutin :
+          Hemoglobin 11.6 * g/dL 11.7 - 15.5
+          Lekosit 4850 /mm³ 3600 - 11000
+          Hematokrit 33.9 * % 35 - 47
+          Eritrosit 3.93 juta/mm³ 3.70 - 5.40
+          Trombosit 239000 /mm³ 150000 - 440000
+          Index Eritrosit :
+              MCV 86.3 fL 80 - 100
+              MCH 29.5 pg 26.0 - 34.0
+              MCHC 34.2 g/dL 32 - 36
+              RDW-CV 12.6 % 11.0 - 16.0
+      Hitung Jenis Leukosit :
+          Eosinofil 0 * % 2 - 4
+          Basofil 0 % 0 - 1
+          Neutrofil Batang 1 * % 3 - 5
+          Neutrofil Segmen 64 % 50 - 70
+          Limfosit 27 % 25 - 40
+          Monosit 8 % 2 - 8
+  KARBOHIDRAT
+  Glukosa Darah Sewaktu 310 * mg/dL < 200
+Secara pra analitik sampel baik, hasil sudah dilakukan pengulangan.
+  FUNGSI HATI
+  SGOT 39 * U/L < 35 IFCC without P5P
+  SGPT 23 U/L < 34 IFCC without P5P
+  FUNGSI GINJAL
+  Ureum 57 * mg/dL 21 - 43 Urea UV/GLDH
+  Kreatinin 1.80 * mg/dL 0.6 - 1.1 Jaffe
+  ELEKTROLIT
+  Natrium (Na) 127.36 * mmol/L 135.0 - 147.0
+Secara pra analitik sampel baik, hasil sudah dilakukan pengulangan.
+  Kalium (K) 4.23 mmol/L 3.5 - 5.5
+  Klorida (Cl) 87.75 * mmol/L 95.0 - 105.0
+Keterangan warna : Verif Dokter  Verif Analis  Belum verif / belum ada hasil  Ada Koreksi / Batal Verif
+APOTEKER
+CHATARINA DANIK WIJAYANTI
+16-10-2026 13:49:07
+Hardjolukito   
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit
+RSPAU dr. SUHARDI HARDJOLUKITO - Pusat Kesehatan TNI Angkatan Udara
+SIMETRIS 
+SIMETRIS 
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+● 
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.12.71 (danik) | 
+
+=== PAGE 2 ===
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+SIMETRIS™ © INFOLAHTA RSPAU dr. Suhardi Hardjolukito Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.12.71 (danik) | 
+

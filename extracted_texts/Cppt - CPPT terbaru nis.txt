@@ -1,0 +1,841 @@
+=== PAGE 1 ===
+ Advanced Search
+ASKEP - CPPT (APT. SULIH PROBO SINDI, S. FARM,)
+LIST REGISTRASI 19 OCT 2026
+00109480
+Nama Pasien
+Cari Pasien   Reset
+RAWAT INAP
+-- SEMUA RUANG --
+Tgl Reg No RM Nama Ruang No. RegNo 
+1 2026/10/14 00109480 SUNARTI Merak 020201202600010503001
+DATA PRIBADI PASIEN PER 19 OCT 2026
+No. Registrasi 020201202600010503001
+Tanggal Registrasi 14-10-2026
+No. RM / No. Ident 00109480 / 3402125811630001
+Nama SUNARTI
+Alamat JL JANTI KANOMAN RT.7, BANGUNTAPAN, BANGUNTAPAN
+No. Telp. 089634090927
+Tanggal Lahir 18-11-1963 (62 th 11 bln 1 hr)
+Agama ISLAM
+Jenis Kel./Gol.Darah Perempuan / TIDAK TAHU
+Sub Instalasi/Poli Merak
+Sub Divisi -
+Kamar/No. Bed MERAK 314 / 14A
+Cara Bayar JKN Non PBI
+Alergi AMOXISILIN DAN AMPISILIN
+Alergi Obat
+Nama DPJP dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM
+MENU
+ 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+BERKAS RM
+MATRIK HASIL LAB
+HISTORY HASIL LAB
+HISTORY HASIL RADIOLOGI
+HISTORY HASIL PATOLOGI
+HISTORY HASIL PEMERIKSAAN LAIN
+VIEW ASSESMENT AWAL 
+RPPT & CPPT 
+INTEGRATED NOTES 
+DOKUMEN EKSTERNAL 
+PLANNING - ( P )
+EDUKASI PASIEN 
+TRANSFER PASIEN 
+RPPT & CPPT
+INFORMASI DPJP
+INFORMASI DOKTER PENANGGUNGJAWAB PASIEN
+JENIS DPJP NAMA DOKTER SUB KSM
+DPJP Utama dr. Raden Triyono Edhi Sulistiyanto , Sp.PD.,FINASIM
+ List history warna merah menandakan status sudah Selesai Rawat Bersama Show 5  entries
+Showing 1 to 1 of 1 entries First Previous Next Last
+LIST RPPT
+RENCANA PENATALAKSANAAN PASIEN TERINTEGRASI
+No Tgl & Jam PPA Diagnosis/Masalah
+Kebutuhan Pasien dan
+Tujuan Terukur
+Status
+Masalah MANAGE
+Show 5  entries Search:
+1 14-10-2026 23:45 Perawat
+TATANG HENDRA
+KURNIAWAN, A.Md.Kep
+Kenyamanan (Mual (00134))  -Selera Makan (1014) Membaik READONLY
+2 15-10-2026 07:41 Dokter Spesialis
+dr. Raden Triyono Edhi
+Sulistiyanto
+Sp.PD.,FINASIM
+-Vomitus Profuse ec dalam pelacakan - DM dengan
+Hiperglikemia - Riw. Hipertensi - Hiponatremia & Hipochlorida
+ringan
+ ---lanjut Membaik READONLY
+3 15-10-2026 07:41 Dokter Spesialis
+dr. Raden Triyono Edhi
+Sulistiyanto
+Sp.PD.,FINASIM
+[--  ---- - READONLY
+Showing 1 to 3 of 3 entries First Previous Next Last
+RESUME TAGIHAN
+RESUME TAGIHAN SEMENTARA
+CARA BAYAR TAGIHAN RS TAGIHAN OBAT KRONIS PERKIRAAN TARIF KLAIM TARIF KLAIM
+JKN Non PBI 863,600 0 K-4-17-I / 2,335,200 -
+APOTEKER
+SULIH PROBO SINDI
+19-10-2026 07:13:43
+Hardjolukito   
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit
+RSPAU dr. SUHARDI HARDJOLUKITO - Pusat Kesehatan TNI Angkatan Udara
+SIMETRIS 
+SIMETRIS 
+1
+1
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+●
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 2 ===
+ Detail  Update
+LIST CPPT
+CATATAN PERKEMBANGAN PASIEN TERINTEGRASI
+Filter by Tgl CPPT : / PPA : / Nama PPA :
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+1 18-10-2026
+14:00:00
+Perawat
+User Insert:
+NS. SHINTA MUSTIKA
+DEWI, S. KEP. S.KEP., NS
+User Update:
+NS. SHINTA MUSTIKA
+DEWI, S. KEP. S.KEP., NS
+S: Pasien TAK
+O: Ku.sedang, Kes.CM
+Tekanan darah: 122/82, Suhu tubuh: 36 C,
+Denyut nadi: Reguler/88 x/Menit, Nafas: 20
+x/Menit, SpO2: 99%, Skor nyeri : 0 (Tidak
+Nyeri)
+tgl 18/10/2026
+gdp: 298
+Laboratorium Patologi Klinik (14-10-2026
+19:42:49)
+- Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5)
+- Lekosit, Hasil: 4850/mm³ (3600 - 11000)
+- Hematokrit, Hasil: 33.9% (35 - 47)
+- Eritrosit, Hasil: 3.93juta/mm³ (3.70 - 5.40)
+- Trombosit, Hasil: 239000/mm³ (150000 -
+440000)
+- Glukosa Darah Sewaktu, Hasil: 310mg/dL
+(< 200), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- SGOT, Hasil: 39U/L (< 35)
+- SGPT, Hasil: 23U/L (< 34)
+- Ureum, Hasil: 57mg/dL (21 - 43)
+- Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+- Natrium (Na), Hasil: 127.36mmol/L (135.0
+- 147.0), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- Kalium (K), Hasil: 4.23mmol/L (3.5 - 5.5)
+- Klorida (Cl), Hasil: 87.75mmol/L (95.0 -
+105.0)
+-- Alergi: Amoxicilin dan Ampisilin
+- Thorax
+-------------
+Radiodiagnostik (14-10-2026 19:50:08)
+- Pulmo tak tampak kelainan
+- Besar Cor normal
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: -Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+DX :
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+BLPL
+obat IV ganti oral
+novorapid 3x12u
+glikuidon 1-0-0
+Instruksi: Monitor ku
+dan keluhan
+Monitor TTV
+Kelola terapi
+Kelola diit
+melakukan aff infus dan
+edukasi pulang
+ UNVERIFIED  18-10-2026 09:57
+Search:
+ Ubahdd-mm-yyyy -- SEMUA -- -- SEMUA --  Cari
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 3 ===
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+2 18-10-2026
+09:30:00
+Perawat
+User Insert:
+NS. SHINTA MUSTIKA
+DEWI, S. KEP. S.KEP., NS
+User Update:
+NS. SHINTA MUSTIKA
+DEWI, S. KEP. S.KEP., NS
+S: -
+O: -
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: Selamat pagi dokter, ijin melaporkan
+pasien
+1. Ny Sunarti/62th
+S/
+pasien mengatakan sudah TAK, minta
+pulang
+B/
+KU : sedang
+kes : Cm
+TD 122/82
+n 88
+s 36
+rr 20
+A/
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+- Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj novorpaid 3x12 ui
+-Tambah donperidon 2x1 tab jika masih
+mual
+R/
+obs KU dan keluhan
+obs TTV
+Instruksi: advice dr
+Edhy SpPD
+---------------------
+BLPL
+obat IV ganti oral
+novorapid 3x12u
+glikuidon 1-0-0
+ UNVERIFIED  18-10-2026 09:54
+ Ubah
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 4 ===
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+3 18-10-2026
+07:00:00
+Perawat
+User Insert:
+Anita Fajar Wati,
+S.Kep.Ners
+User Update:
+Anita Fajar Wati,
+S.Kep.Ners
+S: pasien mengatakan mual berkurang
+O: Ku.sedang, Kes.CM
+Tekanan darah: 144/81, Suhu tubuh: 37.5
+C, Denyut nadi: Reguler/94 x/Menit, Nafas:
+20 x/Menit, SpO2: 99%, Skor nyeri : 0
+(Tidak Nyeri)
+tgl 18/10/2026
+gdp: 298
+TGL 17/10/2026
+GDP: 236
+Laboratorium Patologi Klinik (14-10-2026
+19:42:49)
+- Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5)
+- Lekosit, Hasil: 4850/mm³ (3600 - 11000)
+- Hematokrit, Hasil: 33.9% (35 - 47)
+- Eritrosit, Hasil: 3.93juta/mm³ (3.70 - 5.40)
+- Trombosit, Hasil: 239000/mm³ (150000 -
+440000)
+- Glukosa Darah Sewaktu, Hasil: 310mg/dL
+(< 200), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- SGOT, Hasil: 39U/L (< 35)
+- SGPT, Hasil: 23U/L (< 34)
+- Ureum, Hasil: 57mg/dL (21 - 43)
+- Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+- Natrium (Na), Hasil: 127.36mmol/L (135.0
+- 147.0), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- Kalium (K), Hasil: 4.23mmol/L (3.5 - 5.5)
+- Klorida (Cl), Hasil: 87.75mmol/L (95.0 -
+105.0)
+-- Alergi: Amoxicilin dan Ampisilin
+- Thorax
+-------------
+Radiodiagnostik (14-10-2026 19:50:08)
+- Pulmo tak tampak kelainan
+- Besar Cor normal
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: -Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+DX :
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+- Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj Novorapid 3x8U ---> (Via phone inj
+novorpaid 3x12 ui)
+-Tambah donperidon 2x1 tab jika masih
+mual
+Instruksi: Monitor ku
+dan keluhan
+Monitor TTV
+Kelola terapi
+Kelola diit pagi
+ UNVERIFIED  17-10-2026 22:14
+ Ubah
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 5 ===
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+4 17-10-2026
+20:00:00
+Perawat
+User Insert:
+NS. SHINTA MUSTIKA
+DEWI, S. KEP. S.KEP., NS
+User Update:
+NS. SHINTA MUSTIKA
+DEWI, S. KEP. S.KEP., NS
+S: Pasien mengatakan mual berkurang
+O: Ku.sedang, Kes.CM
+Tekanan darah: 133/76, Suhu tubuh: 36 C,
+Denyut nadi: Reguler/90 x/Menit, Nafas: 20
+x/Menit, SpO2: 99%, Skor nyeri : 0 (Tidak
+Nyeri)
+TGL 17/10/2026
+GDP: 236
+Laboratorium Patologi Klinik (14-10-2026
+19:42:49)
+- Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5)
+- Lekosit, Hasil: 4850/mm³ (3600 - 11000)
+- Hematokrit, Hasil: 33.9% (35 - 47)
+- Eritrosit, Hasil: 3.93juta/mm³ (3.70 - 5.40)
+- Trombosit, Hasil: 239000/mm³ (150000 -
+440000)
+- Glukosa Darah Sewaktu, Hasil: 310mg/dL
+(< 200), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- SGOT, Hasil: 39U/L (< 35)
+- SGPT, Hasil: 23U/L (< 34)
+- Ureum, Hasil: 57mg/dL (21 - 43)
+- Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+- Natrium (Na), Hasil: 127.36mmol/L (135.0
+- 147.0), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- Kalium (K), Hasil: 4.23mmol/L (3.5 - 5.5)
+- Klorida (Cl), Hasil: 87.75mmol/L (95.0 -
+105.0)
+-- Alergi: Amoxicilin dan Ampisilin
+- Thorax
+-------------
+Radiodiagnostik (14-10-2026 19:50:08)
+- Pulmo tak tampak kelainan
+- Besar Cor normal
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: -Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+DX :
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+- Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj Novorapid 3x8U ---> (Via phone inj
+novorpaid 3x12 ui)
+-Tambah donperidon 2x1 tab jika masih
+mual
+Instruksi: Monitor ku
+dan keluhan
+Monitor TTV
+Kelola terapi
+Kelola diit
+ UNVERIFIED  17-10-2026 14:20
+5 17-10-2026
+18:36:24
+Dokter Spesialis
+User Insert:
+dr. Raden Triyono Edhi
+Sulistiyanto
+Sp.PD.,FINASIM
+User Update:
+dr. Raden Triyono Edhi
+Sulistiyanto
+Sp.PD.,FINASIM
+S: lemas
+O: Tekanan darah: 133/76, Suhu tubuh:
+36C, Denyut nadi: Reguler/90 kali/menit,
+Nafas: 20 kali/menit, SpO2: 99%, Skor nyeri
+null : 0
+A: -Vomitus Profuse ec dalam
+pelacakan - DM dengan
+Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida
+ringan
+STATUS: Membaik
+P: - Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj Novorapid 3x8U ---> (Via phone inj
+novorpaid 3x12 ui)
+-Tambah donperidon 2x1 tab jika masih
+mual
+Instruksi: lanjut  VERIFIED  17-10-2026 18:57
+ Ubah
+ Ubah
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 6 ===
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+6 17-10-2026
+14:00:00
+Perawat
+User Insert:
+EKA DESY RETNOSARI
+A.md.Kep
+User Update:
+Heriyani, A. Md. Kep
+S: Pasien mengatakan mual berkurang
+O: Ku.sedang, Kes.CM
+Tekanan darah: 122/65, Suhu tubuh: 36.5
+C, Denyut nadi: Reguler/81 x/Menit, Nafas:
+20 x/Menit, SpO2: 98%, Skor nyeri : 0
+(Tidak Nyeri)
+R.Alergi: Amoxicilin dan Ampisilin
+TGL 17/10/2026
+GDP: 236
+16/10/2026
+GDP : 235
+15/10/2026
+GDP : 208
+Laboratorium Patologi Klinik (14-10-2026
+19:42:49)
+- Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5)
+- Lekosit, Hasil: 4850/mm³ (3600 - 11000)
+- Hematokrit, Hasil: 33.9% (35 - 47)
+- Eritrosit, Hasil: 3.93juta/mm³ (3.70 - 5.40)
+- Trombosit, Hasil: 239000/mm³ (150000 -
+440000)
+- Glukosa Darah Sewaktu, Hasil: 310mg/dL
+(< 200), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- SGOT, Hasil: 39U/L (< 35)
+- SGPT, Hasil: 23U/L (< 34)
+- Ureum, Hasil: 57mg/dL (21 - 43)
+- Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+- Natrium (Na), Hasil: 127.36mmol/L (135.0
+- 147.0), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- Kalium (K), Hasil: 4.23mmol/L (3.5 - 5.5)
+- Klorida (Cl), Hasil: 87.75mmol/L (95.0 -
+105.0)
+Radiodiagnostik (14-10-2026 19:50:08)
+- Pulmo tak tampak kelainan
+- Besar Cor normal
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: -Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+-Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+-Manajemen Medikasi (2380)
+DX :
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+- Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj Novorapid 3x8U ( Via phone inj
+novorpaid 3x12 ui)
+-Tambah donperidon 2x1 tab jika masih
+mual
+Instruksi: Monitor ku
+dan keluhan
+Monitor TTV
+Kelola terapi
+Kelola diit siang
+ UNVERIFIED  17-10-2026 08:38
+7 17-10-2026
+12:06:10
+Perawat
+User Insert:
+Heriyani, A. Md. Kep
+User Update:
+Heriyani, A. Md. Kep
+S: -
+O: -
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: Melaporkan ke dr edhi sp.pd via phone :
+Lapor KU dan TTV
+S:
+Pasien mengatakan mual berkurang
+B:
+O: Ku.sedang, Kes.CM
+Tekanan darah: 122/65, Suhu tubuh: 36.5 C,
+Denyut nadi: Reguler/81 x/Menit, Nafas: 20
+x/Menit, SpO2: 98%, Skor nyeri : 0 (Tidak
+Nyeri)
+R.Alergi: Amoxicilin dan Ampisilin
+TGL 17/10/2026
+GDP: 236
+A:
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+R:
+-Monitor nausea dan vomitus
+Instruksi: Advise dr
+edhi sp.pd :
+inj novorapid naik 3x12
+ui
+jika masih mual tambah
+donperidon 2x1 tab
+ UNVERIFIED  17-10-2026 12:09
+ Ubah
+ Ubah
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 7 ===
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+8 17-10-2026
+07:00:00
+Perawat
+User Insert:
+Dafiatun Astutik,
+Amd.Kep
+User Update:
+Anita Fajar Wati,
+S.Kep.Ners
+S: Pasien mengatakan mual berkurang
+O: ku sedang kes cm
+Tekanan darah: 140/79, Suhu tubuh: 36.5
+C, Denyut nadi: Reguler/99 x/Menit, Nafas:
+20 x/Menit, SpO2: 98%, Skor nyeri : 0
+(Tidak Nyeri)
+R.Alergi: Amoxicilin dan Ampisilin
+TGL 17/10/2026
+GDP: 236
+16/10/2026
+GDP : 235
+15/10/2026
+GDP : 208
+Laboratorium Patologi Klinik (14-10-2026
+19:42:49)
+- Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5)
+- Lekosit, Hasil: 4850/mm³ (3600 - 11000)
+- Hematokrit, Hasil: 33.9% (35 - 47)
+- Eritrosit, Hasil: 3.93juta/mm³ (3.70 - 5.40)
+- Trombosit, Hasil: 239000/mm³ (150000 -
+440000)
+- Glukosa Darah Sewaktu, Hasil: 310mg/dL
+(< 200), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- SGOT, Hasil: 39U/L (< 35)
+- SGPT, Hasil: 23U/L (< 34)
+- Ureum, Hasil: 57mg/dL (21 - 43)
+- Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+- Natrium (Na), Hasil: 127.36mmol/L (135.0
+- 147.0), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- Kalium (K), Hasil: 4.23mmol/L (3.5 - 5.5)
+- Klorida (Cl), Hasil: 87.75mmol/L (95.0 -
+105.0)
+Radiodiagnostik (14-10-2026 19:50:08)
+- Pulmo tak tampak kelainan
+- Besar Cor normal
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: -Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+-Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+-Manajemen Medikasi (2380)
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+- Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj Novorapid 3x8U ( Via Lisan Novorapid
+3x10 unit)
+Instruksi:
+mengobservasi ku dan
+keluhan
+mengukur TTV
+mengelola terapi
+mengelola diet pagi
+ UNVERIFIED  16-10-2026 21:19
+ Ubah
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 8 ===
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+9 16-10-2026
+20:00:00
+Perawat
+User Insert:
+Azhara Fachriza A., A.
+Md. Kep A.md.Kep
+User Update:
+Azhara Fachriza A., A.
+Md. Kep A.md.Kep
+S: Pasien mengatakan mual berkurang
+O: Tekanan darah: 137/80, Suhu tubuh:
+36.5 C, Denyut nadi: Reguler/106 x/Menit,
+Nafas: 20 x/Menit, SpO2: 98%, Skor nyeri :
+0 (Tidak Nyeri)
+R.Alergi: Amoxicilin dan Ampisilin
+16/10/2026
+GDP : 235
+15/10/2026
+GDP : 208
+Laboratorium Patologi Klinik (14-10-2026
+19:42:49)
+- Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5)
+- Lekosit, Hasil: 4850/mm³ (3600 - 11000)
+- Hematokrit, Hasil: 33.9% (35 - 47)
+- Eritrosit, Hasil: 3.93juta/mm³ (3.70 - 5.40)
+- Trombosit, Hasil: 239000/mm³ (150000 -
+440000)
+- Glukosa Darah Sewaktu, Hasil: 310mg/dL
+(< 200), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- SGOT, Hasil: 39U/L (< 35)
+- SGPT, Hasil: 23U/L (< 34)
+- Ureum, Hasil: 57mg/dL (21 - 43)
+- Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+- Natrium (Na), Hasil: 127.36mmol/L (135.0
+- 147.0), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- Kalium (K), Hasil: 4.23mmol/L (3.5 - 5.5)
+- Klorida (Cl), Hasil: 87.75mmol/L (95.0 -
+105.0)
+Radiodiagnostik (14-10-2026 19:50:08)
+- Pulmo tak tampak kelainan
+- Besar Cor normal
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: -Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+-Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+-Manajemen Medikasi (2380)
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+- Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj Novorapid 3x8U ( Via Lisan Novorapid
+3x10 unit)
+Instruksi: Monitor ku
+dan keluhan
+Monitor TTV
+Kelola terapi
+Kelola diit siang
+ UNVERIFIED  16-10-2026 20:00
+ Ubah
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+
+=== PAGE 9 ===
+No Tgl & Jam PPA Diagnosis/Masalah
+Hasil Asesmen Pasien dan
+Pemberi Pelayanan Planning PPA Instruksi PPA Verifikasi DPJP Implementasi MANAGE
+10 16-10-2026
+14:00:00
+Perawat
+User Insert:
+EKA DESY RETNOSARI
+A.md.Kep
+User Update:
+EKA DESY RETNOSARI
+A.md.Kep
+S: pasien mengatakan batuk berdahak
+O: Ku.sedang, Kes.CM
+Tekanan darah: 113/67, Suhu tubuh: 36.2
+C, Denyut nadi: Reguler/90 x/Menit, Nafas:
+20 x/Menit, SpO2: 98%, Skor nyeri : 0
+(Tidak Nyeri)
+R.Alergi: Amoxicilin dan Ampisilin
+16/10/2026
+GDP : 235
+15/10/2026
+GDP : 208
+Laboratorium Patologi Klinik (14-10-2026
+19:42:49)
+- Hemoglobin, Hasil: 11.6g/dL (11.7 - 15.5)
+- Lekosit, Hasil: 4850/mm³ (3600 - 11000)
+- Hematokrit, Hasil: 33.9% (35 - 47)
+- Eritrosit, Hasil: 3.93juta/mm³ (3.70 - 5.40)
+- Trombosit, Hasil: 239000/mm³ (150000 -
+440000)
+- Glukosa Darah Sewaktu, Hasil: 310mg/dL
+(< 200), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- SGOT, Hasil: 39U/L (< 35)
+- SGPT, Hasil: 23U/L (< 34)
+- Ureum, Hasil: 57mg/dL (21 - 43)
+- Kreatinin, Hasil: 1.80mg/dL (0.6 - 1.1)
+- Natrium (Na), Hasil: 127.36mmol/L (135.0
+- 147.0), Catatan: Secara pra analitik
+sampel baik, hasil sudah dilakukan
+pengulangan.
+- Kalium (K), Hasil: 4.23mmol/L (3.5 - 5.5)
+- Klorida (Cl), Hasil: 87.75mmol/L (95.0 -
+105.0)
+Radiodiagnostik (14-10-2026 19:50:08)
+- Pulmo tak tampak kelainan
+- Besar Cor normal
+A: Kenyamanan (Mual (00134))
+STATUS: Membaik
+P: -Monitoring Nutrisi (1160)
+-Manajemen Mual (1450)
+-Manajemen Medikasi (2380)
+-Vomitus Profuse ec dalam pelacakan - DM
+dengan Hiperglikemia - Riw. Hipertensi -
+Hiponatremia & Hipochlorida ringan
+Advice dr. Edhi Sp.PD:
+==================
+- Inf NaCl 0.9% 20 tpm
+- Inj Omeprazole 1A/12 jam
+- Inj Metoclorpamid 1A/8 jam
+- PO Antasida Syr 3x1
+- PO Rebamipid 3x1
+- Obat Rutin STOP dulu
+- Inj Novorapid 3x8U ( Via Lisan Novorapid
+3x10 unit)
+Instruksi: Monitor ku
+dan keluhan
+Monitor TTV
+Kelola terapi
+Kelola diit siang
+ UNVERIFIED  16-10-2026 10:14
+ Ubah
+Show 10  entries
+Showing 1 to 10 of 21 entries
+First Previous 2 3 Next Last
+FORM CPPT  Tambah CPPT Baru
+ Simpan CPPT
+1
+
+  INFORMASI & KEBIJAKAN () (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit RSPAU dr. SUHARDI HARDJOLUKITO (https://www.rspauhardjolukito.co.id/) © 2022 | 192.168.13.133 (sulih) | 
+

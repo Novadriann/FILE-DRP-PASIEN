@@ -1,0 +1,91 @@
+=== PAGE 1 ===
+ Advanced Search
+ASKEP - CPPT (APT. SULIH PROBO SINDI, S. FARM,)
+LIST REGISTRASI 19 OCT 2026
+00109480
+Nama Pasien
+Cari Pasien   Reset
+RAWAT INAP
+-- SEMUA RUANG --
+Tgl Reg No RM Nama Ruang No. RegNo 
+1 2026/10/14 00109480 SUNARTI Merak 020201202600010503001
+DATA PRIBADI PASIEN PER 19 OCT 2026
+No. Registrasi 020201202600010503001
+Tanggal Registrasi 14-10-2026
+No. RM / No. Ident 00109480 / 3402125811630001
+Nama SUNARTI
+Alamat JL JANTI KANOMAN RT.7,
+BANGUNTAPAN, BANGUNTAPAN
+No. Telp. 089634090927
+Tanggal Lahir 18-11-1963 (62 th 11 bln 1 hr)
+Agama ISLAM
+Jenis Kel./Gol.Darah Perempuan / TIDAK TAHU
+Sub Instalasi/Poli Merak
+Sub Divisi -
+Kamar/No. Bed MERAK 314 / 14A
+Cara Bayar JKN Non PBI
+Alergi AMOXISILIN DAN AMPISILIN
+Alergi Obat
+Nama DPJP dr. Raden Triyono Edhi Sulistiyanto
+Sp.PD.,FINASIM
+MENU
+ 
+RESUME HISTORY (PROFIL RINGKAS MEDIS)
+BERKAS RM
+MATRIK HASIL LAB
+HISTORY HASIL LAB
+HISTORY HASIL RADIOLOGI
+HISTORY HASIL PATOLOGI
+HISTORY HASIL PEMERIKSAAN LAIN
+VIEW ASSESMENT AWAL 
+RPPT & CPPT 
+INTEGRATED NOTES 
+DOKUMEN EKSTERNAL 
+PLANNING - ( P )
+EDUKASI PASIEN 
+TRANSFER PASIEN 
+HISTORY HASIL LAB
+History Hasil Lainnya 5
+18-10-2026 16:25:38  16-10-2026 07:23:40  15-10-2026 08:19:14  14-10-2026 19:42:49  11-10-2026 17:38:19
+ 
+Nama : SUNARTI
+No RM : 00109480
+Sample ID : 6101807078
+Tgl Order : 18/10/2026 16:25:38   Hasil 1 hari yang lalu
+Tgl Validasi Order : 18/10/2026 16:33:46
+Tgl Validasi : 18/10/2026 16:45:11
+Asal Bangsal/Poli : Merak
+Verifikator DPJP : dr. Andri Christianalusi, M.Med.Sc., Sp.PK
+Verifikator Analitik : INDRI FARADIBA MARPAUNG
+ 
+Nama Pemeriksaan Hasil Satuan Nilai Rujukan Metode
+  KARBOHIDRAT
+  Glukosa Darah Puasa (Stik) 298 * mg/dL 70 - 115
+Keterangan warna : Verif Dokter  Verif Analis  Belum verif / belum ada hasil  Ada Koreksi / Batal Verif
+APOTEKER
+SULIH PROBO SINDI
+19-10-2026 07:12:27
+Hardjolukito   
+Sistem Informasi Manajemen Terintegrasi Rumah Sakit
+RSPAU dr. SUHARDI HARDJOLUKITO - Pusat Kesehatan TNI Angkatan Udara
+SIMETRIS 
+SIMETRIS 
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+●
+
+ (http://insti.stream:3000)
+
+ Scroll to topIDENTITAS PASIEN   SUNARTI   00109480   14-10-2026 20:45:04   Merak   MERAK 314 / 14A   dr. Raden Triyono Edhi Sulistiyanto Sp.PD.,FINASIM   -
+
