@@ -1,23 +1,29 @@
-__pycache__/
-*.pyc
+# OS & IDE
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
-extracted_rajal_texts/
-check_*.py
-inspect_*.py
-dump_*.py
-read_*.py
-search_*.py
-try_*.py
-list_*.py
-parse_*.py
-aggregate_*.py
-extract_*.py
-summarize_*.py
-populate_*.py
-update_*.py
-test_*.py
-get_*.py
-build_full_ppt.py
-sample_rajal_presentation_text.txt
-sheet2.xlsx
+__pycache__/
+*.pyc
+
+# Root temporary scripts & scratch files (only at repository root)
+/*.py
+/*.txt
+/*.xlsx
+/*.docx
+/*.pptx
+/*.html
+/*.pdf
+/*.zip
+/*.md
+/guideline_evidence/
+/guideline_evidence_rajal/
+/ppt_assets/
+/HASIL/
+/PTO RAJAL/
+/extracted_texts/
+/extracted_rajal_texts/
+
+# Do not ignore root README and .gitignore
+!/README.md
+!/.gitignore
