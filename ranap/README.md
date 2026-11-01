@@ -30,6 +30,7 @@
 | **6** | [**`guideline_evidence/`**](./guideline_evidence) | Direktori | Tangkapan layar bukti guideline resmi: PERKENI 2021 Rawat Inap, Beers Criteria 2023, Guideline Rehidrasi Vomitus, dll. |
 | **7** | [**`ppt_assets/`**](./ppt_assets) | Direktori | Aset grafik pemantauan glukosa darah dan tanda vital (TTV) harian ranap. |
 | **8** | [**`Pedoman_Pengelolaan_DM_Tipe_2_PERKENI_2021.pdf`**](./Pedoman_Pengelolaan_DM_Tipe_2_PERKENI_2021.pdf) | PDF (5,8 MB) | Dokumen resmi Pedoman DM Tipe 2 PB PERKENI 2021. |
+| **10** | [**ANALISIS_FORNAS_EFEK_SAMPING_INTERAKSI_RANAP.md**](./ANALISIS_FORNAS_EFEK_SAMPING_INTERAKSI_RANAP.md) | Markdown | **Analisis Lengkap Restriksi Fornas, Top 3 Efek Samping, & Interaksi Obat/Makanan Ranap:**<br>- Telaah kesesuaian restriksi Fornas (KMK 6485/2021) 13 obat ranap.<br>- Profil 3 efek samping terbanyak per obat beserta % insidensi & sumber referensi FDA/Lexicomp/EMA.<br>- Analisis DDI (Duplikasi fatal Metoklopramid + Domperidone, sinergi QT Ondansetron, hipoglikemia masif Glikuidon + Novorapid 36 UI).<br>- Interaksi obat-makanan (aturan ac/pc, bahaya skipped meals, grapefruit juice, diet 3J). |
 | **9** | [**`ADA_Standards_of_Care_2024_Section_16.pdf`**](./ADA_Standards_of_Care_2024_Section_16.pdf) | PDF (2,4 MB) | Dokumen resmi Standar Pelayanan Medis ADA 2024 Seksi 16 (Diabetes Care in the Hospital). |
 
 ---
