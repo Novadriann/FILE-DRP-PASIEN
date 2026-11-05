@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Script to generate ANALISIS_KASUS_MENDALAM_RAJAL_DAN_RANAP.md
-Full markdown report mirroring the comprehensive Word document.
+Revised Script to generate ANALISIS_KASUS_MENDALAM_RAJAL_DAN_RANAP.md
+Full markdown report incorporating revised Rajal data from RSPAU Dr. S. Hardjolukito
+and keeping Ranap (Ny. Sunarti) with Inpatient Dyspepsia Nausea/Vomiting.
 """
 
 import os
@@ -12,146 +13,174 @@ if sys.stdout.encoding != 'utf-8':
 
 md_content = """# LAPORAN LENGKAP & ANALISIS MENDALAM PEMANTAUAN TERAPI OBAT (PTO)
 ## Asuhan Kefarmasian Klinis Rawat Jalan (Rajal) & Rawat Inap (Ranap)
-**Rumah Sakit PKU Muhammadiyah Bantul & Program Profesi Apoteker (PKPA) Universitas Ahmad Dahlan**
+**Instalasi Farmasi RSPAU dr. S. Hardjolukito & RS PKU Muhammadiyah Bantul**
 *Berdasarkan Konsensus PERKENI 2021, Konsensus PGI 2021/2024, DiPiro's Pharmacotherapy 12th Ed 2023, ADA Standards of Care 2024, & AGS Beers Criteria 2023*
 
 ---
 
 > [!NOTE]
 > **RINGKASAN EKSEKUTIF KASUS (EXECUTIVE SUMMARY)**
-> Dokumen ini menyajikan analisis asuhan kefarmasian klinis (*Evidence-Based Clinical Pharmacy*) yang komprehensif dan mendalam untuk dua pasien kasus kompleks:
-> 1. **Kasus Rawat Jalan (Poli Penyakit Dalam): Ny. Sri Wisraya (64 th, RM 00062584)** — Multi-morbiditas kronis (DM Tipe 2 Tak Terkontrol HbA1c 9,1%, Hipertensi Esensial, Dislipidemia Campuran, Osteoarthritis Genu Bilateral, Neuropati Perifer Diabetik, Vertigo Sentral, riwayat trauma CKR & fraktur os zygoma, riwayat peningkatan kreatinin akut 2,69 mg/dL / CrCl 18 mL/min). Evaluasi DRP mencakup: over-dosis Glimepirid 6 mg/hari pada geriatri (PIM Beers 2023), kegagalan triple OHO & indikasi insulin basal (PERKENI 2021 & DiPiro 2023), penyesuaian ginjal Sitagliptin, interaksi nefrotoksik NSAID oral (Meloxicam & Diklofenak) terhadap Amlodipin dan lonjakan tekanan darah, interaksi sedasi Gabapentin + Flunarizine (fall risk), evaluasi ADR edema Amlodipin (Naranjo skor 6) dan kombinasi ARB (Skovbjerg et al., 2023), serta kepatuhan MMAS-8 (skor 5,5).
-> 2. **Kasus Rawat Inap (Bangsal Merak): Ny. Sunarti (62 th 10 bln, RM 00109480)** — Diagnosis Utama: **Mual dan Muntah karena Dispepsia (*Vomitus Profuse ec Dyspepsia*)** disertai krisis hiperglikemia akut DM Tipe 2 (GDS 357 mg/dL), riwayat hipertensi, serta dehidrasi dengan hiponatremia (Na 131 mmol/L) dan hipokloremia (Cl 96 mmol/L). Evaluasi DRP mencakup: duplikasi prokinetik D2 (Metoclopramide IV + Domperidone PO) berisiko gejala ekstrapiramidal dan aritmia QTc (Lexicomp Risk Rating D/X), penyesuaian ginjal Metoclopramide pada geriatri, tatalaksana dispepsia mual-muntah berbasis Konsensus PGI & DiPiro 12th Ed, tatalaksana hiperglikemia rawat inap (penghentian OHO Metformin & Glimepirid, inisiasi basal-bolus Novorapid + Lantus target 140–180 mg/dL sesuai PERKENI Hal. 98–101 & ADA 2024 Section 16), rekonsiliasi antihipertensi, rehidrasi kristaloid isotonik NaCl 0,9%, serta audit kualitatif antibiotik metode Gyssens (Kategori 0 / Tepat tanpa antibiotik pada riwayat alergi penisilin).
+> Dokumen ini menyajikan asuhan kefarmasian klinis (*Evidence-Based Clinical Pharmacy*) yang komprehensif dan mendalam untuk dua pasien kasus kompleks:
+> 1. **Kasus Rawat Jalan (RSPAU dr. S. Hardjolukito): Ny. Sri Wisraya (64 th, RM 00062584, Farmasis: Nurhasna Sushmita Sari, S.Farm. / Tim PKPA RSPAU)** — Diagnosa Utama: **OA GENU BILATERAL (M17.0)**; Diagnosa Sekunder: **DM TIPE 2 (E11.9)** dan **HIPERTENSI ESENSIAL (I10)**; Riwayat Penyakit: Dislipidemia (E78.5), Neuropati Diabetik (E11.5), Vertigo Sentral (H81.4), Post Trauma CKR & Fraktur Os Zygoma/Frontalis, serta Penurunan Klirens Ginjal Berat (CrCl 17,67 mL/min). Evaluasi DRP mencakup: over-dosis Glimepirid 6 mg/hari pada geriatri (PIM Beers 2023 & tidak sesuai Fornas), indikasi inisiasi insulin basal (PERKENI 2021), penyesuaian ginjal Sitagliptin, interaksi NSAID oral nefrotoksik, interaksi sedasi Gabapentin-Flunarizine, restriksi Fornas, profil ADR top 3, dan kepatuhan MMAS-8 (skor 5,0 - Kepatuhan Rendah).
+> 2. **Kasus Rawat Inap (Bangsal Merak): Ny. Sunarti (62 th 10 bln, RM 00109480, DPJP: dr. Raden Triyono Edhi S., Sp.PD)** — Diagnosis Utama: **Mual dan Muntah karena Dispepsia (*Vomitus Profuse ec Dyspepsia*)** disertai krisis hiperglikemia akut DM Tipe 2 (GDS 357 mg/dL), riwayat hipertensi, serta dehidrasi dengan hiponatremia (Na 131 mmol/L) dan hipokloremia (Cl 96 mmol/L). Evaluasi DRP mencakup: duplikasi prokinetik D2 (Metoclopramide IV + Domperidone PO) berisiko gejala ekstrapiramidal dan aritmia QTc (Lexicomp Risk Rating D/X), penyesuaian ginjal Metoclopramide pada geriatri, tatalaksana dispepsia mual-muntah berbasis Konsensus PGI & DiPiro 12th Ed Ch. 41-42, tatalaksana hiperglikemia rawat inap (penghentian OHO Metformin & Glimepirid, inisiasi basal-bolus Novorapid + Lantus target 140–180 mg/dL sesuai PERKENI Hal. 98–101 & ADA 2024 Section 16), rekonsiliasi antihipertensi, rehidrasi kristaloid isotonik NaCl 0,9%, serta audit kualitatif antibiotik metode Gyssens (Kategori 0 / Tepat tanpa antibiotik pada riwayat alergi penisilin).
 
 ---
 
 # BAGIAN I: ANALISIS MENDALAM KASUS RAWAT JALAN (RAJAL) — NY. SRI WISRAYA
 
-## 1.1 Profil Demografi & Data Dasar Pasien
+## 1.1 Profil Demografi & Data Dasar Pasien Rawat Jalan
 | Parameter Klinis | Nilai / Keterangan Pasien | Interpretasi Klinis Farmasis |
 | :--- | :--- | :--- |
-| **Nama Pasien** | Ny. Sri Wisraya | Pasien geriatri rawat jalan reguler Poli Penyakit Dalam |
-| **Nomor Rekam Medis** | 00062584 | Terdaftar aktif di RS PKU Muhammadiyah Bantul |
-| **Usia / Tanggal Lahir** | 64 tahun 1 bulan | Populasi geriatri rentan terhadap interaksi obat dan PIM Beers Criteria |
-| **Jenis Kelamin** | Perempuan | Faktor risiko osteopenia, osteoarthritis pasca menopause |
-| **Berat Badan / Tinggi Badan** | 52 – 54 kg / 156 cm | IMT: 21,4 – 21,8 kg/m² (Normoweight / status gizi baik) |
-| **Klinik / Dokter DPJP** | Poli Penyakit Dalam / dr. Tri Hariningsih, Sp.PD | Konsul: Poli Orthopedi, Poli Saraf, Poli Mata |
-| **Diagnosis Medis Utama** | 1. DM Tipe 2 Tak Terkontrol (HbA1c 9,1%)<br>2. Hipertensi Esensial Stage 1-2<br>3. Dislipidemia Campuran<br>4. Osteoarthritis (OA) Genu Bilateral<br>5. Neuropati Perifer Diabetik<br>6. Vertigo Sentral / Perifer<br>7. Riwayat Trauma CKR & Fraktur Os Zygoma Sinistra (04/07/2026)<br>8. Riwayat Peningkatan Kreatinin Akut (2,69 mg/dL / CrCl 18 mL/min) | Pasien memiliki kompleksitas multi-morbiditas kronis dengan polifarmasi aktif (7–9 obat per hari) yang memerlukan pemantauan ketat terhadap nefrotoksisitas, risiko jatuh, dan kepatuhan. |
+| **Fasilitas Pelayanan Kesehatan** | Instalasi Farmasi RSPAU dr. S. Hardjolukito | Rumah Sakit Rujukan Tingkat Lanjutan (FKRTL) |
+| **Farmasis Penanggung Jawab** | Nurhasna Sushmita Sari, S.Farm. / Tim PKPA | Apoteker Klinis Penelaah Farmakoterapi & DRP |
+| **Nama Pasien** | **SRI WISRAYA** | Pasien geriatri rawat jalan multipel poliklinik |
+| **Nomor Rekam Medis** | **00062584** | Terdaftar aktif di RSPAU dr. S. Hardjolukito |
+| **Usia / Jenis Kelamin** | 64 tahun / Perempuan | Geriatri; rentan terhadap ADR, PIM Beers, polifarmasi |
+| **Berat Badan / Tinggi Badan** | 52 kg / 156 cm | IMT: 21,37 kg/m² (Normoweight / status gizi baik) |
+| **Ruangan / Poliklinik** | Poli Penyakit Dalam (Rawat Jalan) | Poliklinik utama pemantauan terapi kronis |
+| **DPJP Utama** | **dr. TRI HARININGSIH, Sp.PD** | Dokter Spesialis Penyakit Dalam |
+| **Dokter Rawat Bersama (Raber)** | 1. dr. Raden Suhana, Sp.OT(K)<br>2. dr. Wahyu Wihartono, Sp.N<br>3. dr. Supanji, Sp.M | Poli Bedah Orthopedi<br>Poli Spesialis Saraf / Neurologi<br>Poli Spesialis Mata |
+| **Tanggal Periode Kontrol** | 27-04-2026 (M1) s/d 07-10-2026 (M6) | Pemantauan longitudinal serial selama 6 bulan |
+| **Riwayat Alergi** | Tidak Ada Alergi Obat (-) | Aman terhadap golongan analgesik & antibiotik |
+| **Diagnosa Utama** | **OA GENU BILATERAL (M17.0)** | Nyeri dan kekakuan kronis sendi lutut bilateral |
+| **Diagnosa Sekunder 1 & 2** | **DM TIPE 2 (E11.9)**<br>**HIPERTENSI ESENSIAL (I10)** | DM tidak terkontrol (HbA1c 9,1%) & HT belum mencapai target <130/80 |
+| **Riwayat Penyakit Terdahulu** | Dislipidemia (E78.5)<br>Neuropati Diabetik (E11.5)<br>Vertigo Sentral (H81.4)<br>Post Trauma CKR & Fraktur Os Zygoma | Komorbiditas multi-organ kompleks dengan riwayat insiden jatuh di kamar mandi pada 04/07/2026 |
+| **Riwayat Penggunaan Obat** | Glimepirid, Amlodipin, Gabapentin, Rosuvastatin, Sitagliptin, Acarbose, Flamar Gel, Meloxicam, Kalium Diklofenak, Flunarizine, Glucosamine, Mecobalamin | Polifarmasi aktif (7–9 obat/hari) dengan risiko tinggi interaksi obat dan nefrotoksisitas |
 
 ---
 
-## 1.2 Riwayat Kunjungan Kontrol & Dinamika Klinis 6 Bulan Terakhir
-| Tanggal | Poli / DPJP | Keluhan Pasien | Tindakan Medis & Dinamika Terapi Obat |
-| :--- | :--- | :--- | :--- |
-| **18/02/2026** | Penyakit Dalam | Kontrol rutin DM & HT, kesemutan kedua telapak kaki | Glimepirid 2 mg 1x1, Metformin 500 mg 3x1, Amlodipin 10 mg 1x1, Candesartan 8 mg 1x1, Mecobalamin 500 mcg 2x1, Flamar Gel topikal |
-| **18/03/2026** | Penyakit Dalam | GDP belum turun (151 mg/dL), pusing, nyeri lutut memberat | Glimepirid dinaikkan 3 mg 1x1 pagi, Metformin 500 mg 3x1, Amlodipin 10 mg 1x1, Rosuvastatin 20 mg 1x1 malam, Gabapentin 100 mg 1x1 malam |
-| **15/04/2026** | Penyakit Dalam & Ortho | Gula puasa tinggi (GDP 168, GD2PP 245), linu sendi lutut hebat | Glimepirid dinaikkan 3 mg 2x1 (6 mg/hari!), Sitagliptin 100 mg 1x1 ditambahkan, Meloxicam 7,5 mg 1x1 prn |
-| **13/05/2026** | Penyakit Dalam & Ortho | Bengkak kedua pergelangan kaki (edema tungkai), lutut kaku pagi | Glimepirid 3 mg 2x1, Sitagliptin 100 mg 1x1, Acarbose 100 mg 2x1 ditambahkan, Kalium Diklofenak 50 mg 2x1, Glukosamin 500 mg 1x1 |
-| **10/06/2026** | Penyakit Dalam | Hasil HbA1c 9,1% (uncontrolled), pusing berputar (vertigo) | Candesartan dinaikkan 16 mg 1x1, Statin diswitch ke Atorvastatin 20 mg 1x1, Gabapentin dinaikkan 100 mg 2x1, Flunarizine 5 mg 1x1 malam |
-| **08/07/2026** | Bedah & Saraf | Pasien jatuh di kamar mandi (04/07/2026), CKR + fraktur os zygoma | Rawat luka wajah, Cefixime 100 mg 2x1, Asam Mefenamat 500 mg 3x1, Flunarizine 5 mg 1x1, edukasi tirah baring |
-| **05/08/2026** | Penyakit Dalam | Badan sangat lemas, TD melonjak 165/89 mmHg, GDP 190 mg/dL, kreatinin 2,69 mg/dL | Evaluasi lonjakan tekanan darah dan azotemia akut pasca trauma/NSAID, restrukturisasi terapi OHO dan antihipertensi |
+## 1.2 Riwayat Kunjungan Kontrol, Keluhan Subjektif, & Kepatuhan Pasien (M1 – M6)
+| Tanggal & Sesi | Poliklinik Dikunjungi | Keluhan Pasien (Subjektif) | Skor Nyeri / Tanda Khusus | Kepatuhan Pasien (MMAS-8) |
+| :--- | :--- | :--- | :---: | :--- |
+| **27-04-2026 (M1)** | Poli Penyakit Dalam | Kontrol rutin DM, lutut sakit (+), kebas (+), pusing (-) | NRS 2 (Ringan) | Teratur (Awal kontrol) |
+| **29-05-2026 (M2)** | Poli Saraf & Mata | Lutut sakit, bengkak (-), kebas (+), pusing (-) | NRS 4 (Sedang) | Teratur |
+| **29-06-2026 (M3)** | Poli Mata | Lutut kiri nyeri kaku (+++), kebas (++), pusing (+) | NRS 6 (Berat) | Teratur (Dosis Glimepirid naik ke 6 mg) |
+| **04-07-2026 (Trauma)** | IGD (Bedah/Saraf/Rad) | Kepala terbentur ec jatuh di kamar mandi, nyeri kepala | NRS +++ (Akut) | Trauma Jatuh (GDS spike 308 mg/dL) |
+| **05-08-2026 (M4)** | Poli Mata | Evaluasi paska rawat, lutut nyeri (++), gliyer (+) | NRS 4 (Sedang) | Kurang Tertib (TD spike 165/89 mmHg) |
+| **07-09-2026 (M5)** | Poli Mata | Lutut nyeri (++), gliyer (+) / Vertigo Sentral | NRS 4 (Sedang) | Lupa Bawa Obat (Acarbose & Diklofenak masuk) |
+| **07-10-2026 (M6)** | Poli Ortho & Mata | Lutut kanan sakit (++), kebas (+), pusing (+) | NRS 4 (Sedang) | Bingung Waktu Minum (Switch Atorvastatin) |
 
 ---
 
 ## 1.3 Pemantauan Tanda-Tanda Vital (TTV) 6 Bulan
-Dinamika tanda-tanda vital menunjukkan fluktuasi tajam pada tekanan darah. Pada periode Februari hingga Juni 2026, tekanan darah berada dalam batas 130–145 / 80–88 mmHg dengan terapi kombinasi Amlodipin 10 mg dan Candesartan. Namun, pada kunjungan 05/08/2026 terjadi lonjakan tekanan darah mendadak (*blood pressure spike*) hingga **165/89 mmHg**. Lonjakan ini berkorelasi kuat dengan konsumsi NSAID oral ganda pasca trauma fraktur yang merusak mekanisme otoregulasi vaskular ginjal dan menumpulkan efek antihipertensi Amlodipin.
+Berdasarkan pemantauan serial tanda-tanda vital, tekanan darah sistolik pasien berfluktuasi tajam antara 133 hingga 165 mmHg, dan diastolik antara 76 hingga 98 mmHg. Target konsensus PERHI 2021 untuk pasien diabetes dengan komorbid kardiovaskular adalah < 130/80 mmHg. Monoterapi Amlodipin 10 mg terbukti belum adekuat mengontrol tekanan darah sistolik. Puncak lonjakan tekanan darah (spike) terjadi pada 05/08/2026 mencapai **165/89 mmHg** pasca trauma dan pemberian NSAID oral. Denyut nadi tercatat takikardia (99, 97, 103 x/menit) terutama saat episode nyeri lutut berat dan stres pasca jatuh.
 
-| Tanggal | Tekanan Darah (mmHg) | Nadi (x/m) | RR (x/m) | Suhu (°C) | Status Klinis & Interpretasi |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **18/02/2026** | 130/80 | 84 | 20 | 36,5 | Prehipertensi / Terkontrol baik |
-| **18/03/2026** | 140/85 | 80 | 18 | 36,6 | Hipertensi Stage 1 |
-| **15/04/2026** | 138/82 | 78 | 20 | 36,4 | Terkontrol borderline |
-| **13/05/2026** | 145/88 | 82 | 18 | 36,5 | Hipertensi Stage 1 |
-| **10/06/2026** | 135/80 | 80 | 20 | 36,5 | Terkontrol baik pasca titrasi Candesartan 16 mg |
-| **05/08/2026** | 165/89 | 86 | 20 | 36,7 | Hipertensi Stage 2 (Spike pasca NSAID oral & nyeri trauma) |
+| Tanggal Kontrol | Sistole (mmHg) | Diastole (mmHg) | Nadi (x/m) | Suhu (°C) | RR (x/m) | SpO2 (%) | NRS | Evaluasi Klinis TTV |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **27-04-2026** | 154 | 98 | 99 | 36,0 | 22 | 99% | 2 | Hipertensi Stage 2; takikardia ringan |
+| **29-05-2026** | 138 | 76 | 97 | 36,0 | 22 | 99% | 4 | Terkontrol borderline |
+| **29-06-2026** | 156 | 85 | 89 | 36,0 | 22 | 99% | 6 | Hipertensi Stage 2; nyeri lutut kaku |
+| **05-08-2026** | 165 | 89 | 103 | - | - | - | 4 | Spike TD & takikardia paska trauma/NSAID |
+| **07-09-2026** | 141 | 80 | 92 | 36,0 | 21 | 99% | 4 | Hipertensi Stage 1; vertigo sentral |
+| **07-10-2026** | 133 | 80 | 92 | 36,0 | 21 | 99% | 4 | Mendekati target (<130/80 mmHg) |
 
 ![Tren Tekanan Darah Rajal](guideline_evidence_rajal/rajal_bp_trend.png)
-*Gambar 1.1: Grafik Tren Tekanan Darah Ny. Sri Wisraya Selama 6 Bulan Terakhir (Konsensus PERHI 2021 Hal. 18–22).*
+*Gambar 1.1: Grafik Tren Tekanan Darah Ny. Sri Wisraya Selama 6 Bulan Terakhir (Target PERHI <130/80 mmHg).*
 
 ---
 
-## 1.4 Pemantauan Data Laboratorium 6 Bulan
-Pemeriksaan laboratorium membuktikan kondisi dekompensasi glikemik kronis berat:
-* **HbA1c = 9,1%**: Menunjukkan rata-rata glukosa darah 3 bulan terakhir sangat tinggi (> 215 mg/dL), jauh melampaui target PERKENI/ADA untuk geriatri (< 7,5% – 8,0%).
-* **GDP & GD2PP**: GDP meningkat progresif dari 151 mg/dL hingga 190 mg/dL, dan GD2PP mencapai 245 mg/dL meskipun pasien telah mengonsumsi 3 jenis OHO oral.
-* **Fungsi Ginjal**: Serum kreatinin melonjak tajam menjadi **2,69 mg/dL** pada 05/08/2026 dengan Ureum 58 mg/dL. Perhitungan Cockcroft-Gault:
-  $$CrCl = \frac{(140 - 64) \times 54}{72 \times 2,69} \times 0,85 = \frac{4104}{193,68} \times 0,85 = 18,01 \text{ mL/min}$$
-  Mengindikasikan penurunan klirens ginjal berat (Acute Kidney Injury superimposed on CKD Stage 4).
+## 1.4 Pemantauan Data Laboratorium & Pemeriksaan Radiologi
+Profil laboratorium mengonfirmasi kegagalan glikemik berat (glukotoksisitas tinggi) dengan nilai **HbA1c mencapai 9,1%*** pada 29/05/2026. Kadar glukosa darah puasa (GDP) persisten tinggi (169*, 190*, 151* mg/dL) dan GD2PP 211* mg/dL, dengan lonjakan GDS mencapai 308* mg/dL saat trauma jatuh di IGD. Pada pemeriksaan fungsi ginjal pasca trauma (04/07/2026), serum kreatinin melonjak menjadi **2,69* mg/dL** dan Ureum 73* mg/dL.
+$$\text{CrCl} = \frac{(140 - 64) \times 52 \text{ kg}}{72 \times 2,69 \text{ mg/dL}} \times 0,85 = \mathbf{17,67 \text{ mL/menit}} \quad (\text{Gangguan Ginjal Berat / AKI on CKD Stage 4})$$
 
-| Parameter Uji Lab | Nilai Pasien | Nilai Rujukan Normal | Satuan | Interpretasi Klinis Farmasis |
+| Pemeriksaan Lab | Nilai Pasien | Nilai Normal | Satuan | Interpretasi & Analisis Evaluasi Klinis |
 | :--- | :---: | :---: | :---: | :--- |
-| **HbA1c** | **9,1** | < 6,5 (Target lansia < 7,5 - 8,0) | % | Sangat tinggi; bukti objektif kegagalan terapi OHO oral |
-| **GDP (18/03/2026)** | 151 | 70 – 100 | mg/dL | Hiperglikemia puasa belum terkontrol |
-| **GDP (15/04/2026)** | 168 | 70 – 100 | mg/dL | Meningkat progresif; respon sulfonilurea suboptimal |
-| **GD2PP (15/04/2026)** | 245 | < 140 | mg/dL | Lonjakan glukosa postprandial masif |
-| **GDP (13/05/2026)** | 175 | 70 – 100 | mg/dL | Hiperglikemia persisten |
-| **GDP (05/08/2026)** | 190 | 70 – 100 | mg/dL | Puncak kenaikan GDP pasca trauma fisik dan nyeri |
-| **Kreatinin Serum** | **2,69** | 0,6 – 1,1 | mg/dL | Azotemia akut berat (CrCl terhitung 18,01 mL/min) |
-| **Ureum Darah** | 58 | 15 – 45 | mg/dL | Azotemia ringan ec penurunan klirens ginjal |
-| **Hemoglobin (Hb)** | 12,4 | 12,0 – 15,0 | g/dL | Normal; tidak tampak anemia renal nyata |
-| **Leukosit** | 7.400 | 4.000 – 10.000 | /µL | Normal; menyingkirkan infeksi bakterial akut |
-| **SGOT / SGPT** | 22 / 26 | < 31 / < 32 | U/L | Fungsi integritas hepatoseluler dalam batas normal |
+| **HbA1c (29/05/2026)** | **9,1*** | 4,0 – 6,5 | % | TIDAK TERKONTROL; glukotoksisitas tinggi, indikasi mutlak insulin basal |
+| **GDS (27/04/2026)** | 164 | < 200 | mg/dL | Terkontrol sedang |
+| **GDS (29/05/2026)** | 252* | < 200 | mg/dL | Hiperglikemia postprandial meningkat |
+| **GDP (29/06/2026)** | 169* | 70 – 115 | mg/dL | Hiperglikemia puasa persisten |
+| **GD2PP (29/06/2026)** | 211* | < 140 | mg/dL | Ekskursi postprandial masif (dasar penambahan Acarbose) |
+| **GDS (04/07/2026 IGD)** | 244 – 308* | < 200 | mg/dL | Spike glukosa akut terinduksi stres trauma jatuh & nyeri |
+| **GDP (05/08/2026)** | 190* | 70 – 115 | mg/dL | GDP tetap tinggi pasca trauma |
+| **GDP (07/09/2026)** | 151* | 70 – 115 | mg/dL | Respon parsial pasca eskalasi terapi OHO |
+| **Kreatinin Serum (04/07)** | **2,69*** | 0,6 – 1,1 | mg/dL | CrCl 17,67 mL/min (Gangguan ginjal berat / AKI on CKD); order ulang 06/11 |
+| **Ureum Darah (04/07)** | 73* | 19 – 44 | mg/dL | Azotemia / retensi nitrogen pasca trauma dan stres akut |
+| **Hemoglobin (Hb)** | 10,1* | 13,2 – 17,3 | g/dL | Anemia ringan (Grade 1) ec penyakit kronis (CKD/DM) |
+| **Hematokrit (Hct)** | 30,0* | 40 – 52 | % | Menurun selaras dengan anemia |
+| **Trombosit** | 228.000 | 150.000 – 440.000 | /mm³ | Normal; fungsi hemostasis trombosit baik |
+| **Leukosit** | Normal | 4.380 – 10.600 | /mm³ | Tidak tampak tanda infeksi bakterial akut |
+| **SGOT / SGPT** | 29 / 20 | < 35 / < 45 | U/L | Fungsi hepatik sangat baik (aman untuk terapi Atorvastatin 20 mg) |
 
-![Tren Glukosa Rajal](guideline_evidence_rajal/rajal_glucose_trend.png)
-*Gambar 1.2: Grafik Tren Glukosa Darah Puasa (GDP) dan GD2PP Ny. Sri Wisraya Selama 6 Bulan Terakhir (PERKENI 2021 Hal. 45–50).*
+![Profil Glukosa Rajal](guideline_evidence_rajal/rajal_glucose_trend.png)
+*Gambar 1.2: Profil Glukosa Darah Ny. Sri Wisraya (HbA1c = 9,1% - Uncontrolled, GDS Spike 308 mg/dL).*
 
----
-
-## 1.5 Riwayat Radiologi & Insiden Trauma Jatuh
-1. **Foto Konvensional Pelvis AP (04/07/2026)**: Menunjukkan kalsifikasi vaskular pelvis dan osteofit minimal pada sendi koksa bilateral. Tidak tampak garis fraktur pelvis aktif.
-2. **CT-Scan Kepala Non-Kontras (04/07/2026)**: Cedera Kepala Ringan (CKR) disertai garis diskontinuitas korteks tulang linier pada os zygomaticum sinistra dan lamina papirasea os frontalis sinistra (*non-displaced linear fracture*). Tidak ditemukan perdarahan epidural (EDH) maupun subdural (SDH).
-3. **Analisis Farmakologis Terhadap Insiden Jatuh**: Pasien jatuh di kamar mandi akibat interaksi multifaktorial: (1) Hipoglikemia transien akibat dosis tinggi Glimepirid 6 mg/hari; (2) Efek sedasi sentral dan ataksia aditif dari interaksi Gabapentin 100 mg + Flunarizine 5 mg; (3) Defisit proprioseptif akibat neuropati diabetik; serta (4) Ketidakstabilan gaya berjalan akibat osteoarthritis genu bilateral.
-
----
-
-## 1.6 Profil Terapi Pengobatan Kronis 6 Bulan
-| Nama Obat | Dosis & Frekuensi | Rute | Indikasi Medis | Kategori Farmakologi |
-| :--- | :--- | :---: | :--- | :--- |
-| **Glimepirid** | 3 mg 2x1 tab (6 mg/hari) | Oral (ac) | DM Tipe 2 | Sulfonilurea Generasi 2 (Sekretagok) |
-| **Sitagliptin (Januvia)** | 100 mg 1x1 tab | Oral (dc) | DM Tipe 2 | Dipeptidyl Peptidase-4 (DPP-4) Inhibitor |
-| **Acarbose** | 100 mg 2x1 tab | Oral (dc suapan 1) | DM Tipe 2 Postprandial | Alpha-Glucosidase Inhibitor |
-| **Amlodipin** | 10 mg 1x1 tab | Oral (malam) | Hipertensi Esensial | Dihydropyridine Calcium Channel Blocker |
-| **Candesartan** | 16 mg 1x1 tab | Oral (pagi) | Hipertensi & Nefroproteksi | Angiotensin Receptor Blocker (ARB) |
-| **Atorvastatin** | 20 mg 1x1 tab | Oral (malam) | Dislipidemia Campuran | HMG-CoA Reductase Inhibitor |
-| **Gabapentin** | 100 mg 2x1 kapsul | Oral (malam) | Neuropati Diabetik | Antikonvulsan / Modulator Kanal Ca |
-| **Flunarizine** | 5 mg 1x1 tab | Oral (malam) | Profilaksis Vertigo | Antagonis Kalsium Serebral |
-| **Glukosamin** | 500 mg 1x1 tab | Oral (pc) | Osteoarthritis Genu | Kondroprotektor Kartilago Sendi |
-| **Flamar Gel** | 3-4 kali sehari oles | Topikal | Nyeri Sendi Lutut Akut | NSAID Topikal (Diklofenak 1%) |
+### Temuan Radiologi & Korelasi Klinis
+1. **Foto Pelvis AP (16/05/2026)**: Periarticular calcification hip dextra (Poli Saraf / LBP). Menunjukkan proses degeneratif osteofit panggul.
+2. **CT-Scan Kepala Non-Kontras (04/07/2026)**: Pembengkakan jaringan lunak daerah zygomaticum kiri s/d frontalis kiri disertai lesi hiperdens hematoma (HU: 69-75). Fraktur linier os zygomaticum kiri dan os frontalis kiri, hematosinus maksilaris kiri, sinusitis maksilaris kanan, ethmoidalis bilateral dan frontalis kanan. Tidak tampak perdarahan intrakranial (EDH/SDH (-)), lesi iskemik, maupun SOL.
 
 ---
 
-## 1.7 Evaluasi Kepatuhan Pasien: Kuesioner MMAS-8 (Morisky Scale)
-Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8-Item (MMAS-8) menghasilkan skor total **5,5 / 8,0** yang mengindikasikan **Tingkat Kepatuhan Sedang (Medium Adherence)**.
+## 1.5 Profil Pengobatan Kronis Pasien (April – Oktober 2026)
+| Nama Obat | Rute | Regimen Dosis | M1 (27/04) | M2 (29/05) | M3 (29/06) | M4 (05/08) | M5 (07/09) | M6 (07/10) | Tujuan Terapi & Evaluasi Dinamika |
+| :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Amlodipin 10 mg** | PO | 1x1 pagi | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Monoterapi gagal target <130/80; risiko edema |
+| **Flamar Gel** | Topikal | 2x sehari oles | ✓ | ✓ | ✓ | - | ✓ | ✓ | Lini 1 OA Genu; absorpsi sistemik <6%, aman ginjal |
+| **Gabapentin 100 mg** | PO | 1x1 malam | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Nyeri neuropati diabetik rutin |
+| **Glimepirid 4 mg** | PO | 1x1 ac pagi | ✓ | ✓ | - | - | - | - | Dosis awal dititrasi naik ke 6 mg/hari |
+| **Glimepirid 3 mg** | PO | 2x1 ac pagi-sore | - | - | ✓ | ✓ | ✓ | ✓ | Dosis 6 mg/hari. Overdosis geriatri & PIM Beers! |
+| **Glucosamine 500 mg** | PO | 1x1 pc | ✓ | ✓ | ✓ | - | ✓ | - | Kondroprotektif OA. Non-Fornas |
+| **Mecobalamin 500 mcg**| PO | 1x1 pc | ✓ | ✓ | ✓ | - | - | - | Neurotropik B12 aktif (dihentikan Agustus 2026) |
+| **Rosuvastatin 10 mg** | PO | 1x1 malam | ✓ | ✓ | ✓ | ✓ | ✓ | - | Statin rutin April–September 2026 |
+| **Meloxicam 7,5 mg** | PO | 2x1 lalu 1x1 | - | ✓ | ✓ | - | - | - | NSAID sistemik. Nefrotoksik & tumpulkan Amlodipin |
+| **Sitagliptin 100 mg** | PO | 1x1 malam/siang dc | - | ✓ | ✓ | ✓ | ✓ | ✓ | DPP-4i sejak Mei 2026; perlu reduksi bila eGFR < 45 |
+| **Acarbose 100 mg** | PO | 2x1 dc (suapan 1) | - | - | - | - | ✓ | ✓ | Ditambahkan September untuk GD2PP 211 mg/dL |
+| **Flunarizine 5 mg** | PO | 2x1 malam | - | - | - | - | ✓ | - | Antivertigo sentral. Batasi durasi maks 10 hari |
+| **Kalium Diklofenak 50**| PO | 2x1 pc | - | - | - | - | ✓ | - | NSAID eksaserbasi akut September 2026 |
+| **Atorvastatin 20 mg** | PO | 1x1 malam | - | - | - | - | - | ✓ | Diswitch dari Rosuvastatin Oktober 2026 (Sangat tepat) |
 
-| No | Butir Pertanyaan Kuesioner MMAS-8 | Jawaban Pasien | Skor | Analisis Rasionalitas & Perilaku Pasien |
+---
+
+## 1.6 Evaluasi Kepatuhan Pasien: Kuesioner MMAS-8 (Skor Total: 5.0 / 8.0 — Kepatuhan Rendah)
+Berdasarkan instrumen Morisky Medication Adherence Scale 8-Item (MMAS-8) yang baru dievaluasi oleh Tim Farmasi Klinis, didapatkan **Skor Total MMAS-8 = 5.0 / 8.0** yang menempatkan pasien pada kategori **KEPATUHAN RENDAH (Low Adherence, skor < 6.0)**.
+
+| No | Item Pertanyaan Kuesioner MMAS-8 | Jawaban | Skor | Faktor Perilaku & Rasional Klinis Pasien |
 | :-: | :--- | :---: | :---: | :--- |
-| 1 | Apakah Anda kadang-kadang lupa minum obat? | Ya | 0 | Pasien lupa akibat beban tablet terlalu banyak (polifarmasi 7–9 tab/hari) |
-| 2 | Dalam 2 minggu terakhir, apakah ada hari Anda tidak minum obat? | Ya | 0 | Kadang terlewat saat bepergian atau sibuk mengurus rumah tangga |
-| 3 | Apakah Anda pernah mengurangi atau berhenti minum obat tanpa memberi tahu dokter saat merasa kondisi memburuk? | Ya | 0 | Pasien sengaja menghentikan Amlodipin sendiri saat kedua pergelangan kaki bengkak |
-| 4 | Ketika bepergian keluar rumah, apakah Anda kadang lupa membawa obat? | Tidak | 1 | Pasien selalu berusaha membawa obat saat bepergian jauh |
-| 5 | Apakah Anda meminum semua obat Anda kemarin? | Ya | 1 | Kemarin seluruh obat diminum sesuai aturan |
-| 6 | Ketika Anda merasa gejala membaik atau sehat, apakah Anda kadang berhenti minum obat? | Tidak | 1 | Pasien memahami obat DM dan hipertensi adalah obat rutin jangka panjang |
-| 7 | Apakah Anda merasa tertekan atau terbebani dengan rencana pengobatan rutin setiap hari? | Ya | 0 | Pasien merasa stres dengan banyaknya variasi waktu minum obat (ac, dc, pc, malam) |
-| 8 | Seberapa sering Anda merasa kesulitan mengingat untuk meminum semua obat Anda? | Kadang-kadang | 0,5 | Skala Likert 5 poin: Kadang-kadang mendapat skor 0,5 poin |
+| 1 | Apakah Anda kadang-kadang lupa minum obat? | Ya | 0 | Pasien lupa akibat banyaknya jumlah obat (polifarmasi 7-9 tablet) |
+| 2 | Dalam 2 minggu terakhir, apakah ada hari Anda tidak minum obat? | Ya | 0 | Lupa pada hari-hari tertentu saat bepergian atau sibuk |
+| 3 | Apakah Anda pernah mengurangi/berhenti minum obat tanpa memberi tahu dokter saat merasa kondisi memburuk? | Tidak | 1 | **FAKTOR BAIK**: Pasien tidak pernah sengaja menghentikan obat saat kondisi memburuk |
+| 4 | Ketika bepergian keluar rumah, apakah Anda kadang lupa membawa obat? | Ya | 0 | Pasien terbukti lupa membawa obat pada kunjungan kontrol September 2026 |
+| 5 | Apakah Anda meminum semua obat Anda kemarin? | Ya | 1 | **FAKTOR BAIK**: Pasien patuh meminum seluruh regimen obat pada hari kemarin |
+| 6 | Ketika Anda merasa gejala membaik atau sehat, apakah Anda kadang berhenti minum obat? | Tidak | 1 | **FAKTOR BAIK**: Pasien menyadari obat DM & HT harus diminum rutin jangka panjang |
+| 7 | Apakah Anda merasa tertekan/terbebani dengan rencana pengobatan rutin setiap hari? | Tidak | 1 | **FAKTOR BAIK**: Pasien tidak merasa terganggu secara emosional dengan terapi |
+| 8 | Seberapa sering Anda merasa kesulitan mengingat untuk meminum semua obat Anda? | Tidak pernah / jarang | 1 | **FAKTOR BAIK**: Pasien menyatakan jarang kesulitan teknis mengingat jadwal |
+| **TOTAL**| **SKOR KEPATUHAN MMAS-8** | **-** | **5.0** | **KATEGORI: KEPATUHAN RENDAH (Low Adherence, Skor < 6.0)** |
 
 > [!TIP]
-> **INTERVENSI FARMASIS UNTUK MENINGKATKAN KEPATUHAN**
-> 1. **Pill Box Dispenser 4 Waktu**: Menyediakan kotak obat harian terbagi 4 kompartemen (Pagi, Siang, Sore, Malam) untuk mengeliminasi beban kognitif mengingat obat.
-> 2. **Visual Medication Chart**: Membuat tabel jadwal obat visual berwarna dengan gambar bentuk fisik obat dan waktu minum terkait makanan.
-> 3. **Edukasi Manajemen Efek Samping**: Menjelaskan kepada pasien bahwa efek bengkak kaki Amlodipin dapat diatasi melalui kombinasi dengan Candesartan dan penurunan dosis, sehingga pasien tidak menghentikan obat antihipertensi secara sepihak.
+> **SOLUSI & RENCANA INTERVENSI FARMASIS UNTUK MMAS-8 (SKOR 5.0)**
+> 1. **Pill Box Dispenser 4 Sekat Berlabel Warna**: Membantu pasien mengatur obat pagi, siang, sore, dan malam.
+> 2. **Visual Medication Chart**: Jadwal bergambar bentuk fisik tablet dan hubungan waktu dengan makanan.
+> 3. **Pengawas Minum Obat (PMO)**: Melibatkan keluarga terdekat untuk mengingatkan minum obat dan memastikan obat selalu dibawa saat bepergian.
 
 ![Kuesioner MMAS-8](guideline_evidence_rajal/mmas8_patient_adherence_morisky.png)
-*Gambar 1.3: Instrumen Kuesioner Morisky Medication Adherence Scale (MMAS-8) dan Algoritma Penilaian Kepatuhan (Morisky et al., 2008).*
+*Gambar 1.3: Instrumen Morisky Medication Adherence Scale (MMAS-8) dan Algoritma Skoring Kepatuhan.*
+
+---
+
+## 1.7 Evaluasi Kesesuaian Restriksi Formularium Nasional (Fornas) & Profil Efek Samping Terbanyak (Top 3)
+* **Kesesuaian Fornas**:
+  * **TIDAK SESUAI FORNAS**: Glimepirid 3 mg diresepkan 2x1 (60 tablet/bulan). Plafon Fornas menetapkan maksimal 30 tablet/bulan. Secara klinis dosis 6 mg/hari ini merupakan overdosis geriatri.
+  * **STATUS NON-FORNAS**: Glucosamine 500 mg berstatus suplemen nutrasetikal makanan sendi di luar jaminan paket standar JKN.
+  * **SESUAI FORNAS**: Sitagliptin (30 tab), Acarbose (60 tab), Amlodipin (30 tab), Atorvastatin (30 tab), Rosuvastatin (30 tab), Gabapentin (30 kap), Flamar Gel (1 tube), Meloxicam (10 tab prn), Diklofenak (10 tab prn), Flunarizine (10 tab prn), Mecobalamin (30 kap).
+
+| Nama Obat | Efek Samping Terbanyak (Top 3) dengan Persentase | Bukti Referensi Resmi |
+| :--- | :--- | :--- |
+| **Glimepirid** | 1. Hipoglikemia (10–18%)<br>2. Peningkatan Berat Badan (2–5%)<br>3. Pusing / Sakit Kepala (1,7–3,4%) | FDA Amaryl Insert & Lexicomp Online 2024 |
+| **Sitagliptin** | 1. Nasofaringitis (5,2%)<br>2. Sakit Kepala (5,1%)<br>3. Gangguan Gastrointestinal (1,5–3,0%) \| Waspada Pankreatitis (<1%) | FDA Januvia Package Insert & DailyMed |
+| **Acarbose** | 1. Flatulensi / Kembung Buang Angin (74–78%)<br>2. Diare (29–31%)<br>3. Nyeri Abdomen / Kram Perut (19–21%) | FDA Precose Monograph & Lexicomp |
+| **Amlodipin** | 1. Edema Perifer / Bengkak Kaki (1,8–10,8%)<br>2. Sakit Kepala (7,3%)<br>3. Kelelahan / Fatigue (4,5%) | FDA Norvasc Insert & DailyMed |
+| **Atorvastatin** | 1. Nasofaringitis (8,3%)<br>2. Artralgia / Nyeri Sendi (6,9%)<br>3. Dispepsia / Gangguan GI (5,6%) \| Mialgia (3,5–6,3%) | FDA Lipitor Package Insert & Lexicomp |
+| **Gabapentin** | 1. Mengantuk / Somnolence (19–21%)<br>2. Pusing Melayang / Dizziness (17–28%)<br>3. Ataksia / Gangguan Keseimbangan Jalan (11–13%) | FDA Neurontin & Micromedex DrugDex |
+| **Flunarizine** | 1. Peningkatan Berat Badan / Nafsu Makan (10–20%)<br>2. Mengantuk / Sedasi (10–15%)<br>3. Kelelahan / Depresi / Gejala Ekstrapiramidal (5–10%) | Sibelium Monograph & Martindale 38th Ed |
+| **NSAID Oral (Diklofenak / Meloxicam)** | 1. Dispepsia / Nyeri Epigastrik (10–15%)<br>2. Pusing / Sakit Kepala (3–9%)<br>3. Retensi Cairan & Peningkatan Tekanan Darah (1–3%) | FDA Cataflam / Mobic Insert |
+| **Flamar Gel (Diklofenak Topikal)** | 1. Pruritus / Gatal Lokal (4%)<br>2. Eritema / Kemerahan Kulit (2–2,5%)<br>3. Kulit Kering (1,5–2%) \| Absorpsi sistemik sangat minimal (<6%) | FDA Voltaren Topical Gel Package Insert |
 
 ---
 
 ## 1.8 Identifikasi & Analisis Mendalam Drug-Related Problems (DRP) Rawat Jalan
 
-### DRP 1: Penggunaan Glimepirid Dosis Tinggi (6 mg/hari) pada Geriatri & Penurunan Fungsi Ginjal
-* **Analisis Klinis**: Pasien berusia 64 tahun menerima Glimepirid 3 mg 2x1 (6 mg/hari). Glimepirid merupakan sulfonilurea kerja panjang (durasi aksi hingga 24 jam) yang dieliminasi 60% melalui ginjal. Pada penurunan klirens ginjal (CrCl 18,01 mL/min), terjadi akumulasi obat dan metabolit aktifnya, memicu risiko hipoglikemia berat memanjang (*prolonged neuroglycopenia*) yang memicu episode jatuh dan fraktur.
-* **Guideline Klinis**: 
-  1. *AGS Beers Criteria 2023 Update*: Sulfonilurea kerja panjang (Glimepirid, Glibenklamid) diklasifikasikan sebagai **Potentially Inappropriate Medications (PIM) kategori AVOID** pada geriatri karena risiko tinggi hipoglikemia mematikan.
-  2. *PERKENI 2021 (Hal. 36–39)*: Pada geriatri dan insufisiensi ginjal, dosis sulfonilurea harus dibatasi serendah mungkin (Glimepirid ≤ 2 mg/hari). Jika CrCl < 30 mL/min, beralih ke Glikuidon (30 mg 1–2x/hari) yang 95% diekskresi via empedu/feses, atau beralih ke insulin.
+### DRP 1: Overdosis Relatif Glimepirid (6 mg/hari) pada Geriatri & Penurunan Klirens Ginjal
+* **Analisis Klinis**: Glimepirid diresepkan 3 mg 2x1 (total 6 mg/hari). Glimepirid dieliminasi 60% via ginjal. Pada CrCl 17,67 mL/min, terjadi akumulasi obat dan metabolit aktifnya, memicu risiko hipoglikemia berat memanjang (*prolonged neuroglycopenia*) yang memicu episode jatuh dan fraktur. Peresepan 60 tablet/bulan juga melanggar plafon Fornas (maks 30 tablet/bulan).
+* **Guideline**: *AGS Beers Criteria 2023 Update* mengklasifikasikan Glimepirid sebagai **PIM kategori AVOID** pada geriatri. *PERKENI 2021 (Hal. 36–39)* membatasi dosis Glimepirid pada lansia maksimal $\le$ 2 mg/hari, atau diganti Glikuidon (30 mg 1–2x/hari) yang 95% diekskresi via empedu/feses.
 * **Rekomendasi Farmasis**: Turunkan dosis Glimepirid menjadi 2 mg 1x1 pagi, atau beralih ke Glikuidon 30 mg 1x1, serta lakukan inisiasi insulin basal.
 
 ![Glimepirid Geriatri Beers](guideline_evidence_rajal/perkeni_beers_glimepiride_elderly.png)
@@ -160,34 +189,29 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ### DRP 2: Kegagalan Regimen Triple OHO (HbA1c 9,1%) & Indikasi Inisiasi Terapi Insulin Basal
-* **Analisis Klinis**: Kombinasi 3 OHO (Glimepirid 6 mg + Sitagliptin 100 mg + Acarbose 200 mg) gagal mengontrol glikemik pasien (HbA1c tetap 9,1% dan GDP melonjak hingga 190 mg/dL). Hal ini membuktikan adanya deplesi progresif sel beta pankreas yang tidak lagi mampu merespon stimulasi sekretagok oral.
-* **Guideline Klinis**:
-  1. *PERKENI 2021 (Hal. 45–50)*: Pasien dengan HbA1c > 9% atau pasien yang belum mencapai target dengan kombinasi 2–3 OHO memiliki **INDIKASI MUTLAK** untuk inisiasi terapi **INSULIN BASAL**.
-  2. *DiPiro's Pharmacotherapy 12th Edition (2023) Chapter 57*: Inisiasi insulin basal analog (Insulin Glargine / Degludec) dengan dosis 10 Unit per hari atau 0,1–0,2 U/kgBB/hari pada malam hari, dititrasi 2 unit tiap 3 hari hingga mencapai target GDP 80–130 mg/dL.
-* **Rekomendasi Farmasis**: Inisiasi Insulin Glargine (Lantus) subkutan 1x10 Unit malam hari (pukul 21.00–22.00).
+* **Analisis Klinis**: Pasien menerima Glimepirid 6 mg + Sitagliptin 100 mg + Acarbose 200 mg, namun HbA1c tetap 9,1%*, GDP 190* mg/dL, dan GDS spike 308* mg/dL.
+* **Guideline**: *PERKENI 2021 (Hal. 45–50)* & *DiPiro's Pharmacotherapy 12th Ed (2023) Ch. 57*: Pasien dengan HbA1c > 9% yang gagal dengan kombinasi 2–3 OHO memiliki **INDIKASI MUTLAK** untuk inisiasi **INSULIN BASAL**.
+* **Rekomendasi Farmasis**: Inisiasi Insulin Glargine (*Lantus*) subkutan 1x10 Unit malam hari sebelum tidur (pukul 21.00–22.00), titrasi 2 unit tiap 3-4 hari hingga target GDP 80–130 mg/dL tercapai.
 
 ![Algoritma DM PERKENI](guideline_evidence_rajal/perkeni_2021_dm_algorithm.png)
 *Gambar 1.5: Algoritma Pengelolaan Glukosa DM Tipe 2 & Indikasi Inisiasi Insulin Basal (PERKENI 2021 Hal. 47–49).*
 
 ---
 
-### DRP 3: Kebutuhan Penyesuaian Dosis Ginjal Sitagliptin pada Penurunan Klirens Ginjal
-* **Analisis Klinis**: Sitagliptin (Januvia) diekskresi 79% dalam bentuk utuh melalui urin. Pada klirens ginjal pasien yang menurun drastis menjadi 18,01 mL/min (kreatinin 2,69 mg/dL), dosis penuh 100 mg 1x1 menyebabkan peningkatan area under curve (AUC) obat sebesar 4–5 kali lipat, memicu risiko hepatotoksisitas dan pankreatitis.
-* **Guideline Klinis (Lexicomp & FDA Package Insert)**:
-  * CrCl ≥ 45 mL/min: Dosis 100 mg 1x1 sehari.
-  * CrCl 30 hingga < 45 mL/min: Dosis diturunkan menjadi 50 mg 1x1 sehari.
-  * CrCl < 30 mL/min: Dosis **HARUS DITURUNKAN menjadi 25 mg 1x1 sehari**.
-* **Rekomendasi Farmasis**: Turunkan segera dosis Sitagliptin dari 100 mg menjadi 25 mg sekali sehari.
+### DRP 3: Kebutuhan Penyesuaian Dosis Ginjal Sitagliptin (CrCl 17,67 mL/min)
+* **Analisis Klinis**: Sitagliptin diekskresi 79% utuh melalui urin. Klirens ginjal pasien turun menjadi 17,67 mL/min (kreatinin 2,69* mg/dL pada 04/07/2026). Pemberian dosis penuh 100 mg 1x1 meningkatkan AUC sistemik 4–5 kali lipat.
+* **Guideline (Lexicomp & FDA)**: Pada CrCl < 30 mL/min, dosis Sitagliptin **HARUS DITURUNKAN menjadi 25 mg 1x1 sehari**.
+* **Rekomendasi Farmasis**: Evaluasi hasil lab kreatinin serial (order ulang 06/11/2026); bila eGFR 30–44 turunkan ke 50 mg, jika < 30 turunkan ke 25 mg 1x1 sehari.
 
 ![Penyesuaian Ginjal Sitagliptin](guideline_evidence_rajal/sitagliptin_renal_adjustment_lexicomp.png)
 *Gambar 1.6: Panduan Penyesuaian Dosis Ginjal Sitagliptin Berdasarkan Klirens Kreatinin (Lexicomp Drug Information 2024).*
 
 ---
 
-### DRP 4: Interaksi Obat NSAID Oral (Meloxicam & Kalium Diklofenak) terhadap Ginjal, Tekanan Darah, & Amlodipin
-* **Analisis Klinis**: Pemberian NSAID oral sistemik berulang (Meloxicam 7,5 mg, Kalium Diklofenak 50 mg 2x1, dan Asam Mefenamat 500 mg 3x1) menghambat sintesis prostaglandin renal (PGE2 & PGI2). Hambatan ini menyebabkan vasokonstriksi arteriol aferen glomerulus, memicu Acute Kidney Injury (lonjakan kreatinin 2,69 mg/dL), retensi natrium-air yang memicu spike tekanan darah (165/89 mmHg), serta menumpulkan efek vasodilatasi Amlodipin dan Candesartan (Lexicomp Rating C).
-* **Guideline Klinis**: *Indonesian Rheumatology Association (IRA 2021)* & *DiPiro 12th Ed Ch. 60*: Pada lansia dengan komorbid hipertensi, DM, dan gangguan ginjal, **NSAID oral sistemik HARUS DIHINDARI**. Terapi lini pertama adalah NSAID topikal (Flamar Gel / Diklofenak gel) dikombinasikan dengan Parasetamol oral prn dan Glukosamin 500 mg.
-* **Rekomendasi Farmasis**: Hentikan seluruh NSAID oral. Maksimalkan Flamar Gel topikal 3–4 kali sehari pada lutut dan Parasetamol 500 mg oral prn bila nyeri hebat.
+### DRP 4: Interaksi Obat NSAID Oral terhadap Ginjal, Tekanan Darah, & Amlodipin
+* **Analisis Klinis**: Pemberian NSAID oral (Meloxicam 7,5 mg dan Kalium Diklofenak 50 mg 2x1) menghambat sintesis prostaglandin renal PGE2/PGI2 $\rightarrow$ vasokonstriksi arteriol aferen $\rightarrow$ memicu AKI (kreatinin 2,69 mg/dL), retensi natrium-air yang memicu spike tekanan darah (165/89 mmHg), serta menumpulkan efek vasodilatasi Amlodipin (*Lexicomp Rating C*).
+* **Guideline**: *IRA 2021* & *DiPiro Ch. 60*: NSAID oral sistemik **HARUS DIHINDARI** pada geriatri komorbid kardio-renal. Terapi lini pertama adalah NSAID topikal (*Flamar Gel*) dan Parasetamol oral.
+* **Rekomendasi Farmasis**: Hentikan seluruh NSAID oral sistemik. Maksimalkan Flamar Gel topikal 2–4x/hari dan Parasetamol 500 mg prn bila nyeri hebat.
 
 ![Keamanan NSAID IRA](guideline_evidence_rajal/ira_nsaid_safety_osteoarthritis.png)
 *Gambar 1.7: Rekomendasi Keamanan Penggunaan NSAID pada Pasien Lansia dengan Komorbid Kardio-Renal (IRA 2021 Hal. 14–19).*
@@ -197,10 +221,10 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 
 ---
 
-### DRP 5: Interaksi Farmakodinamik Gabapentin + Flunarizine (Depresi SSP & Fall Risk Paska Fraktur Zygoma)
-* **Analisis Klinis**: Kombinasi Gabapentin 100 mg 2x1 dan Flunarizine 5 mg 1x1 malam menimbulkan depresi SSP aditif, memicu pusing berat, ataksia motorik, dan gangguan keseimbangan postural. Efek sedasi ini berkontribusi langsung pada insiden jatuh pasien di kamar mandi pada 04/07/2026 yang mengakibatkan CKR dan fraktur os zygoma sinistra.
-* **Guideline Klinis**: *AGS Beers Criteria 2023 Update* & *Lexicomp*: Kombinasi multipel depresan SSP pada lansia harus dihindari. Flunarizine memiliki waktu paruh sangat panjang (hingga 18 hari pada geriatri) dan harus dibatasi maksimal 7–10 hari pada fase akut vertigo. Gabapentin harus disesuaikan dengan klirens ginjal (100 mg 1x1 malam).
-* **Rekomendasi Farmasis**: Hentikan Flunarizine 5 mg (vertigo fase akut telah teratasi). Pertahankan Gabapentin 100 mg 1x1 malam untuk neuropati diabetik.
+### DRP 5: Interaksi Sedasi Gabapentin + Flunarizine & Risiko Jatuh Pasca Trauma
+* **Analisis Klinis**: Kombinasi Gabapentin 100 mg 1x1 malam dan Flunarizine 5 mg 2x1 menimbulkan depresi SSP aditif, memicu pusing berat, ataksia motorik, dan memperberat risiko jatuh pasca fraktur zygoma.
+* **Guideline**: *AGS Beers Criteria 2023 Update*: Hindari kombinasi $\ge$ 2 depresan SSP pada lansia. Flunarizine memiliki waktu paruh hingga 18 hari pada geriatri; batasi maksimal 7–10 hari pada vertigo akut lalu hentikan.
+* **Rekomendasi Farmasis**: Hentikan Flunarizine 5 mg (fase akut vertigo telah teratasi). Pertahankan Gabapentin 100 mg 1x1 malam untuk neuropati diabetik.
 
 ![Neuropati DiPiro](guideline_evidence/dipiro_diabetic_neuropathy_weight.png)
 *Gambar 1.9: Tatalaksana Neuropati Diabetik & Penyesuaian Dosis Gabapentin pada Geriatri (DiPiro 12th Ed Ch. 57 & 58).*
@@ -208,24 +232,14 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ### DRP 6: Drug-Food Interaction & Edukasi Khusus Acarbose 100 mg
-* **Analisis Klinis**: Acarbose bekerja menghambat enzim alfa-glukosidase di mukosa usus halus. Acarbose **hanya efektif jika diminum bersama suapan pertama makanan utama**. Pasien sering meminumnya sebelum makan jauh atau setelah makan. Selain itu, jika terjadi hipoglikemia akibat kombinasi Glimepirid + Acarbose, gula pasir biasa (sukrosa) tidak akan efektif diserap. Pasien wajib diedukasi untuk mengonsumsi **dekstrosa murni / madu murni** untuk penanganan darurat hipoglikemia.
+* **Analisis Klinis**: Acarbose wajib diminum **bersama suapan pertama makanan utama**. Bila terjadi hipoglikemia akibat kombinasi dengan Glimepirid, gula pasir biasa (sukrosa) tidak akan diserap karena alfa-glukosidase dihambat Acarbose. Pasien wajib diedukasi menyediakan **dekstrosa murni / madu murni**.
 
 ---
 
-### DRP 7: Evaluasi Adverse Drug Reaction (ADR): Edema Perifer Amlodipin, Algoritma Naranjo (Skor 6 - Probable), dan Strategi Terapi Kombinasi ARB
-* **Analisis Klinis**: Pasien mengalami pembengkakan kedua pergelangan kaki (*bilateral peripheral ankle edema*) setelah pemakaian Amlodipin 10 mg selama 2 bulan. Amlodipin mendilatasi arteriol prekapiler secara selektif tanpa mendilatasi venul postkapiler, memicu ekstravasasi transudat plasma ke jaringan interstisial pergelangan kaki.
-* **Skoring Algoritma Naranjo**:
-  * Efek samping dilaporkan sebelumnya (+1)
-  * Terjadi pasca pemberian Amlodipin (+2)
-  * Membaik saat Amlodipin dihentikan (+1)
-  * Muncul kembali saat obat diminum ulang (+2)
-  * Tidak ada penyebab alternatif lain (0)
-  * Konfirmasi bukti objektif (+1)
-  * **TOTAL SKOR NARANJO = +6 (PROBABLE ADVERSE DRUG REACTION)**.
-* **Tatalaksana Berbasis Literatur (Skovbjerg et al., 2023; Shetty et al., 2016; Tolla et al., 2026)**:
-  1. Turunkan dosis Amlodipin dari 10 mg menjadi 5 mg sekali sehari (menurunkan kejadian edema dari 10,7% menjadi 2,8%).
-  2. Pindahkan waktu minum ke malam hari sebelum tidur (*bedtime dosing*).
-  3. Kombinasikan secara sinergis dengan ARB (Candesartan 16 mg 1x1). Candesartan mendilatasi venul postkapiler, menormalkan gradien tekanan hidrostatik kapiler, dan melenyapkan edema tanpa memerlukan diuretik loop.
+### DRP 7: Evaluasi Adverse Drug Reaction (ADR): Edema Perifer Amlodipin (Naranjo Skor 6) & Solusi ARB
+* **Mekanisme**: Amlodipin memicu vasodilatasi arteriol prekapiler tanpa disertai venodilatasi postkapiler, meningkatkan gradien tekanan hidrostatik kapiler dan memicu transudasi cairan ke pergelangan kaki.
+* **Skor Naranjo**: +6 (*Probable Adverse Drug Reaction*).
+* **Tatalaksana (Skovbjerg et al., 2023; Shetty et al., 2016)**: Turunkan dosis Amlodipin dari 10 mg menjadi 5 mg malam hari dan kombinasikan dengan ARB Candesartan 8–16 mg 1x1. ARB mendilatasi venul postkapiler, menyeimbangkan tekanan intrakapiler, dan melenyapkan edema tanpa diuretik loop.
 
 ![Naranjo Amlodipin](guideline_evidence/naranjo_amlodipine_edema.png)
 *Gambar 1.10: Penilaian Algoritma Naranjo Adverse Drug Reaction: Edema Perifer Terinduksi Amlodipin (Skor 6 - Probable).*
@@ -235,22 +249,23 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 
 ---
 
-### DRP 8: Evaluasi Kepatuhan Formularium Nasional (Fornas) & Rasionalitas Switch Statin
-* **Analisis Regulasi & Farmakokinetik**: Switch dari Rosuvastatin 20 mg ke Atorvastatin 20 mg pada 10/06/2026 sangat rasional. Berdasarkan Kepmenkes RI HK.01.07/MENKES/6485/2021 (Fornas), Rosuvastatin memiliki restriksi restriktif untuk FKRTL. Dari aspek eliminasi obat, Atorvastatin dieliminasi > 98% melalui jalur hepatobilier/empedu (ekskresi ginjal < 2%), sehingga jauh lebih aman pada pasien yang mengalami fluktuasi fungsi ginjal (CrCl 18 mL/min) dibandingkan Rosuvastatin yang memiliki klirens ginjal 10%.
+### DRP 8: Kepatuhan Formularium Nasional (Fornas) & Switch Statin (Rosuvastatin ke Atorvastatin)
+* **Analisis**: Switch dari Rosuvastatin 10 mg ke Atorvastatin 20 mg pada Oktober 2026 (M6) sangat rasional. Atorvastatin dieliminasi > 98% via hepatobilier/empedu (ekskresi ginjal < 2%), sehingga sangat aman pada gangguan ginjal pasien (CrCl 17,67 mL/min) dibandingkan Rosuvastatin (eliminasi ginjal 10%), serta bebas dari restriksi ketat Fornas FKRTL.
 
 ![Dislipidemia PERKI](guideline_evidence_rajal/perhi_perki_hypertension_dyslipidemia.png)
 *Gambar 1.12: Panduan Terapi Dislipidemia & Evaluasi Statin pada Pasien Risiko Tinggi (PERKI 2022 Hal. 25–30).*
 
 ---
 
-## 1.9 Dokumentasi Asuhan Kefarmasian (SOAP) Rawat Jalan Lengkap
-| Problem Medis | Subjektif (S) & Objektif (O) | Asesmen Farmasis (A) | Rencana Asuhan & Intervensi Farmasis (P) |
-| :--- | :--- | :--- | :--- |
-| **DM Tipe 2 Tak Terkontrol** | **S**: Kesemutan telapak kaki, badan lemas, lapar malam hari.<br>**O**: HbA1c 9,1%, GDP 190 mg/dL, GD2PP 245 mg/dL. Terapi: Glimepirid 6 mg, Sitagliptin 100 mg, Acarbose 200 mg. | Kegagalan terapi 3 OHO oral. Glimepirid 6 mg over-dosis geriatri (PIM Beers). Sitagliptin belum disesuaikan ginjal. Indikasi mutlak inisiasi insulin basal (PERKENI 2021). | 1. Inisiasi Insulin Glargine (Lantus) SC 1x10 Unit malam.<br>2. Turunkan Glimepirid ke 2 mg 1x1 pagi atau ganti Glikuidon 30 mg 1x1.<br>3. Turunkan Sitagliptin ke 25 mg 1x1.<br>4. Acarbose 100 mg dc suapan pertama.<br>5. Target GDP 80–130 mg/dL. |
-| **Hipertensi & Edema Amlodipin** | **S**: Bengkak kedua pergelangan kaki, pusing melayang.<br>**O**: TD 165/89 mmHg (spike). Terapi: Amlodipin 10 mg, Candesartan 16 mg. | Edema perifer terinduksi Amlodipin (Naranjo 6 - Probable). Lonjakan TD dipicu interaksi NSAID oral pasca trauma. | 1. Turunkan Amlodipin ke 5 mg 1x1 malam.<br>2. Lanjutkan Candesartan 16 mg 1x1 pagi (venodilator pelenyap edema).<br>3. Hentikan NSAID oral sistemik.<br>4. Target TD < 140/90 mmHg. |
-| **Osteoarthritis & Penurunan Klirens Ginjal** | **S**: Nyeri dan kaku kedua lutut (VAS 6).<br>**O**: Kreatinin melonjak 2,69 mg/dL (CrCl 18 mL/min), Ureum 58 mg/dL. Terapi: Kalium Diklofenak 50 mg 2x1, Meloxicam. | Acute Kidney Injury superimposed on CKD terinduksi NSAID oral sistemik. PIM Beers Criteria. | 1. Hentikan total NSAID oral sistemik.<br>2. Berikan Flamar Gel topikal 3–4x/hari oles lutut.<br>3. Parasetamol 500 mg oral prn bila nyeri hebat.<br>4. Glukosamin 500 mg 1x1 oral.<br>5. Rehidrasi cairan dan re-evaluasi lab 2 minggu. |
-| **Neuropati & Vertigo / Fall Risk** | **S**: Kesemutan kaki, pusing berputar, riwayat jatuh di kamar mandi.<br>**O**: Pasca CKR + fraktur os zygoma sinistra. Terapi: Gabapentin 100 mg 2x1, Flunarizine 5 mg 1x1. | Interaksi farmakodinamik aditif depresi SSP antara Gabapentin dan Flunarizine memicu ataksia dan jatuh. | 1. Hentikan Flunarizine (vertigo fase akut telah teratasi).<br>2. Gabapentin disesuaikan ginjal 100 mg 1x1 malam.<br>3. Edukasi protokol pencegahan jatuh di rumah. |
-| **Kepatuhan Pasien** | **S**: Bingung jadwal minum banyak obat, sengaja stop Amlodipin saat bengkak.<br>**O**: Skor MMAS-8 = 5,5 (Kepatuhan Sedang). | Polifarmasi (7–9 tablet) dan pemahaman cara minum obat kurang. | 1. Berikan Pill Box Organizer 4 kompartemen.<br>2. Berikan jadwal obat visual berbasis warna.<br>3. Edukasi keluarga untuk mendampingi kepatuhan. |
+## 1.9 Rencana Asuhan Kefarmasian (Care Plan) & Rekomendasi Monitoring Rajal
+| Masalah Medis | Drug Related Problem (DRP) | Rekomendasi Farmasis | Parameter Monitoring | Status Rekomendasi |
+| :--- | :--- | :--- | :--- | :---: |
+| **DM Tipe 2 Tak Terkontrol (HbA1c 9,1%)** | Kegagalan kombinasi 3 OHO oral (Glimepirid + Sitagliptin + Acarbose) | Inisiasi Insulin Basal (Glargine 10 unit malam hari) & titrasi berkala 2 unit tiap 3-4 hari | GDP pagi (target 80-130 mg/dL), HbA1c per 3 bulan | **Disetujui (✓)** |
+| **Dosis Glimepirid Geriatri** | Overdosis relatif Glimepirid 6 mg/hari pada geriatri 64 th dengan klirens ginjal turun (PIM Beers & melanggar Fornas) | Turunkan dosis Glimepirid menjadi 2 mg 1x1 pagi (atau ganti Glikuidon 30 mg / stop saat insulin mulai) | GDS mandiri, tanda hipoglikemia akut | **Disetujui (✓)** |
+| **Gangguan Ginjal (CrCl 17,67 mL/min)** | Potensi akumulasi Sitagliptin 100 mg bila eGFR pasien < 45 mL/min | Evaluasi hasil lab kreatinin ulang 06/11/2026; bila eGFR 30-44 turunkan ke 50 mg, jika <30 ke 25 mg 1x1 | Serum kreatinin, eGFR, gejala GI / pankreatitis | **Disetujui (✓)** |
+| **Hipertensi Sub-optimal (TD 133-165)** | Monoterapi Amlodipin 10 mg gagal target <130/80 & interaksi dengan NSAID oral | Hentikan NSAID oral sistemik; kombinasikan Amlodipin 5 mg + Candesartan 8-16 mg 1x1 malam | Tekanan darah berkala (target <130/80 mmHg), kalium | **Disetujui (✓)** |
+| **Osteoarthritis & Risiko Jatuh Geriatri** | NSAID oral nefrotoksik & interaksi sedasi Gabapentin + Flunarizine | Maksimalkan Flamar Gel topikal 2-4x/hari, Parasetamol oral prn; batasi Flunarizine maks 10 hari; edukasi fall prevention | Skor nyeri lutut, stabilitas jalan, fungsi ginjal | **Disetujui (✓)** |
+| **Kepatuhan Pasien (MMAS-8 Skor 5.0)** | Kategori: Kepatuhan Rendah (< 6.0) ec lupa berkala & polifarmasi 7-9 tablet | Sediakan Pill-Box Organizer harian 4 sekat berlabel warna, jadwal minum obat bergambar, libatkan PMO keluarga | Evaluasi ulang skor MMAS-8 kunjungan berikutnya | **Disetujui (✓)** |
 
 ---
 
@@ -273,7 +288,7 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ## 2.2 Riwayat Masuk Rumah Sakit & Keluhan Utama: Mual dan Muntah karena Dispepsia
-* **Kronologi IGD**: Pasien dibawa ke IGD RS PKU Muhammadiyah Bantul pada 18 Oktober 2026 pukul 09.30 WIB dengan keluhan utama **mual hebat dan muntah profuse (frekuensi > 6 kali dalam 24 jam terakhir)**. Muntahan berisi cairan keruh bercampur lendir lambung dan sisa makanan, tanpa darah (hematemesis (-)) dan BAB hitam (-). Pasien mengeluhkan rasa perih menusuk dan terbakar pada ulu hati (epigastrium), perut kembung begah (*postprandial fullness*), cepat kenyang (*early satiation*), rasa asam naik ke kerongkongan (*heartburn*), dan badan terasa sangat lemas tak berdaya. Pasien sama sekali tidak dapat mentoleransi makanan maupun minuman per oral selama 18 jam terakhir.
+* **Kronologi IGD**: Pasien datang pada 18 Oktober 2026 pukul 09.30 WIB dengan keluhan utama **mual hebat dan muntah profuse (frekuensi > 6 kali dalam 24 jam terakhir)**. Muntahan berisi cairan keruh bercampur lendir lambung dan sisa makanan, tanpa darah (hematemesis (-)) dan BAB hitam (-). Pasien mengeluhkan rasa perih menusuk dan terbakar pada ulu hati (epigastrium), perut kembung begah (*postprandial fullness*), cepat kenyang (*early satiation*), rasa asam naik ke kerongkongan (*heartburn*), dan badan terasa sangat lemas tak berdaya. Pasien sama sekali tidak dapat mentoleransi makanan maupun minuman per oral selama 18 jam terakhir.
 * **Riwayat Obat Rumah (Home Medications)**: Pasien memiliki riwayat DM Tipe 2 selama 6 tahun dengan terapi rutin Metformin 500 mg 3x1 tablet dan Glimepirid 2 mg 1x1 tablet pagi, serta riwayat hipertensi rutin Amlodipin 10 mg 1x1 tablet malam. Namun, dalam 2 hari sebelum masuk RS, seluruh obat oral tidak dapat diminum karena langsung dimuntahkan kembali.
 
 ---
@@ -338,10 +353,12 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ## 2.6 Identifikasi & Analisis Mendalam Drug-Related Problems (DRP) Rawat Inap
 
 ### DRP 1: Duplikasi Terapi Prokinetik D2 (Metoclopramide IV + Domperidone Oral) — Risiko Berat Ekstrapiramidal (EPS) & Perpanjangan Interval QTc
-* **Analisis Klinis**: Pasien diresepkan Inj. Metoclopramide 10 mg IV tiap 8 jam bersamaan dengan Domperidone 10 mg 3x1 oral. Keduanya merupakan antagonis reseptor dopamin D2. Metoclopramide menembus sawar darah otak secara masif, sedangkan Domperidone bekerja di CTZ area postrema.
-* **Bahaya Toksisitas Kombinasi Ganda**: Kombinasi ini TIDAK meningkatkan efikasi antiemetik, melainkan melipatgandakan risiko efek samping fatal: (1) Gejala Ekstrapiramidal Akut (EPS): distonia leher, krisis okulogirik, akatisia motorik, dan parkinsonisme sekunder pada geriatri; (2) Kardiotoksisitas: keduanya memblokade kanal kalium jantung IKr, memperpanjang repolarisasi ventrikel (*prolonged QTc interval*), dan berisiko memicu aritmia ventrikel Torsades de Pointes (TdP).
-* **Klasifikasi Interaksi**: **Lexicomp Risk Rating: Category D / X (Avoid Combination / Consider Therapy Modification)**.
-* **Rekomendasi Farmasis**: Hentikan salah satu obat. Pada fase akut dengan muntah aktif, gunakan **INJEKSI METOCLOPRAMIDE 10 mg IV tunggal (atau 5 mg pada geriatri)** dan **HENTIKAN DOMPERIDONE ORAL**. Jika muntah masih berlanjut, kombinasikan dengan antiemetik mekanisme berbeda: **INJEKSI ONDANSETRON 4 mg IV** (Antagonis Serotonin 5-HT3) yang bekerja sinergis tanpa risiko EPS.
+* **Analisis Klinis**: Pasien menerima Inj. Metoclopramide 10 mg IV tiap 8 jam bersamaan dengan Domperidone 10 mg 3x1 oral. Keduanya merupakan antagonis reseptor dopamin D2.
+* **Bahaya Toksisitas Kombinasi Ganda**: Kombinasi ini TIDAK meningkatkan efikasi antiemetik, melainkan melipatgandakan risiko efek samping fatal:
+  1. *Gejala Ekstrapiramidal Akut (EPS)*: Distonia leher, krisis okulogirik, akatisia motorik, dan parkinsonisme sekunder pada geriatri.
+  2. *Kardiotoksisitas QTc Prolongation*: Keduanya memblokade kanal kalium IKr jantung, memperpanjang repolarisasi ventrikel, dan memicu aritmia fatal *Torsades de Pointes* (TdP).
+* **Klasifikasi Interaksi**: **Lexicomp Risk Rating: Category D / X (Avoid Combination)**.
+* **Rekomendasi Farmasis**: Hentikan salah satu obat. Pada fase akut dengan muntah aktif, pertahankan **INJEKSI METOCLOPRAMIDE 10 mg IV (atau 5 mg pada geriatri)** dan **HENTIKAN DOMPERIDONE ORAL**. Jika muntah berlanjut, kombinasikan dengan **INJEKSI ONDANSETRON 4 mg IV** (Antagonis Serotonin 5-HT3) yang bekerja sinergis tanpa risiko EPS.
 
 ![Duplikasi Prokinetik Lexicomp](guideline_evidence/drug_interaction_gavistal_domperidone.png)
 *Gambar 2.3: Analisis Interaksi Mayor Duplikasi Prokinetik Dopamin D2 (Metoclopramide + Domperidone) — Lexicomp Risk Rating D/X.*
@@ -352,9 +369,8 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ### DRP 2: Penyesuaian Dosis Ginjal Metoclopramide pada Pasien Geriatri
-* **Analisis Klinis**: Sekitar 80% Metoclopramide dieliminasi via ginjal. Pada pasien geriatri usia 62 tahun 10 bulan dengan laju filtrasi ginjal yang rentan terhadap dehidrasi vomitus, pemberian dosis penuh 10 mg IV tiap 8 jam (30 mg/hari) memicu akumulasi obat sentral.
-* **Guideline Klinis (Lexicomp Geriatric & Micromedex)**: Pada lansia atau pasien dengan penurunan filtrasi ginjal (CrCl < 60 mL/min), dosis Metoclopramide sebaiknya **diturunkan 50% menjadi 5 mg IV tiap 8 jam atau 10 mg IV tiap 12 jam**, dan durasi dibatasi maksimal 5 hari parenteral.
-* **Rekomendasi Farmasis**: Turunkan dosis injeksi Metoclopramide menjadi 5 mg IV tiap 8 jam, pantau manifestasi gejala ekstrapiramidal, dan segera hentikan begitu pasien mampu mentoleransi asupan oral.
+* **Analisis Klinis**: Sekitar 80% Metoclopramide dieliminasi via ginjal. Pada lansia berusia 62 tahun 10 bulan dengan laju filtrasi ginjal yang rentan terhadap dehidrasi, dosis penuh 30 mg/hari IV memicu akumulasi obat sentral.
+* **Guideline Klinis (Lexicomp Geriatric & Micromedex)**: Pada lansia atau gangguan fungsi ginjal (CrCl < 60 mL/min), dosis Metoclopramide sebaiknya **diturunkan 50% menjadi 5 mg IV tiap 8 jam atau 10 mg IV tiap 12 jam**, dan durasi dibatasi maksimal 5 hari parenteral.
 
 ![Penyesuaian Ginjal Metoclopramide](guideline_evidence/lexicomp_metoclopramide_renal.png)
 *Gambar 2.5: Panduan Penyesuaian Dosis Ginjal & Geriatri Metoclopramide (Lexicomp Drug Information 2024).*
@@ -362,24 +378,20 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ### DRP 3: Tatalaksana Komprehensif Mual Muntah karena Dispepsia (Konsensus Nasional PGI 2021/2024 & DiPiro 12th Ed Ch. 41-42)
-* **Analisis Klinis**: Dispepsia pada Ny. Sunarti bermanifestasi sebagai dispepsia fungsional / gastroparesis diabetik dengan gangguan akomodasi lambung dan perlambatan pengosongan gaster.
-* **Strategi Terapi Berdasarkan Guideline**:
-  1. *Supresi Asam Lambung*: Pemberian Inj. Omeprazole 40 mg IV sekali sehari secara poten menghambat pompa asam H+/K+-ATPase sel parietal, menaikkan pH lambung > 4, meredakan nyeri ulu hati panas terbakar (*heartburn*), dan memulihkan integritas sawar mukosa gaster (Konsensus PGI Hal. 12–16).
-  2. *Mukoprotektor Lambung*: Sucralfate sirup 1 g (15 mL) 3 kali sehari dalam lambung kosong membentuk lapisan gel pelindung pada mukosa lambung yang terinflamasi dan menstimulasi sekresi prostaglandin endogen.
-  3. *Antiemetik Rasional*: Kombinasi prokinetik parenteral tunggal untuk merangsang motilitas lambung ke arah duodenum dan rescue therapy Ondansetron 4 mg IV (antagonis 5-HT3) untuk memblokade jaras refleks muntah vagal di pusat muntah medula oblongata (DiPiro 12th Ed Ch. 41 & 42).
+1. *Supresi Asam Lambung*: Inj. Omeprazole 40 mg IV / 24 jam vial (PPI) menghambat pompa asam H+/K+-ATPase sel parietal secara poten, menaikkan pH lambung > 4, meredakan nyeri ulu hati panas terbakar (*heartburn*), dan memulihkan integritas sawar mukosa gaster (*Konsensus PGI Hal. 12–16*).
+2. *Mukoprotektor Lambung*: Sucralfate sirup 1 g (15 mL) 3 kali sehari dalam lambung kosong membentuk gel pelindung pada mukosa gaster dan merangsang prostaglandin endogen.
+3. *Antiemetik Rasional*: Metoclopramide parenteral monoterapi untuk mempercepat pengosongan lambung ke duodenum, didukung Ondansetron 4 mg IV prn untuk memblokade jaras muntah di medula oblongata (*DiPiro 12th Ed Ch. 41 & 42*).
 
 ---
 
 ### DRP 4: Tatalaksana Hiperglikemia Akut Rawat Inap (GDS 357 mg/dL) — Penghentian OHO Oral, Inisiasi Regimen Insulin Basal-Bolus Target 140–180 mg/dL
-* **Analisis Klinis**: Pasien masuk dengan krisis hiperglikemia (GDS 357 mg/dL). Pasien memiliki riwayat penggunaan OHO rumah (Metformin 500 mg 3x1 dan Glimepirid 2 mg 1x1).
-* **Guideline Klinis**:
-  1. *PERKENI 2021 (Hal. 98–101) & ADA Standards of Care 2024 Section 16 (Hal. S278–S282)*: Pada pasien DM rawat inap non-ICU:
-     * **METFORMIN HARUS SEGERA DIHENTIKAN** sementara karena risiko fatal Asidosis Laktat akibat dehidrasi dan hipovolemia.
-     * **SULFONILUREA (Glimepirid) HARUS DIHENTIKAN** sementara karena masa kerja panjang dan risiko tinggi hipoglikemia berat saat intake oral tidak menentu akibat muntah.
-  2. *Standar Emas Terapi Insulin Basal-Bolus*:
-     * **Insulin Basal (Lantus / Glargine)**: Mengontrol glukoneogenesis hepatik basal 24 jam. Diberikan 1x10 Unit malam hari.
-     * **Insulin Bolus Prandial (Novorapid / Aspart)**: Mengontrol ekskursi glukosa pasca makan. Diberikan 3x6–8 Unit segera sebelum makan.
-  3. *Target Glikemik Rawat Inap*: **140 – 180 mg/dL (7,8 – 10,0 mmol/L)**. Target < 110 mg/dL TIDAK DIREKOMENDASIKAN karena meningkatkan mortalitas akibat hipoglikemia berat (NICE-SUGAR trial), sedangkan target > 180 mg/dL meningkatkan risiko infeksi dan glukosuria osmotik.
+* **Penghentian Mutlak OHO Oral**: Sesuai *PERKENI 2021 (Hal. 98–101)* dan *ADA Standards of Care 2024 Section 16 (Hal. S278–S282)*:
+  * **METFORMIN HARUS SEGERA DIHENTIKAN** karena risiko fatal Asidosis Laktat akibat dehidrasi.
+  * **SULFONILUREA (Glimepirid) HARUS DIHENTIKAN** karena risiko hipoglikemia berat saat intake oral tidak menentu.
+* **Regimen Insulin Basal-Bolus**:
+  * *Insulin Basal (Lantus / Glargine)*: 1x10 Unit malam hari jam 22.00 untuk kontrol glukosa basal 24 jam.
+  * *Insulin Bolus Prandial (Novorapid / Aspart)*: 3x6–8 Unit subkutan segera sebelum makan.
+* **Target Glikemik Rawat Inap**: **140 – 180 mg/dL (7,8 – 10,0 mmol/L)**. Target ketat < 110 mg/dL tidak direkomendasikan karena meningkatkan mortalitas akibat hipoglikemia berat (NICE-SUGAR trial).
 
 ![Panduan Inpatient PERKENI](guideline_evidence/perkeni_inpatient_guideline.png)
 *Gambar 2.6: Pedoman Pengelolaan Hiperglikemia Pasien Rawat Inap Rumah Sakit Non-ICU (PERKENI 2021 Hal. 98–101).*
@@ -390,19 +402,15 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ### DRP 5: Rekonsiliasi Terapi Antihipertensi Rawat Inap (Amlodipin 10 mg)
-* **Analisis Klinis**: Pasien memiliki riwayat hipertensi rutin Amlodipin 10 mg malam di rumah. Pada 24 jam pertama rawat inap saat muntah masih profuse, obat oral ditunda sementara untuk menghindari keluarnya obat melalui muntah. Memasuki Hari Rawat ke-2 saat keluhan mual muntah teratasi dan pasien mulai toleransi diet oral, **Amlodipin 10 mg 1x1 malam SEGERA DIREKONSILIASI dan diberikan kembali per oral** sesuai panduan PERHI 2021 dan ACC/AHA 2023 untuk mencegah *rebound hypertension*.
+Pasien rutin mengonsumsi Amlodipin 10 mg malam di rumah. Pada 24 jam pertama saat muntah profuse, obat oral ditunda. Memasuki Hari Rawat ke-2 saat keluhan mual mereda dan diet oral masuk, **Amlodipin 10 mg 1x1 malam segera direkonsiliasi dan diberikan kembali per oral** sesuai panduan PERHI 2021 dan ACC/AHA 2023 untuk mencegah *rebound hypertension*.
 
 ![Rekonsiliasi Hipertensi PERHI](guideline_evidence/perhi_acc_aha_hypertension_reconciliation.png)
 *Gambar 2.8: Protokol Rekonsiliasi Terapi Antihipertensi Rawat Inap (Konsensus PERHI 2021 & ACC/AHA 2023).*
 
 ---
 
-### DRP 6: Rehidrasi Cairan Kristaloid Isotonik & Koreksi Elektrolit Hiponatremia dan Hipokloremia Akibat Vomitus Profuse
-* **Analisis Klinis**: Muntah profuse > 6 kali mengakibatkan defisit volume cairan ekstraseluler dan pengeluaran masif ion natrium dan klorida lambung, menghasilkan kadar Na 131 mmol/L dan Cl 96 mmol/L.
-* **Guideline Klinis (WHO & DiPiro 12th Ed Ch. 38)**:
-  * Cairan kristaloid isotonik terpilih adalah **INFUS NaCl 0,9% (Normal Saline)** yang mengandung Na+ 154 mEq/L dan Cl- 154 mEq/L (308 mOsm/L). Cairan ini mengembalikan perfusi renal dan mengoreksi defisit elektrolit secara fisiologis.
-  * Kecepatan infus 20 tetes/menit (makro ~1.500 mL/24 jam) aman bagi geriatri, mencegah kelebihan beban cairan (*fluid overload*) dan sindrom demielinisasi osmotik (*osmotic demyelination syndrome*).
-  * Terbukti pada Hari ke-3, elektrolit terkoreksi sempurna: Na 137 mmol/L dan Cl 101 mmol/L.
+### DRP 6: Rehidrasi Cairan Kristaloid Isotonik NaCl 0,9% untuk Koreksi Hiponatremia & Hipokloremia
+Muntah profuse > 6 kali mengakibatkan defisit volume cairan dan kehilangan ion natrium dan klorida lambung (Na 131 mmol/L, Cl 96 mmol/L). Cairan kristaloid isotonik pilihan utama adalah **Infus NaCl 0,9% (Normal Saline)** dengan kecepatan 20 tetes/menit (1.500 mL/24 jam), yang aman bagi geriatri dan mencegah komplikasi kelebihan cairan maupun *osmotic demyelination syndrome*. Terbukti pada Hari ke-3 elektrolit terkoreksi normal (Na 137, Cl 101).
 
 ![Rehidrasi Muntah DiPiro](guideline_evidence/vomitus_rehydration_guideline.png)
 *Gambar 2.9: Panduan Terapi Rehidrasi Cairan & Koreksi Gangguan Elektrolit pada Pasien Mual-Muntah Akut (DiPiro 12th Ed Ch. 38).*
@@ -410,9 +418,7 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ### DRP 7: Evaluasi Penggunaan Obat Geriatri Berdasarkan AGS Beers Criteria 2023
-* **Analisis Klinis**: Evaluasi daftar terapi geriatri Ny. Sunarti (62 tahun 10 bulan) berdasarkan kriteria AGS Beers Criteria 2023:
-  1. *Metoclopramide*: Penggunaan jangka panjang (> 12 minggu) dikontraindikasikan pada lansia karena risiko diskinesia tardif ireversibel. Durasi penggunaan parenteral dibatasi hanya 3 hari selama rawat inap akut.
-  2. *Insulin Analog (Novorapid & Lantus)*: Sangat tepat dan direkomendasikan pada geriatri rawat inap karena profil kerja yang stabil, waktu paruh terprediksi, dan menurunkan insidensi hipoglikemia nokturnal berat secara signifikan dibandingkan insulin reguler/NPH manusiawi.
+Penggunaan Metoclopramide jangka panjang dikontraindikasikan pada lansia (> 12 minggu berisiko diskinesia tardif), sehingga durasi parenteral dibatasi 3 hari saja. Penggunaan insulin analog (Novorapid dan Lantus) sangat tepat pada geriatri karena menurunkan risiko hipoglikemia nokturnal secara signifikan dibandingkan insulin regular/NPH.
 
 ![Geriatri Beers Criteria](guideline_evidence/beers_criteria_geriatric.png)
 *Gambar 2.10: Kriteria Penggunaan Obat yang Berpotensi Tidak Tepat pada Populasi Geriatri (AGS Beers Criteria 2023).*
@@ -420,9 +426,7 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ---
 
 ### DRP 8: Evaluasi Rasionalitas Antibiotik Metode Gyssens & Riwayat Alergi Penisilin
-* **Analisis Klinis**: Pasien memiliki riwayat alergi berat terhadap Amoksisilin dan Ampisilin (ruam makulopapular dan gatal). Selama rawatan di Bangsal Merak, DPJP **TIDAK MERESEPKAN ANTIBIOTIK** empiris.
-* **Audit Kualitatif Metode Gyssens (Permenkes RI No. 28/2021)**: Pasien mengalami dispepsia fungsional murni tanpa fokus infeksi bakterial (leukosit normal 9.200 /µL, suhu afebris 36,8°C, urin leukosit negatif). Keputusan untuk tidak memberikan antibiotik dinilai sebagai **KATEGORI 0: Penggunaan / Keputusan Terapi Antibiotik TEPAT dan RASIONAL (No Antibiotic Indicated)**.
-* **Manajemen Alergi**: Riwayat alergi penisilin wajib diberi penanda stiker merah menyala pada rekam medis fisik dan peringatan pop-up pada rekam medis elektronik. Bila di masa depan pasien memerlukan antibiotik infeksi berat, golongan Sefalosporin generasi 3 (Ceftriaxone) dapat dipertimbangkan (*cross-reactivity* < 2%) atau menggunakan golongan non-beta laktam (Fluoroquinolon / Makrolida).
+Pasien memiliki riwayat alergi berat terhadap Amoksisilin dan Ampisilin. Selama perawatan, DPJP tidak meresepkan antibiotik empiris karena leukosit normal (9.200 /µL), suhu afebris (36,8°C), dan urinalisis normal. Berdasarkan audit alur Gyssens (*Permenkes RI No. 28/2021*): Keputusan tidak memberikan antibiotik dinilai sebagai **KATEGORI 0: Penggunaan / Keputusan Terapi Antibiotik TEPAT dan RASIONAL (Appropriate Indication - No Antibiotic Indicated)**.
 
 ![Algoritma Gyssens](guideline_evidence/gyssens_algorithm_flowchart.png)
 *Gambar 2.11: Algoritma Audit Kualitatif Rasionalitas Penggunaan Antibiotik Metode Gyssens (Permenkes No. 28/2021).*
@@ -453,7 +457,7 @@ Wawancara terstruktur menggunakan instrumen Morisky Medication Adherence Scale 8
 ### SOAP Hari ke-3 Rawat Inap (21 Oktober 2026) — Persiapan KRS & Discharge Planning
 | Problem Medis | Subjektif (S) & Objektif (O) | Asesmen Farmasis (A) | Rencana Asuhan & Intervensi Farmasis (P) |
 | :--- | :--- | :--- | :--- |
-| **Kesiapan Pasien Pulang (KRS)** | **S**: Tidak mual, tidak muntah, makan habis 1 porsi bubur, badan segar.<br>**O**: TD 125/78 mmHg, GDS Pagi: 138 mg/dL, Elektrolit normal: Na 137 mmol/L, Cl 101 mmol/L. | Kondisi klinis stabil sempurna. Mual muntah dispepsia teratasi tuntas. Glikemik dan elektrolit normal. Pasien siap KRS (*Discharge Planning*). | 1. **Resep Pulang (Oral & Subkutan)**:<br>   - Lansoprazole kapsul 30 mg 1x1 ac pagi<br>   - Sucralfate sirup 3x1 C ac (selama 5 hari)<br>   - Lantus SoloStar Pen 1 x 10 Unit SC malam<br>   - Metformin tablet 500 mg 3x1 dc (reintroduksi aman karena fungsi ginjal & cairan normal)<br>   - Amlodipin tablet 10 mg 1x1 malam PO<br>2. **Konseling Farmasis Pulang (KIE)**:<br>   - Edukasi teknik injeksi insulin SoloStar, rotasi lokasi tusukan, dan penyimpanan di lemari es (2–8°C).<br>   - Edukasi tanda-tanda hipoglikemia dan penanganan daruratnya.<br>   - Edukasi pola makan teratur porsi kecil sering (*small frequent meals*) untuk pencegahan dispepsia berulang. |
+| **Kesiapan Pasien Pulang (KRS)** | **S**: Tidak mual, tidak muntah, makan habis 1 porsi bubur, badan segar.<br>**O**: TD 125/78 mmHg, GDS Pagi: 138 mg/dL, Elektrolit normal: Na 137 mmol/L, Cl 101 mmol/L. | Kondisi klinis stabil sempurna. Mual muntah dispepsia teratasi tuntas. Glikemik dan elektrolit normal. Pasien siap KRS (*Discharge Planning*). | 1. **Resep Pulang (Oral & Subkutan)**:<br>   - Lansoprazole kapsul 30 mg 1x1 ac pagi<br>   - Sucralfate sirup 3x1 C ac (selama 5 hari)<br>   - Lantus SoloStar Pen 1 x 10 Unit SC malam<br>   - Metformin tablet 500 mg 3x1 dc (reintroduksi aman)<br>   - Amlodipin tablet 10 mg 1x1 malam PO<br>2. **Konseling Farmasis Pulang (KIE)**:<br>   - Edukasi teknik injeksi insulin SoloStar, rotasi lokasi tusukan, dan penyimpanan di lemari es (2–8°C).<br>   - Edukasi tanda-tanda hipoglikemia dan penanganan daruratnya.<br>   - Edukasi pola makan teratur porsi kecil sering (*small frequent meals*) untuk pencegahan dispepsia berulang. |
 
 ---
 
@@ -490,5 +494,5 @@ output_path = r"d:\FILE NINIS\ANALISIS_KASUS_MENDALAM_RAJAL_DAN_RANAP.md"
 with open(output_path, "w", encoding="utf-8") as f:
     f.write(md_content)
 
-print(f"Master Markdown report generated successfully at: {output_path}")
+print(f"Revised Markdown report generated successfully at: {output_path}")
 print(f"File size: {os.path.getsize(output_path)} bytes")
