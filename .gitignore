@@ -27,3 +27,8 @@ __pycache__/
 # Do not ignore root README and .gitignore
 !/README.md
 !/.gitignore
+!/ANALISIS_KASUS_MENDALAM_RAJAL_DAN_RANAP.docx
+!/ANALISIS_KASUS_MENDALAM_RAJAL_DAN_RANAP.md
+!/generate_master_report_docx.py
+!/generate_master_report_md.py
+!/generate_extra_guideline_cards.py
